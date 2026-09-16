@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Kai.glb",
+    "mesh_objects": 29,
+    "bounds_m": [
+      1.146774709224701,
+      0.7269024550914764,
+      1.9199997725598053
+    ],
+    "actions": 9
+  },
+  {
+    "file": "Kai_LOD2.glb",
+    "mesh_objects": 29,
+    "bounds_m": [
+      1.146774709224701,
+      0.7255026996135712,
+      1.9208396168833133
+    ],
+    "actions": 9
+  },
+  {
+    "file": "03_Leviathan_Power.glb",
+    "mesh_objects": 30,
+    "bounds_m": [
+      1.2461994886398315,
+      3.213942289352417,
+      1.0499999821186066
+    ],
+    "actions": 0
+  },
+  {
+    "file": "Palm_tree.glb",
+    "mesh_objects": 18,
+    "bounds_m": [
+      3.299999952316284,
+      3.299999952316284,
+      3.2412132546305656
+    ],
+    "actions": 0
+  },
+  {
+    "file": "Track_Sunbeam_Lagoon.glb",
+    "mesh_objects": 674,
+    "bounds_m": [
+      180.0,
+      180.0,
+      12.240000247955322
+    ],
+    "actions": 0
+  }
+]

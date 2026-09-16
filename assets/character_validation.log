@@ -1,0 +1,5 @@
+00:08.515  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+CHARACTER_VALIDATION_OK [{"name": "Kai", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 44496, "lod_triangles": [88432, 48636, 22108], "embedded_skin": true}, {"name": "Zuri", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 45048, "lod_triangles": [89496, 49222, 22374], "embedded_skin": true}]
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

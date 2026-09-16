@@ -1,0 +1,13 @@
+00:10.141  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+CHARACTER_VALIDATION_OK [{"name": "Kai", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 93814, "lod_triangles": [187132, 102922, 46782], "embedded_skin": true, "max_pose_deformation_m": 0.4555893797156899}, {"name": "Zuri", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 94366, "lod_triangles": [188196, 103506, 47048], "embedded_skin": true, "max_pose_deformation_m": 0.44207278286772106}, {"name": "Riptide", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39338, "lod_triangles": [78204, 43012, 19550], "embedded_skin": true, "max_pose_deformation_m": 0.5033973815438012}, {"name": "Pip", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 40404, "lod_triangles": [80352, 44192, 20088], "embedded_skin": true, "max_pose_deformation_m": 0.39237074807334205}, {"name": "Marina", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39328, "lod_triangles": [77980, 42888, 19494], "embedded_skin": true, "max_pose_deformation_m": 0.4593194347303974}, {"name": "Bolt", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39360, "lod_triangles": [78272, 43048, 19568], "embedded_skin": true, "max_pose_deformation_m": 0.470876891166549}, {"name": "Mochi", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 40340, "lod_triangles": [80228, 44124, 20056], "embedded_skin": true, "max_pose_deformation_m": 0.4550910383037742}, {"name": "Ink", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39700, "lod_triangles": [78940, 43416, 19734], "embedded_skin": true, "max_pose_deformation_m": 0.4607226024376834}]
+00:12.969  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Library.blend"
+Info: Saved as "Hydro_Drift_Library.blend"
+V2_INTEGRATED
+00:13.906  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+00:14.563  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+01:08.766  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\01_characters.png'
+Info: Saved as "Hydro_Drift_Characters.blend"
+{"file_count": 114, "storage_bytes": 134234254, "budget_bytes": 10000000000}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

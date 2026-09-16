@@ -1,0 +1,28 @@
+23:07:32 | INFO: Data are loaded, start creating Blender stuff
+23:07:32 | INFO: Blender create Mesh node Wetsuit torso
+23:07:42 | INFO: glTF import finished in 9.56s
+23:07:46 | INFO: Data are loaded, start creating Blender stuff
+23:07:46 | INFO: Blender create Mesh node Wetsuit torso.001
+23:07:56 | INFO: glTF import finished in 9.57s
+23:07:59 | INFO: Data are loaded, start creating Blender stuff
+23:07:59 | INFO: Blender create Mesh node Wetsuit torso.002
+23:08:00 | INFO: glTF import finished in 1.44s
+23:08:02 | INFO: Data are loaded, start creating Blender stuff
+23:08:02 | INFO: Blender create Mesh node Wetsuit torso.003
+23:08:05 | INFO: glTF import finished in 3.44s
+23:08:07 | INFO: Data are loaded, start creating Blender stuff
+23:08:07 | INFO: Blender create Mesh node Wetsuit torso.004
+23:08:11 | INFO: glTF import finished in 3.41s
+23:08:12 | INFO: Data are loaded, start creating Blender stuff
+23:08:12 | INFO: Blender create Mesh node Wetsuit torso.005
+23:08:16 | INFO: glTF import finished in 3.37s
+23:08:18 | INFO: Data are loaded, start creating Blender stuff
+23:08:18 | INFO: Blender create Mesh node Wetsuit torso.006
+23:08:22 | INFO: glTF import finished in 3.83s
+23:08:23 | INFO: Data are loaded, start creating Blender stuff
+23:08:23 | INFO: Blender create Mesh node Wetsuit torso.007
+23:08:26 | INFO: glTF import finished in 2.56s
+CHARACTER_IMPORTS_OK [{"name": "Kai", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4556053815485011}, {"name": "Zuri", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4420883259579722}, {"name": "Riptide", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.5034145721409761}, {"name": "Pip", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.3923846380059333}, {"name": "Marina", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.45933549720865685}, {"name": "Bolt", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4708935166572147}, {"name": "Mochi", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4551062391053058}, {"name": "Ink", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4607385836561786}]
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

@@ -1,0 +1,805 @@
+{
+  "file_count": 114,
+  "storage_bytes": 134262099,
+  "budget_bytes": 10000000000,
+  "files": [
+    {
+      "file": "01_Needle_Agile.glb",
+      "bytes": 233596,
+      "mesh_triangles": 9064,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "01_Needle_Agile_LOD1.glb",
+      "bytes": 189212,
+      "mesh_triangles": 7304,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "01_Needle_Agile_LOD2.glb",
+      "bytes": 166228,
+      "mesh_triangles": 6316,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "02_Surge_Balanced.glb",
+      "bytes": 233624,
+      "mesh_triangles": 9064,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "02_Surge_Balanced_LOD1.glb",
+      "bytes": 189240,
+      "mesh_triangles": 7304,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "02_Surge_Balanced_LOD2.glb",
+      "bytes": 166256,
+      "mesh_triangles": 6316,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "03_Leviathan_Power.glb",
+      "bytes": 233644,
+      "mesh_triangles": 9064,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "03_Leviathan_Power_LOD1.glb",
+      "bytes": 189256,
+      "mesh_triangles": 7304,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "03_Leviathan_Power_LOD2.glb",
+      "bytes": 166272,
+      "mesh_triangles": 6316,
+      "animations": 0,
+      "nodes": 33
+    },
+    {
+      "file": "Beach_umbrella.glb",
+      "bytes": 8548,
+      "mesh_triangles": 68,
+      "animations": 0,
+      "nodes": 9
+    },
+    {
+      "file": "Beach_umbrella_LOD1.glb",
+      "bytes": 8548,
+      "mesh_triangles": 68,
+      "animations": 0,
+      "nodes": 9
+    },
+    {
+      "file": "Beach_umbrella_LOD2.glb",
+      "bytes": 8548,
+      "mesh_triangles": 68,
+      "animations": 0,
+      "nodes": 9
+    },
+    {
+      "file": "Bolt.glb",
+      "bytes": 2663760,
+      "mesh_triangles": 78272,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Bolt_LOD1.glb",
+      "bytes": 1475508,
+      "mesh_triangles": 43048,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Bolt_LOD2.glb",
+      "bytes": 696376,
+      "mesh_triangles": 19568,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Championship_trophy.glb",
+      "bytes": 57128,
+      "mesh_triangles": 2248,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Championship_trophy_LOD1.glb",
+      "bytes": 34736,
+      "mesh_triangles": 1248,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Championship_trophy_LOD2.glb",
+      "bytes": 22636,
+      "mesh_triangles": 686,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Coastal_rocks.glb",
+      "bytes": 9332,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Coastal_rocks_LOD1.glb",
+      "bytes": 9332,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Coastal_rocks_LOD2.glb",
+      "bytes": 9332,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Course_buoy.glb",
+      "bytes": 40048,
+      "mesh_triangles": 1421,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Course_buoy_LOD1.glb",
+      "bytes": 23384,
+      "mesh_triangles": 741,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Course_buoy_LOD2.glb",
+      "bytes": 14520,
+      "mesh_triangles": 359,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Direction_sign.glb",
+      "bytes": 16884,
+      "mesh_triangles": 380,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Direction_sign_LOD1.glb",
+      "bytes": 16884,
+      "mesh_triangles": 380,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Direction_sign_LOD2.glb",
+      "bytes": 16884,
+      "mesh_triangles": 380,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Dock_3m.glb",
+      "bytes": 66164,
+      "mesh_triangles": 2496,
+      "animations": 0,
+      "nodes": 16
+    },
+    {
+      "file": "Dock_3m_LOD1.glb",
+      "bytes": 66164,
+      "mesh_triangles": 2496,
+      "animations": 0,
+      "nodes": 16
+    },
+    {
+      "file": "Dock_3m_LOD2.glb",
+      "bytes": 66164,
+      "mesh_triangles": 2496,
+      "animations": 0,
+      "nodes": 16
+    },
+    {
+      "file": "Floating_barrier.glb",
+      "bytes": 94424,
+      "mesh_triangles": 3600,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Floating_barrier_LOD1.glb",
+      "bytes": 48416,
+      "mesh_triangles": 1800,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Floating_barrier_LOD2.glb",
+      "bytes": 25060,
+      "mesh_triangles": 790,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Geyser_vent.glb",
+      "bytes": 44764,
+      "mesh_triangles": 1600,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Geyser_vent_LOD1.glb",
+      "bytes": 27944,
+      "mesh_triangles": 920,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Geyser_vent_LOD2.glb",
+      "bytes": 19084,
+      "mesh_triangles": 538,
+      "animations": 0,
+      "nodes": 5
+    },
+    {
+      "file": "Harbor_boat.glb",
+      "bytes": 34428,
+      "mesh_triangles": 1156,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Harbor_boat_LOD1.glb",
+      "bytes": 25224,
+      "mesh_triangles": 796,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Harbor_boat_LOD2.glb",
+      "bytes": 20548,
+      "mesh_triangles": 594,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Harbor_building.glb",
+      "bytes": 101144,
+      "mesh_triangles": 3676,
+      "animations": 0,
+      "nodes": 17
+    },
+    {
+      "file": "Harbor_building_LOD1.glb",
+      "bytes": 101144,
+      "mesh_triangles": 3676,
+      "animations": 0,
+      "nodes": 17
+    },
+    {
+      "file": "Harbor_building_LOD2.glb",
+      "bytes": 101144,
+      "mesh_triangles": 3676,
+      "animations": 0,
+      "nodes": 17
+    },
+    {
+      "file": "Ice_cluster.glb",
+      "bytes": 9336,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Ice_cluster_LOD1.glb",
+      "bytes": 9336,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Ice_cluster_LOD2.glb",
+      "bytes": 9336,
+      "mesh_triangles": 240,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Iceberg.glb",
+      "bytes": 6320,
+      "mesh_triangles": 64,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Iceberg_LOD1.glb",
+      "bytes": 6320,
+      "mesh_triangles": 64,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Iceberg_LOD2.glb",
+      "bytes": 6320,
+      "mesh_triangles": 64,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Ink.glb",
+      "bytes": 2692204,
+      "mesh_triangles": 78940,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Ink_LOD1.glb",
+      "bytes": 1493392,
+      "mesh_triangles": 43416,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Ink_LOD2.glb",
+      "bytes": 703404,
+      "mesh_triangles": 19734,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Jump_ramp.glb",
+      "bytes": 7940,
+      "mesh_triangles": 128,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Jump_ramp_LOD1.glb",
+      "bytes": 7940,
+      "mesh_triangles": 128,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Jump_ramp_LOD2.glb",
+      "bytes": 7940,
+      "mesh_triangles": 128,
+      "animations": 0,
+      "nodes": 3
+    },
+    {
+      "file": "Kai.glb",
+      "bytes": 6941124,
+      "mesh_triangles": 187132,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Kai_LOD1.glb",
+      "bytes": 3434832,
+      "mesh_triangles": 102922,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Kai_LOD2.glb",
+      "bytes": 1590160,
+      "mesh_triangles": 46782,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Lighthouse.glb",
+      "bytes": 37400,
+      "mesh_triangles": 1030,
+      "animations": 0,
+      "nodes": 8
+    },
+    {
+      "file": "Lighthouse_LOD1.glb",
+      "bytes": 29940,
+      "mesh_triangles": 710,
+      "animations": 0,
+      "nodes": 8
+    },
+    {
+      "file": "Lighthouse_LOD2.glb",
+      "bytes": 25752,
+      "mesh_triangles": 530,
+      "animations": 0,
+      "nodes": 8
+    },
+    {
+      "file": "Mangrove_tree.glb",
+      "bytes": 134156,
+      "mesh_triangles": 4740,
+      "animations": 0,
+      "nodes": 13
+    },
+    {
+      "file": "Mangrove_tree_LOD1.glb",
+      "bytes": 78940,
+      "mesh_triangles": 2580,
+      "animations": 0,
+      "nodes": 13
+    },
+    {
+      "file": "Mangrove_tree_LOD2.glb",
+      "bytes": 50920,
+      "mesh_triangles": 1368,
+      "animations": 0,
+      "nodes": 13
+    },
+    {
+      "file": "Marina.glb",
+      "bytes": 2650608,
+      "mesh_triangles": 77980,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Marina_LOD1.glb",
+      "bytes": 1468428,
+      "mesh_triangles": 42888,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Marina_LOD2.glb",
+      "bytes": 695768,
+      "mesh_triangles": 19494,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Mochi.glb",
+      "bytes": 2732856,
+      "mesh_triangles": 80228,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Mochi_LOD1.glb",
+      "bytes": 1512624,
+      "mesh_triangles": 44124,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Mochi_LOD2.glb",
+      "bytes": 713208,
+      "mesh_triangles": 20056,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Palm_tree.glb",
+      "bytes": 83072,
+      "mesh_triangles": 2596,
+      "animations": 0,
+      "nodes": 18
+    },
+    {
+      "file": "Palm_tree_LOD1.glb",
+      "bytes": 55468,
+      "mesh_triangles": 1516,
+      "animations": 0,
+      "nodes": 18
+    },
+    {
+      "file": "Palm_tree_LOD2.glb",
+      "bytes": 41456,
+      "mesh_triangles": 910,
+      "animations": 0,
+      "nodes": 18
+    },
+    {
+      "file": "Pickup_battery.glb",
+      "bytes": 31420,
+      "mesh_triangles": 1060,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_battery_LOD1.glb",
+      "bytes": 23892,
+      "mesh_triangles": 740,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_battery_LOD2.glb",
+      "bytes": 19636,
+      "mesh_triangles": 560,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_pulse.glb",
+      "bytes": 54164,
+      "mesh_triangles": 2560,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_pulse_LOD1.glb",
+      "bytes": 31696,
+      "mesh_triangles": 1280,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_pulse_LOD2.glb",
+      "bytes": 17032,
+      "mesh_triangles": 560,
+      "animations": 0,
+      "nodes": 4
+    },
+    {
+      "file": "Pickup_shield.glb",
+      "bytes": 35700,
+      "mesh_triangles": 1360,
+      "animations": 0,
+      "nodes": 2
+    },
+    {
+      "file": "Pickup_shield_LOD1.glb",
+      "bytes": 18972,
+      "mesh_triangles": 680,
+      "animations": 0,
+      "nodes": 2
+    },
+    {
+      "file": "Pickup_shield_LOD2.glb",
+      "bytes": 10044,
+      "mesh_triangles": 298,
+      "animations": 0,
+      "nodes": 2
+    },
+    {
+      "file": "Pickup_whirlpool.glb",
+      "bytes": 78668,
+      "mesh_triangles": 3840,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Pickup_whirlpool_LOD1.glb",
+      "bytes": 53416,
+      "mesh_triangles": 1920,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Pickup_whirlpool_LOD2.glb",
+      "bytes": 27952,
+      "mesh_triangles": 840,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Pip.glb",
+      "bytes": 2735372,
+      "mesh_triangles": 80352,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Pip_LOD1.glb",
+      "bytes": 1512572,
+      "mesh_triangles": 44192,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Pip_LOD2.glb",
+      "bytes": 712940,
+      "mesh_triangles": 20088,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Riptide.glb",
+      "bytes": 2655452,
+      "mesh_triangles": 78204,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Riptide_LOD1.glb",
+      "bytes": 1472272,
+      "mesh_triangles": 43012,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Riptide_LOD2.glb",
+      "bytes": 692504,
+      "mesh_triangles": 19550,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Ruins_arch.glb",
+      "bytes": 65804,
+      "mesh_triangles": 2632,
+      "animations": 0,
+      "nodes": 14
+    },
+    {
+      "file": "Ruins_arch_LOD1.glb",
+      "bytes": 65804,
+      "mesh_triangles": 2632,
+      "animations": 0,
+      "nodes": 14
+    },
+    {
+      "file": "Ruins_arch_LOD2.glb",
+      "bytes": 65804,
+      "mesh_triangles": 2632,
+      "animations": 0,
+      "nodes": 14
+    },
+    {
+      "file": "Shipping_container.glb",
+      "bytes": 237444,
+      "mesh_triangles": 8576,
+      "animations": 0,
+      "nodes": 36
+    },
+    {
+      "file": "Shipping_container_LOD1.glb",
+      "bytes": 237444,
+      "mesh_triangles": 8576,
+      "animations": 0,
+      "nodes": 36
+    },
+    {
+      "file": "Shipping_container_LOD2.glb",
+      "bytes": 237444,
+      "mesh_triangles": 8576,
+      "animations": 0,
+      "nodes": 36
+    },
+    {
+      "file": "Start_finish_arch.glb",
+      "bytes": 125740,
+      "mesh_triangles": 3540,
+      "animations": 0,
+      "nodes": 12
+    },
+    {
+      "file": "Start_finish_arch_LOD1.glb",
+      "bytes": 107316,
+      "mesh_triangles": 2820,
+      "animations": 0,
+      "nodes": 12
+    },
+    {
+      "file": "Start_finish_arch_LOD2.glb",
+      "bytes": 97972,
+      "mesh_triangles": 2416,
+      "animations": 0,
+      "nodes": 12
+    },
+    {
+      "file": "Track_Ember_Atoll.glb",
+      "bytes": 1138204,
+      "mesh_triangles": 42663,
+      "animations": 0,
+      "nodes": 615
+    },
+    {
+      "file": "Track_Glacier_Run.glb",
+      "bytes": 1066520,
+      "mesh_triangles": 39767,
+      "animations": 0,
+      "nodes": 581
+    },
+    {
+      "file": "Track_Mangrove_Rush.glb",
+      "bytes": 1504260,
+      "mesh_triangles": 57363,
+      "animations": 0,
+      "nodes": 744
+    },
+    {
+      "file": "Track_Neon_Harbor.glb",
+      "bytes": 2787884,
+      "mesh_triangles": 111123,
+      "animations": 0,
+      "nodes": 902
+    },
+    {
+      "file": "Track_Stormbreak_Bay.glb",
+      "bytes": 1095556,
+      "mesh_triangles": 40733,
+      "animations": 0,
+      "nodes": 594
+    },
+    {
+      "file": "Track_Sunbeam_Lagoon.glb",
+      "bytes": 1152536,
+      "mesh_triangles": 42127,
+      "animations": 0,
+      "nodes": 779
+    },
+    {
+      "file": "Volcano.glb",
+      "bytes": 47996,
+      "mesh_triangles": 1600,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Volcano_LOD1.glb",
+      "bytes": 31240,
+      "mesh_triangles": 920,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Volcano_LOD2.glb",
+      "bytes": 22340,
+      "mesh_triangles": 538,
+      "animations": 0,
+      "nodes": 6
+    },
+    {
+      "file": "Water_tile_16m.glb",
+      "bytes": 39472,
+      "mesh_triangles": 2048,
+      "animations": 0,
+      "nodes": 1
+    },
+    {
+      "file": "Water_tile_16m_LOD1.glb",
+      "bytes": 20564,
+      "mesh_triangles": 1023,
+      "animations": 0,
+      "nodes": 1
+    },
+    {
+      "file": "Water_tile_16m_LOD2.glb",
+      "bytes": 10088,
+      "mesh_triangles": 449,
+      "animations": 0,
+      "nodes": 1
+    },
+    {
+      "file": "Zuri.glb",
+      "bytes": 6978808,
+      "mesh_triangles": 188196,
+      "animations": 1,
+      "nodes": 30
+    },
+    {
+      "file": "Zuri_LOD1.glb",
+      "bytes": 3457284,
+      "mesh_triangles": 103506,
+      "animations": 0,
+      "nodes": 21
+    },
+    {
+      "file": "Zuri_LOD2.glb",
+      "bytes": 1601964,
+      "mesh_triangles": 47048,
+      "animations": 0,
+      "nodes": 21
+    }
+  ]
+}

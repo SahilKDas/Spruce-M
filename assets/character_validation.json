@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Kai",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 93814,
+    "lod_triangles": [
+      187132,
+      102922,
+      46782
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.4555893797156899
+  },
+  {
+    "name": "Zuri",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 94366,
+    "lod_triangles": [
+      188196,
+      103506,
+      47048
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.44207278286772106
+  },
+  {
+    "name": "Riptide",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 39338,
+    "lod_triangles": [
+      78204,
+      43012,
+      19550
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.5033973815438012
+  },
+  {
+    "name": "Pip",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 40404,
+    "lod_triangles": [
+      80352,
+      44192,
+      20088
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.39237074807334205
+  },
+  {
+    "name": "Marina",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 39328,
+    "lod_triangles": [
+      77980,
+      42888,
+      19494
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.4593194347303974
+  },
+  {
+    "name": "Bolt",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 39360,
+    "lod_triangles": [
+      78272,
+      43048,
+      19568
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.470876891166549
+  },
+  {
+    "name": "Mochi",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 40340,
+    "lod_triangles": [
+      80228,
+      44124,
+      20056
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.4550910383037742
+  },
+  {
+    "name": "Ink",
+    "skin_weight_errors": 0,
+    "finger_bones": 0,
+    "bones": 28,
+    "vertices": 39700,
+    "lod_triangles": [
+      78940,
+      43416,
+      19734
+    ],
+    "embedded_skin": true,
+    "max_pose_deformation_m": 0.4607226024376834
+  }
+]

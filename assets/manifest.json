@@ -1,0 +1,247 @@
+{
+  "units": "meters",
+  "forward": "-Y",
+  "up": "Z",
+  "assets": [
+    {
+      "name": "Kai",
+      "category": "character",
+      "triangles_lod0": 187132,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Zuri",
+      "category": "character",
+      "triangles_lod0": 188196,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Riptide",
+      "category": "character",
+      "triangles_lod0": 78204,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Pip",
+      "category": "character",
+      "triangles_lod0": 80352,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Marina",
+      "category": "character",
+      "triangles_lod0": 77980,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Bolt",
+      "category": "character",
+      "triangles_lod0": 78272,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Mochi",
+      "category": "character",
+      "triangles_lod0": 80228,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "Ink",
+      "category": "character",
+      "triangles_lod0": 78940,
+      "bones": 28,
+      "finger_bones": 0,
+      "skinned": true,
+      "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+    },
+    {
+      "name": "01_Needle_Agile",
+      "category": "watercraft",
+      "triangles_lod0": 8804,
+      "notes": "Forward is -Y; Z up; metric units; named rider, handlebar and wake attachment markers."
+    },
+    {
+      "name": "02_Surge_Balanced",
+      "category": "watercraft",
+      "triangles_lod0": 8804,
+      "notes": "Forward is -Y; Z up; metric units; named rider, handlebar and wake attachment markers."
+    },
+    {
+      "name": "03_Leviathan_Power",
+      "category": "watercraft",
+      "triangles_lod0": 8804,
+      "notes": "Forward is -Y; Z up; metric units; named rider, handlebar and wake attachment markers."
+    },
+    {
+      "name": "Palm_tree",
+      "category": "sunbeam",
+      "triangles_lod0": 2596,
+      "notes": ""
+    },
+    {
+      "name": "Coastal_rocks",
+      "category": "shared",
+      "triangles_lod0": 240,
+      "notes": ""
+    },
+    {
+      "name": "Ice_cluster",
+      "category": "glacier",
+      "triangles_lod0": 240,
+      "notes": ""
+    },
+    {
+      "name": "Dock_3m",
+      "category": "sunbeam",
+      "triangles_lod0": 2496,
+      "notes": ""
+    },
+    {
+      "name": "Course_buoy",
+      "category": "race",
+      "triangles_lod0": 1421,
+      "notes": ""
+    },
+    {
+      "name": "Start_finish_arch",
+      "category": "race",
+      "triangles_lod0": 1820,
+      "notes": ""
+    },
+    {
+      "name": "Jump_ramp",
+      "category": "race",
+      "triangles_lod0": 128,
+      "notes": ""
+    },
+    {
+      "name": "Direction_sign",
+      "category": "race",
+      "triangles_lod0": 308,
+      "notes": ""
+    },
+    {
+      "name": "Shipping_container",
+      "category": "neon",
+      "triangles_lod0": 6580,
+      "notes": ""
+    },
+    {
+      "name": "Harbor_building",
+      "category": "neon",
+      "triangles_lod0": 3008,
+      "notes": ""
+    },
+    {
+      "name": "Mangrove_tree",
+      "category": "mangrove",
+      "triangles_lod0": 4740,
+      "notes": ""
+    },
+    {
+      "name": "Ruins_arch",
+      "category": "mangrove",
+      "triangles_lod0": 2632,
+      "notes": ""
+    },
+    {
+      "name": "Iceberg",
+      "category": "glacier",
+      "triangles_lod0": 64,
+      "notes": ""
+    },
+    {
+      "name": "Lighthouse",
+      "category": "stormbreak",
+      "triangles_lod0": 1030,
+      "notes": ""
+    },
+    {
+      "name": "Volcano",
+      "category": "ember",
+      "triangles_lod0": 1600,
+      "notes": ""
+    },
+    {
+      "name": "Geyser_vent",
+      "category": "ember",
+      "triangles_lod0": 1600,
+      "notes": ""
+    },
+    {
+      "name": "Harbor_boat",
+      "category": "shared",
+      "triangles_lod0": 1156,
+      "notes": ""
+    },
+    {
+      "name": "Beach_umbrella",
+      "category": "sunbeam",
+      "triangles_lod0": 68,
+      "notes": ""
+    },
+    {
+      "name": "Floating_barrier",
+      "category": "race",
+      "triangles_lod0": 3600,
+      "notes": ""
+    },
+    {
+      "name": "Pickup_battery",
+      "category": "items",
+      "triangles_lod0": 1016,
+      "notes": ""
+    },
+    {
+      "name": "Pickup_shield",
+      "category": "items",
+      "triangles_lod0": 1360,
+      "notes": ""
+    },
+    {
+      "name": "Pickup_pulse",
+      "category": "items",
+      "triangles_lod0": 2560,
+      "notes": ""
+    },
+    {
+      "name": "Pickup_whirlpool",
+      "category": "items",
+      "triangles_lod0": 3840,
+      "notes": ""
+    },
+    {
+      "name": "Championship_trophy",
+      "category": "race",
+      "triangles_lod0": 2248,
+      "notes": ""
+    },
+    {
+      "name": "Water_tile_16m",
+      "category": "shared",
+      "triangles_lod0": 2048,
+      "notes": ""
+    }
+  ]
+}

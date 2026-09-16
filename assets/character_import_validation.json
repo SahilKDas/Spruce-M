@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Kai",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.4556053815485011
+  },
+  {
+    "name": "Zuri",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.4420883259579722
+  },
+  {
+    "name": "Riptide",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.5034145721409761
+  },
+  {
+    "name": "Pip",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.3923846380059333
+  },
+  {
+    "name": "Marina",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.45933549720865685
+  },
+  {
+    "name": "Bolt",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.4708935166572147
+  },
+  {
+    "name": "Mochi",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.4551062391053058
+  },
+  {
+    "name": "Ink",
+    "imported_skinned_meshes": 1,
+    "max_imported_deformation_m": 0.4607385836561786
+  }
+]

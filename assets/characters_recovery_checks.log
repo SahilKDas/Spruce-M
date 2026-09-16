@@ -1,0 +1,38 @@
+00:02.484  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+CHARACTER_VALIDATION_OK [{"name": "Kai", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 93814, "lod_triangles": [187132, 102922, 46782], "embedded_skin": true, "max_pose_deformation_m": 0.4555893797156899}, {"name": "Zuri", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 94366, "lod_triangles": [188196, 103506, 47048], "embedded_skin": true, "max_pose_deformation_m": 0.44207278286772106}, {"name": "Riptide", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39338, "lod_triangles": [78204, 43012, 19550], "embedded_skin": true, "max_pose_deformation_m": 0.5033973815438012}, {"name": "Pip", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 40404, "lod_triangles": [80352, 44192, 20088], "embedded_skin": true, "max_pose_deformation_m": 0.39237074807334205}, {"name": "Marina", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39328, "lod_triangles": [77980, 42888, 19494], "embedded_skin": true, "max_pose_deformation_m": 0.4593194347303974}, {"name": "Bolt", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39360, "lod_triangles": [78272, 43048, 19568], "embedded_skin": true, "max_pose_deformation_m": 0.470876891166549}, {"name": "Mochi", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 40340, "lod_triangles": [80228, 44124, 20056], "embedded_skin": true, "max_pose_deformation_m": 0.4550910383037742}, {"name": "Ink", "skin_weight_errors": 0, "finger_bones": 0, "bones": 28, "vertices": 39700, "lod_triangles": [78940, 43416, 19734], "embedded_skin": true, "max_pose_deformation_m": 0.4607226024376834}]
+00:05.359  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Library.blend"
+Info: Saved as "Hydro_Drift_Library.blend"
+V2_INTEGRATED
+00:07.047  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+00:07.578  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:59.938  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\01_characters.png'
+Info: Saved as "Hydro_Drift_Characters.blend"
+07:13:20 | INFO: Data are loaded, start creating Blender stuff
+07:13:20 | INFO: Blender create Mesh node Wetsuit torso
+07:13:21 | INFO: glTF import finished in 1.04s
+07:13:22 | INFO: Data are loaded, start creating Blender stuff
+07:13:22 | INFO: Blender create Mesh node Wetsuit torso.001
+07:13:22 | INFO: glTF import finished in 0.80s
+07:13:23 | INFO: Data are loaded, start creating Blender stuff
+07:13:23 | INFO: Blender create Mesh node Wetsuit torso.002
+07:13:23 | INFO: glTF import finished in 0.30s
+07:13:23 | INFO: Data are loaded, start creating Blender stuff
+07:13:23 | INFO: Blender create Mesh node Wetsuit torso.003
+07:13:24 | INFO: glTF import finished in 0.39s
+07:13:24 | INFO: Data are loaded, start creating Blender stuff
+07:13:24 | INFO: Blender create Mesh node Wetsuit torso.004
+07:13:24 | INFO: glTF import finished in 0.40s
+07:13:25 | INFO: Data are loaded, start creating Blender stuff
+07:13:25 | INFO: Blender create Mesh node Wetsuit torso.005
+07:13:25 | INFO: glTF import finished in 0.34s
+07:13:25 | INFO: Data are loaded, start creating Blender stuff
+07:13:25 | INFO: Blender create Mesh node Wetsuit torso.006
+07:13:25 | INFO: glTF import finished in 0.34s
+07:13:26 | INFO: Data are loaded, start creating Blender stuff
+07:13:26 | INFO: Blender create Mesh node Wetsuit torso.007
+07:13:26 | INFO: glTF import finished in 0.36s
+CHARACTER_IMPORTS_OK [{"name": "Kai", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4556053815485011}, {"name": "Zuri", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4420883259579722}, {"name": "Riptide", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.5034145721409761}, {"name": "Pip", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.3923846380059333}, {"name": "Marina", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.45933549720865685}, {"name": "Bolt", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4708935166572147}, {"name": "Mochi", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4551062391053058}, {"name": "Ink", "imported_skinned_meshes": 1, "max_imported_deformation_m": 0.4607385836561786}]
+{"file_count": 114, "storage_bytes": 134262099, "budget_bytes": 10000000000}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

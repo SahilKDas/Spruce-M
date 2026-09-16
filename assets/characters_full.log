@@ -1,0 +1,148 @@
+C:\SahilAppProjects\Spruce-M\assets\rebuild_characters.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal;M[n]=m;return m
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+23:02:47 | INFO: Starting glTF 2.0 export
+23:02:47 | WARNING: Mesh Wetsuit torso is not valid, and may be exported wrongly
+23:02:47 | INFO: Extracting primitive: Wetsuit torso
+23:02:53 | INFO: Primitives created: 12
+23:02:53 | INFO: Finished glTF 2.0 export in 6.156062602996826 s
+
+23:03:00 | INFO: Starting glTF 2.0 export
+23:03:10 | INFO: Extracting primitive: Wetsuit torso
+23:03:11 | INFO: Primitives created: 12
+23:03:12 | INFO: Finished glTF 2.0 export in 11.789348125457764 s
+
+23:03:19 | INFO: Starting glTF 2.0 export
+23:03:25 | INFO: Extracting primitive: Wetsuit torso
+23:03:26 | INFO: Primitives created: 12
+23:03:26 | INFO: Finished glTF 2.0 export in 7.503887891769409 s
+
+RIDER_COMPLETE Kai
+23:03:37 | INFO: Starting glTF 2.0 export
+23:03:37 | WARNING: Mesh Wetsuit torso.001 is not valid, and may be exported wrongly
+23:03:37 | INFO: Extracting primitive: Wetsuit torso.001
+23:03:40 | INFO: Primitives created: 11
+23:03:41 | INFO: Finished glTF 2.0 export in 3.5218186378479004 s
+
+23:03:43 | INFO: Starting glTF 2.0 export
+23:03:48 | INFO: Extracting primitive: Wetsuit torso.001
+23:03:50 | INFO: Primitives created: 11
+23:03:50 | INFO: Finished glTF 2.0 export in 6.458058595657349 s
+
+23:03:55 | INFO: Starting glTF 2.0 export
+23:04:02 | INFO: Extracting primitive: Wetsuit torso.001
+23:04:02 | INFO: Primitives created: 11
+23:04:02 | INFO: Finished glTF 2.0 export in 6.8479695320129395 s
+
+RIDER_COMPLETE Zuri
+23:04:11 | INFO: Starting glTF 2.0 export
+23:04:11 | WARNING: Mesh Wetsuit torso.002 is not valid, and may be exported wrongly
+23:04:11 | INFO: Extracting primitive: Wetsuit torso.002
+23:04:12 | INFO: Primitives created: 8
+23:04:13 | INFO: Finished glTF 2.0 export in 1.3230555057525635 s
+
+23:04:14 | INFO: Starting glTF 2.0 export
+23:04:15 | INFO: Extracting primitive: Wetsuit torso.002
+23:04:16 | INFO: Primitives created: 8
+23:04:16 | INFO: Finished glTF 2.0 export in 2.127107858657837 s
+
+23:04:17 | INFO: Starting glTF 2.0 export
+23:04:19 | INFO: Extracting primitive: Wetsuit torso.002
+23:04:19 | INFO: Primitives created: 8
+23:04:19 | INFO: Finished glTF 2.0 export in 1.8596041202545166 s
+
+RIDER_COMPLETE Riptide
+23:04:25 | INFO: Starting glTF 2.0 export
+23:04:25 | WARNING: Mesh Wetsuit torso.003 is not valid, and may be exported wrongly
+23:04:25 | INFO: Extracting primitive: Wetsuit torso.003
+23:04:25 | INFO: Primitives created: 8
+23:04:25 | INFO: Finished glTF 2.0 export in 0.4888627529144287 s
+
+23:04:26 | INFO: Starting glTF 2.0 export
+23:04:27 | INFO: Extracting primitive: Wetsuit torso.003
+23:04:27 | INFO: Primitives created: 8
+23:04:27 | INFO: Finished glTF 2.0 export in 1.297288417816162 s
+
+23:04:29 | INFO: Starting glTF 2.0 export
+23:04:31 | INFO: Extracting primitive: Wetsuit torso.003
+23:04:31 | INFO: Primitives created: 8
+23:04:31 | INFO: Finished glTF 2.0 export in 2.0675783157348633 s
+
+RIDER_COMPLETE Pip
+23:04:37 | INFO: Starting glTF 2.0 export
+23:04:37 | WARNING: Mesh Wetsuit torso.004 is not valid, and may be exported wrongly
+23:04:37 | INFO: Extracting primitive: Wetsuit torso.004
+23:04:38 | INFO: Primitives created: 9
+23:04:38 | INFO: Finished glTF 2.0 export in 0.9767837524414062 s
+
+23:04:39 | INFO: Starting glTF 2.0 export
+23:04:41 | INFO: Extracting primitive: Wetsuit torso.004
+23:04:41 | INFO: Primitives created: 9
+23:04:42 | INFO: Finished glTF 2.0 export in 2.13955020904541 s
+
+23:04:43 | INFO: Starting glTF 2.0 export
+23:04:45 | INFO: Extracting primitive: Wetsuit torso.004
+23:04:46 | INFO: Primitives created: 9
+23:04:46 | INFO: Finished glTF 2.0 export in 2.272855043411255 s
+
+RIDER_COMPLETE Marina
+23:04:52 | INFO: Starting glTF 2.0 export
+23:04:52 | WARNING: Mesh Wetsuit torso.005 is not valid, and may be exported wrongly
+23:04:52 | INFO: Extracting primitive: Wetsuit torso.005
+23:04:53 | INFO: Primitives created: 8
+23:04:53 | INFO: Finished glTF 2.0 export in 1.4643244743347168 s
+
+23:04:54 | INFO: Starting glTF 2.0 export
+23:04:56 | INFO: Extracting primitive: Wetsuit torso.005
+23:04:56 | INFO: Primitives created: 8
+23:04:57 | INFO: Finished glTF 2.0 export in 2.2363855838775635 s
+
+23:04:59 | INFO: Starting glTF 2.0 export
+23:05:01 | INFO: Extracting primitive: Wetsuit torso.005
+23:05:01 | INFO: Primitives created: 8
+23:05:01 | INFO: Finished glTF 2.0 export in 2.7502267360687256 s
+
+RIDER_COMPLETE Bolt
+23:05:08 | INFO: Starting glTF 2.0 export
+23:05:08 | WARNING: Mesh Wetsuit torso.006 is not valid, and may be exported wrongly
+23:05:08 | INFO: Extracting primitive: Wetsuit torso.006
+23:05:08 | INFO: Primitives created: 9
+23:05:08 | INFO: Finished glTF 2.0 export in 0.9211962223052979 s
+
+23:05:09 | INFO: Starting glTF 2.0 export
+23:05:11 | INFO: Extracting primitive: Wetsuit torso.006
+23:05:11 | INFO: Primitives created: 9
+23:05:12 | INFO: Finished glTF 2.0 export in 2.0634539127349854 s
+
+23:05:13 | INFO: Starting glTF 2.0 export
+23:05:14 | INFO: Extracting primitive: Wetsuit torso.006
+23:05:14 | INFO: Primitives created: 9
+23:05:14 | INFO: Finished glTF 2.0 export in 1.6594390869140625 s
+
+RIDER_COMPLETE Mochi
+23:05:20 | INFO: Starting glTF 2.0 export
+23:05:20 | WARNING: Mesh Wetsuit torso.007 is not valid, and may be exported wrongly
+23:05:20 | INFO: Extracting primitive: Wetsuit torso.007
+23:05:21 | INFO: Primitives created: 10
+23:05:21 | INFO: Finished glTF 2.0 export in 1.3539226055145264 s
+
+23:05:23 | INFO: Starting glTF 2.0 export
+23:05:25 | INFO: Extracting primitive: Wetsuit torso.007
+23:05:26 | INFO: Primitives created: 10
+23:05:26 | INFO: Finished glTF 2.0 export in 2.994217872619629 s
+
+23:05:28 | INFO: Starting glTF 2.0 export
+23:05:31 | INFO: Extracting primitive: Wetsuit torso.007
+23:05:31 | INFO: Primitives created: 10
+23:05:31 | INFO: Finished glTF 2.0 export in 2.8963983058929443 s
+
+RIDER_COMPLETE Ink
+05:46.094  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\11_anatomy_revision.png'
+08:01.375  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\01_characters.png'
+04:07:25.594  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\12_joint_bend_test.png'
+07:48:00.313  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\13_hand_detail.png'
+Info: Saved as "Hydro_Drift_Characters.blend"
+CHARACTERS_V2_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

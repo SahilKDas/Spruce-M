@@ -1,0 +1,6 @@
+C:\SahilAppProjects\Spruce-M\assets\rebuild_characters.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal;M[n]=m;return m
+RIDER_COMPLETE Kai
+RIDER_COMPLETE Zuri
+01:21.735  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\11_anatomy_revision.png'
+02:18.344  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\12_joint_bend_test.png'

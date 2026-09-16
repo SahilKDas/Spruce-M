@@ -1,0 +1,92 @@
+C:\SahilAppProjects\Spruce-M\assets\rebuild_characters.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal;M[n]=m;return m
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+22:51:40 | INFO: Starting glTF 2.0 export
+22:51:40 | WARNING: Mesh Wetsuit torso is not valid, and may be exported wrongly
+22:51:40 | INFO: Extracting primitive: Wetsuit torso
+22:51:41 | INFO: Primitives created: 12
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:41 | INFO: Finished glTF 2.0 export in 1.3429286479949951 s
+
+22:51:42 | INFO: Starting glTF 2.0 export
+22:51:43 | INFO: Extracting primitive: Wetsuit torso
+22:51:44 | INFO: Primitives created: 12
+22:51:44 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:44 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:44 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:44 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:55 | INFO: Finished glTF 2.0 export in 13.299195289611816 s
+
+22:51:57 | INFO: Starting glTF 2.0 export
+22:51:59 | INFO: Extracting primitive: Wetsuit torso
+22:51:59 | INFO: Primitives created: 12
+22:51:59 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:59 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:59 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:51:59 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:14 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:14 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:14 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:14 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:14 | INFO: Finished glTF 2.0 export in 16.90082597732544 s
+
+RIDER_COMPLETE Kai
+22:52:19 | INFO: Starting glTF 2.0 export
+22:52:19 | WARNING: Mesh Wetsuit torso.001 is not valid, and may be exported wrongly
+22:52:19 | INFO: Extracting primitive: Wetsuit torso.001
+22:52:20 | INFO: Primitives created: 11
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:20 | INFO: Finished glTF 2.0 export in 1.103393316268921 s
+
+22:52:21 | INFO: Starting glTF 2.0 export
+22:52:23 | INFO: Extracting primitive: Wetsuit torso.001
+22:52:23 | INFO: Primitives created: 11
+22:52:23 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:23 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:23 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:23 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:35 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:35 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:35 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:35 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:35 | INFO: Finished glTF 2.0 export in 13.677370071411133 s
+
+22:52:37 | INFO: Starting glTF 2.0 export
+22:52:38 | INFO: Extracting primitive: Wetsuit torso.001
+22:52:39 | INFO: Primitives created: 11
+22:52:39 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:39 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:39 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:39 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:55 | WARNING: Baking animation because of unsupported constraints acting on the bone
+22:52:55 | INFO: Finished glTF 2.0 export in 18.398562908172607 s
+
+RIDER_COMPLETE Zuri
+02:24.250  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\11_anatomy_revision.png'
+03:13.890  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\12_joint_bend_test.png'
+Info: Saved as "Hydro_Drift_Characters.blend"
+CHARACTERS_V2_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

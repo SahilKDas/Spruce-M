@@ -1,0 +1,112 @@
+00:01.390  blend            | Read blend: "C:\SahilAppProjects\Spruce-M\assets\source\Hydro_Drift_Characters.blend"
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+06:53:43 | INFO: Starting glTF 2.0 export
+06:53:43 | INFO: Extracting primitive: Wetsuit torso.002
+06:53:44 | INFO: Primitives created: 8
+06:53:44 | INFO: Finished glTF 2.0 export in 0.7670247554779053 s
+
+06:53:45 | INFO: Starting glTF 2.0 export
+06:53:45 | INFO: Extracting primitive: Wetsuit torso.002
+06:53:46 | INFO: Primitives created: 8
+06:53:46 | INFO: Finished glTF 2.0 export in 1.1208434104919434 s
+
+06:53:47 | INFO: Starting glTF 2.0 export
+06:53:48 | INFO: Extracting primitive: Wetsuit torso.002
+06:53:48 | INFO: Primitives created: 8
+06:53:48 | INFO: Finished glTF 2.0 export in 1.171459436416626 s
+
+NECK_FIXED Riptide
+06:53:48 | INFO: Starting glTF 2.0 export
+06:53:48 | INFO: Extracting primitive: Wetsuit torso.003
+06:53:49 | INFO: Primitives created: 8
+06:53:49 | INFO: Finished glTF 2.0 export in 0.6977901458740234 s
+
+06:53:50 | INFO: Starting glTF 2.0 export
+06:53:50 | INFO: Extracting primitive: Wetsuit torso.003
+06:53:51 | INFO: Primitives created: 8
+06:53:51 | INFO: Finished glTF 2.0 export in 1.269423246383667 s
+
+06:53:52 | INFO: Starting glTF 2.0 export
+06:53:53 | INFO: Extracting primitive: Wetsuit torso.003
+06:53:53 | INFO: Primitives created: 8
+06:53:53 | INFO: Finished glTF 2.0 export in 1.4345364570617676 s
+
+NECK_FIXED Pip
+06:53:54 | INFO: Starting glTF 2.0 export
+06:53:54 | INFO: Extracting primitive: Wetsuit torso.004
+06:53:54 | INFO: Primitives created: 9
+06:53:55 | INFO: Finished glTF 2.0 export in 0.6536984443664551 s
+
+06:53:55 | INFO: Starting glTF 2.0 export
+06:53:56 | INFO: Extracting primitive: Wetsuit torso.004
+06:53:56 | INFO: Primitives created: 9
+06:53:56 | INFO: Finished glTF 2.0 export in 1.0818700790405273 s
+
+06:53:57 | INFO: Starting glTF 2.0 export
+06:53:58 | INFO: Extracting primitive: Wetsuit torso.004
+06:53:58 | INFO: Primitives created: 9
+06:53:58 | INFO: Finished glTF 2.0 export in 1.2043216228485107 s
+
+NECK_FIXED Marina
+06:53:59 | INFO: Starting glTF 2.0 export
+06:53:59 | INFO: Extracting primitive: Wetsuit torso.005
+06:53:59 | INFO: Primitives created: 8
+06:53:59 | INFO: Finished glTF 2.0 export in 0.6657230854034424 s
+
+06:54:00 | INFO: Starting glTF 2.0 export
+06:54:01 | INFO: Extracting primitive: Wetsuit torso.005
+06:54:01 | INFO: Primitives created: 8
+06:54:01 | INFO: Finished glTF 2.0 export in 1.2317099571228027 s
+
+06:54:02 | INFO: Starting glTF 2.0 export
+06:54:03 | INFO: Extracting primitive: Wetsuit torso.005
+06:54:03 | INFO: Primitives created: 8
+06:54:03 | INFO: Finished glTF 2.0 export in 1.2153022289276123 s
+
+NECK_FIXED Bolt
+06:54:04 | INFO: Starting glTF 2.0 export
+06:54:04 | INFO: Extracting primitive: Wetsuit torso.006
+06:54:04 | INFO: Primitives created: 9
+06:54:04 | INFO: Finished glTF 2.0 export in 0.6597929000854492 s
+
+06:54:05 | INFO: Starting glTF 2.0 export
+06:54:06 | INFO: Extracting primitive: Wetsuit torso.006
+06:54:06 | INFO: Primitives created: 9
+06:54:06 | INFO: Finished glTF 2.0 export in 1.2629642486572266 s
+
+06:54:07 | INFO: Starting glTF 2.0 export
+06:54:09 | INFO: Extracting primitive: Wetsuit torso.006
+06:54:09 | INFO: Primitives created: 9
+06:54:09 | INFO: Finished glTF 2.0 export in 1.4220082759857178 s
+
+NECK_FIXED Mochi
+06:54:09 | INFO: Starting glTF 2.0 export
+06:54:09 | INFO: Extracting primitive: Wetsuit torso.007
+06:54:10 | INFO: Primitives created: 10
+06:54:10 | INFO: Finished glTF 2.0 export in 0.8341057300567627 s
+
+06:54:11 | INFO: Starting glTF 2.0 export
+06:54:12 | INFO: Extracting primitive: Wetsuit torso.007
+06:54:12 | INFO: Primitives created: 10
+06:54:12 | INFO: Finished glTF 2.0 export in 1.3191864490509033 s
+
+06:54:13 | INFO: Starting glTF 2.0 export
+06:54:15 | INFO: Extracting primitive: Wetsuit torso.007
+06:54:15 | INFO: Primitives created: 10
+06:54:15 | INFO: Finished glTF 2.0 export in 1.6303009986877441 s
+
+NECK_FIXED Ink
+Traceback (most recent call last):
+  File "C:\SahilAppProjects\Spruce-M\assets\fix_character_necks.py", line 30, in <module>
+    bpy.ops.wm.save_as_mainfile(filepath=str(R/'source/Hydro_Drift_Characters.blend'),compress=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Unable to make version backup
+Error: Version backup failed (file saved with @)
+
+Error: Unable to make version backup
+Error: Version backup failed (file saved with @)
+
+Error: script failed, file: 'assets/fix_character_necks.py', exiting.
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

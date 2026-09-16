@@ -1,0 +1,3599 @@
+C:\SahilAppProjects\Spruce-M\assets\build_assets.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+22:27:53 | INFO: Starting glTF 2.0 export
+22:27:53 | INFO: Extracting primitive: Sphere.013
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.016
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.014
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.017
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.001
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone.002
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone.005
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.015
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.018
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone.003
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone.001
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cone.004
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cube.003
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cube.001
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cube.002
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.010
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.011
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.005
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.008
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.003
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.006
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.009
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.002
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Cube.004
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.012
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.004
+22:27:53 | INFO: Primitives created: 1
+22:27:53 | INFO: Extracting primitive: Sphere.007
+22:27:53 | INFO: Primitives created: 1
+22:27:54 | INFO: Finished glTF 2.0 export in 0.5372219085693359 s
+
+22:27:54 | INFO: Starting glTF 2.0 export
+22:27:54 | INFO: Extracting primitive: Sphere.013
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.016
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.014
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.017
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.001
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone.002
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone.005
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.015
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.018
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone.003
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone.001
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cone.004
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cube.003
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cube.001
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cube.002
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.010
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.011
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.005
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.008
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.003
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.006
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.009
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.002
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Cube.004
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.012
+22:27:54 | INFO: Primitives created: 1
+22:27:54 | INFO: Extracting primitive: Sphere.004
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.007
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Finished glTF 2.0 export in 0.9426445960998535 s
+
+22:27:55 | INFO: Starting glTF 2.0 export
+22:27:55 | INFO: Extracting primitive: Sphere.013
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.016
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.014
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.017
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.001
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone.002
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone.005
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.015
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.018
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone.003
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone.001
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cone.004
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cube.003
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cube.001
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cube.002
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.010
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.011
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.005
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.008
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.003
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.006
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.009
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.002
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Cube.004
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.012
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.004
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Extracting primitive: Sphere.007
+22:27:55 | INFO: Primitives created: 1
+22:27:55 | INFO: Finished glTF 2.0 export in 0.3531017303466797 s
+
+22:27:56 | INFO: Starting glTF 2.0 export
+22:27:56 | INFO: Extracting primitive: Sphere.034
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.037
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.035
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.038
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.020
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.008
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.011
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.036
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.039
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.006
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.009
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.019
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.007
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.010
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.007
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.005
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.006
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.029
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.030
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.024
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.027
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.022
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.025
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.028
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.032
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.033
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.021
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.031
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.023
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.026
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Finished glTF 2.0 export in 0.36092066764831543 s
+
+22:27:56 | INFO: Starting glTF 2.0 export
+22:27:56 | INFO: Extracting primitive: Sphere.034
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.037
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.035
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.038
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.020
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.008
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.011
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.036
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.039
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.006
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.009
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.019
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.007
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cone.010
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.007
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.005
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Cube.006
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.029
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.030
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.024
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.027
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.022
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.025
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.028
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.032
+22:27:56 | INFO: Primitives created: 1
+22:27:56 | INFO: Extracting primitive: Sphere.033
+22:27:56 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.021
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.031
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.023
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.026
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Finished glTF 2.0 export in 0.4460461139678955 s
+
+22:27:57 | INFO: Starting glTF 2.0 export
+22:27:57 | INFO: Extracting primitive: Sphere.034
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.037
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.035
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.038
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.020
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.008
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.011
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.036
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.039
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.006
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.009
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.019
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.007
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cone.010
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cube.007
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cube.005
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Cube.006
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.029
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.030
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.024
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.027
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.022
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.025
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.028
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.032
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.033
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.021
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.031
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.023
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Extracting primitive: Sphere.026
+22:27:57 | INFO: Primitives created: 1
+22:27:57 | INFO: Finished glTF 2.0 export in 0.5495455265045166 s
+
+22:27:58 | INFO: Starting glTF 2.0 export
+22:27:58 | INFO: Extracting primitive: Sphere.050
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.053
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Dorsal fin
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.051
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.054
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.041
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.017
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.020
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.052
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.055
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.015
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.018
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.040
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.016
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.019
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.010
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.008
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.009
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.045
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.048
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.043
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.046
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.042
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.044
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.047
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.049
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.012
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.013
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.014
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Finished glTF 2.0 export in 0.38339710235595703 s
+
+22:27:58 | INFO: Starting glTF 2.0 export
+22:27:58 | INFO: Extracting primitive: Sphere.050
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.053
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Dorsal fin
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.051
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.054
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.041
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.017
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.020
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.052
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.055
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.015
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.018
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.040
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.016
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.019
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.010
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.008
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cube.009
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.045
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.048
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.043
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.046
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.042
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.044
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.047
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Sphere.049
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.012
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.013
+22:27:58 | INFO: Primitives created: 1
+22:27:58 | INFO: Extracting primitive: Cone.014
+22:27:58 | INFO: Primitives created: 1
+22:27:59 | INFO: Finished glTF 2.0 export in 0.44983577728271484 s
+
+22:27:59 | INFO: Starting glTF 2.0 export
+22:27:59 | INFO: Extracting primitive: Sphere.050
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.053
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Dorsal fin
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.051
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.054
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.041
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.017
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.020
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.052
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.055
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.015
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.018
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.040
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.016
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.019
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cube.010
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cube.008
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cube.009
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.045
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.048
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.043
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.046
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.042
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.044
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.047
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Sphere.049
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.012
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.013
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Extracting primitive: Cone.014
+22:27:59 | INFO: Primitives created: 1
+22:27:59 | INFO: Finished glTF 2.0 export in 0.44706010818481445 s
+
+22:28:00 | INFO: Starting glTF 2.0 export
+22:28:00 | INFO: Extracting primitive: Sphere.069
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.072
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.070
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.073
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.057
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.024
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.027
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.071
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.074
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.022
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.025
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.021
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.056
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.023
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.026
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.013
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.011
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.012
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.061
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.064
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.059
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.062
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Torus
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Torus.001
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.058
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.065
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.066
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.060
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.063
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.067
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.068
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Finished glTF 2.0 export in 0.45584630966186523 s
+
+22:28:00 | INFO: Starting glTF 2.0 export
+22:28:00 | INFO: Extracting primitive: Sphere.069
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.072
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.070
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.073
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.057
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.024
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.027
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.071
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.074
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.022
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.025
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.021
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.056
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.023
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cone.026
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.013
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.011
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Cube.012
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.061
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.064
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.059
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.062
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Torus
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Torus.001
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.058
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.065
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.066
+22:28:00 | INFO: Primitives created: 1
+22:28:00 | INFO: Extracting primitive: Sphere.060
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.063
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.067
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.068
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Finished glTF 2.0 export in 0.7407050132751465 s
+
+22:28:01 | INFO: Starting glTF 2.0 export
+22:28:01 | INFO: Extracting primitive: Sphere.069
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.072
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.070
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.073
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.057
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.024
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.027
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.071
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.074
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.022
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.025
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.021
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.056
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.023
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cone.026
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cube.013
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cube.011
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Cube.012
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.061
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.064
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.059
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.062
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Torus
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Torus.001
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.058
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.065
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.066
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.060
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.063
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.067
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Extracting primitive: Sphere.068
+22:28:01 | INFO: Primitives created: 1
+22:28:01 | INFO: Finished glTF 2.0 export in 0.5670244693756104 s
+
+22:28:02 | INFO: Starting glTF 2.0 export
+22:28:02 | INFO: Extracting primitive: Sphere.090
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.093
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.091
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.094
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.076
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.039
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.042
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.092
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.095
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.037
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.040
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.075
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.038
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.041
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cube.016
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cube.014
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cube.015
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.034
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.035
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.036
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.028
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.029
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.030
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.031
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.032
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Cone.033
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.080
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.083
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.078
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.081
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.084
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.085
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.086
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.087
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.088
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.089
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.077
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.079
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Sphere.082
+22:28:02 | INFO: Primitives created: 1
+22:28:02 | INFO: Extracting primitive: Torus.002
+22:28:02 | INFO: Primitives created: 1
+22:28:03 | INFO: Finished glTF 2.0 export in 0.5442345142364502 s
+
+22:28:03 | INFO: Starting glTF 2.0 export
+22:28:03 | INFO: Extracting primitive: Sphere.090
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.093
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.091
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.094
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.076
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.039
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.042
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.092
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.095
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.037
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.040
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.075
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.038
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.041
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cube.016
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cube.014
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cube.015
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.034
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.035
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.036
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.028
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.029
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.030
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.031
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.032
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Cone.033
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.080
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.083
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.078
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.081
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.084
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.085
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.086
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.087
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.088
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.089
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.077
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.079
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Sphere.082
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Extracting primitive: Torus.002
+22:28:03 | INFO: Primitives created: 1
+22:28:03 | INFO: Finished glTF 2.0 export in 0.8484706878662109 s
+
+22:28:04 | INFO: Starting glTF 2.0 export
+22:28:04 | INFO: Extracting primitive: Sphere.090
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.093
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.091
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.094
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.076
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.039
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.042
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.092
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.095
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.037
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.040
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.075
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.038
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.041
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cube.016
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cube.014
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cube.015
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.034
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.035
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.036
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.028
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.029
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.030
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.031
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.032
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Cone.033
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.080
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.083
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.078
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.081
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.084
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.085
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.086
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.087
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.088
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.089
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.077
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.079
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Sphere.082
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Extracting primitive: Torus.002
+22:28:04 | INFO: Primitives created: 1
+22:28:04 | INFO: Finished glTF 2.0 export in 0.7685601711273193 s
+
+22:28:05 | INFO: Starting glTF 2.0 export
+22:28:05 | INFO: Extracting primitive: Sphere.106
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.109
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.107
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.110
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.097
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.046
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.049
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.108
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.111
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.044
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.047
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.096
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.045
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.048
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.019
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.017
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.018
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.043
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.105
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.101
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.104
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.099
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.102
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.021
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.022
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.023
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.100
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.103
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.020
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Finished glTF 2.0 export in 0.5480196475982666 s
+
+22:28:05 | INFO: Starting glTF 2.0 export
+22:28:05 | INFO: Extracting primitive: Sphere.106
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.109
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.107
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.110
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.097
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.046
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.049
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.108
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.111
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.044
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.047
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.096
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.045
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.048
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.019
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.017
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cube.018
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Cone.043
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.105
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.101
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.104
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.099
+22:28:05 | INFO: Primitives created: 1
+22:28:05 | INFO: Extracting primitive: Sphere.102
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.021
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.022
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.023
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.100
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.103
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.020
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Finished glTF 2.0 export in 0.8156979084014893 s
+
+22:28:06 | INFO: Starting glTF 2.0 export
+22:28:06 | INFO: Extracting primitive: Sphere.106
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.109
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.107
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.110
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.097
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.046
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.049
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.108
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.111
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.044
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.047
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.096
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.045
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.048
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.019
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.017
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.018
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cone.043
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.105
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.101
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.104
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.099
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.102
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.021
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.022
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.023
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.100
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Sphere.103
+22:28:06 | INFO: Primitives created: 1
+22:28:06 | INFO: Extracting primitive: Cube.020
+22:28:06 | INFO: Primitives created: 1
+22:28:07 | INFO: Finished glTF 2.0 export in 0.6660914421081543 s
+
+22:28:07 | INFO: Starting glTF 2.0 export
+22:28:07 | INFO: Extracting primitive: Sphere.125
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.128
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.126
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.129
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.113
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.052
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.055
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.127
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.130
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.050
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.053
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.112
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.051
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cone.054
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cube.026
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cube.024
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Cube.025
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.117
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.120
+22:28:07 | INFO: Primitives created: 1
+22:28:07 | INFO: Extracting primitive: Sphere.115
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.118
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.114
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.121
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.122
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.116
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.119
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.123
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.124
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Finished glTF 2.0 export in 0.8755133152008057 s
+
+22:28:08 | INFO: Starting glTF 2.0 export
+22:28:08 | INFO: Extracting primitive: Sphere.125
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.128
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.126
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.129
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.113
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Cone.052
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Cone.055
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.127
+22:28:08 | INFO: Primitives created: 1
+22:28:08 | INFO: Extracting primitive: Sphere.130
+22:28:08 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cone.050
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cone.053
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.112
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cone.051
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cone.054
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cube.026
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cube.024
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Cube.025
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.117
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.120
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.115
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.118
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.114
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.121
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.122
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.116
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.119
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.123
+22:28:09 | INFO: Primitives created: 1
+22:28:09 | INFO: Extracting primitive: Sphere.124
+22:28:09 | INFO: Primitives created: 1
+22:28:11 | INFO: Finished glTF 2.0 export in 2.3533754348754883 s
+
+22:28:11 | INFO: Starting glTF 2.0 export
+22:28:11 | INFO: Extracting primitive: Sphere.125
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.128
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.126
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.129
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.113
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.052
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.055
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.127
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.130
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.050
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.053
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.112
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.051
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cone.054
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cube.026
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cube.024
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Cube.025
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.117
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.120
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.115
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.118
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.114
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.121
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.122
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.116
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.119
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.123
+22:28:11 | INFO: Primitives created: 1
+22:28:11 | INFO: Extracting primitive: Sphere.124
+22:28:11 | INFO: Primitives created: 1
+22:28:12 | INFO: Finished glTF 2.0 export in 1.4169642925262451 s
+
+22:28:13 | INFO: Starting glTF 2.0 export
+22:28:13 | INFO: Extracting primitive: Sphere.144
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.147
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.145
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.148
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.056
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.057
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.058
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.059
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.132
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.062
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.065
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.146
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.149
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.060
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.063
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.140
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.141
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.142
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.143
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.131
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.061
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.064
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cube.029
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cube.027
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cube.028
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.136
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.139
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.134
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.137
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.133
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.135
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.138
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Finished glTF 2.0 export in 0.7344324588775635 s
+
+22:28:13 | INFO: Starting glTF 2.0 export
+22:28:13 | INFO: Extracting primitive: Sphere.144
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.147
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.145
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.148
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.056
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.057
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.058
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.059
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.132
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.062
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.065
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.146
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.149
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.060
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.063
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.140
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.141
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.142
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.143
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Sphere.131
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.061
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cone.064
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cube.029
+22:28:13 | INFO: Primitives created: 1
+22:28:13 | INFO: Extracting primitive: Cube.027
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cube.028
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.136
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.139
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.134
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.137
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.133
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.135
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.138
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Finished glTF 2.0 export in 0.8634750843048096 s
+
+22:28:14 | INFO: Starting glTF 2.0 export
+22:28:14 | INFO: Extracting primitive: Sphere.144
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.147
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.145
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.148
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.056
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.057
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.058
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.059
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.132
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.062
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.065
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.146
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.149
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.060
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.063
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.140
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.141
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.142
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.143
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.131
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.061
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cone.064
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cube.029
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cube.027
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Cube.028
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.136
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.139
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.134
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.137
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.133
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.135
+22:28:14 | INFO: Primitives created: 1
+22:28:14 | INFO: Extracting primitive: Sphere.138
+22:28:14 | INFO: Primitives created: 1
+22:28:15 | INFO: Finished glTF 2.0 export in 0.708317756652832 s
+
+22:28:15 | INFO: Starting glTF 2.0 export
+22:28:15 | INFO: Extracting primitive: Mesh
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.150
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.151
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.152
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.153
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.066
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.067
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.068
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.069
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.030
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.031
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.032
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.033
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.034
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.035
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.036
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.037
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.070
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.038
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.039
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.040
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.041
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.042
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.043
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.044
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.045
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.071
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Torus.003
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.046
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Hull badge
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Finished glTF 2.0 export in 0.17229318618774414 s
+
+22:28:15 | INFO: Starting glTF 2.0 export
+22:28:15 | INFO: Extracting primitive: Mesh
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.150
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.151
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.152
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Sphere.153
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.066
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.067
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.068
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.069
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.030
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.031
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.032
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.033
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.034
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.035
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.036
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.037
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cone.070
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.038
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.039
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.040
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.041
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.042
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.043
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.044
+22:28:15 | INFO: Primitives created: 1
+22:28:15 | INFO: Extracting primitive: Cube.045
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.071
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Torus.003
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.046
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Hull badge
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Finished glTF 2.0 export in 0.1719520092010498 s
+
+22:28:16 | INFO: Starting glTF 2.0 export
+22:28:16 | INFO: Extracting primitive: Mesh
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.150
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.151
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.152
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.153
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.066
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.067
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.068
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.069
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.030
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.031
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.032
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.033
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.034
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.035
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.036
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.037
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.070
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.038
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.039
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.040
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.041
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.042
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.043
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.044
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.045
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.071
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Torus.003
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.046
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Hull badge
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Finished glTF 2.0 export in 0.3606398105621338 s
+
+22:28:16 | INFO: Starting glTF 2.0 export
+22:28:16 | INFO: Extracting primitive: Mesh
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.154
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.155
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.156
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Sphere.157
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.072
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.073
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.074
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.075
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.047
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.048
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.049
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.050
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.051
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.052
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.053
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.054
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.076
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.055
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.056
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.057
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.058
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.059
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.060
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.061
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.062
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cone.077
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Torus.004
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Cube.063
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Extracting primitive: Hull badge.001
+22:28:16 | INFO: Primitives created: 1
+22:28:16 | INFO: Finished glTF 2.0 export in 0.2538726329803467 s
+
+22:28:16 | INFO: Starting glTF 2.0 export
+22:28:17 | INFO: Extracting primitive: Mesh
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.154
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.155
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.156
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.157
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.072
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.073
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.074
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.075
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.047
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.048
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.049
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.050
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.051
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.052
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.053
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.054
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.076
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.055
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.056
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.057
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.058
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.059
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.060
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.061
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.062
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.077
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Torus.004
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.063
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Hull badge.001
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Finished glTF 2.0 export in 0.24303078651428223 s
+
+22:28:17 | INFO: Starting glTF 2.0 export
+22:28:17 | INFO: Extracting primitive: Mesh
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.154
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.155
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.156
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Sphere.157
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.072
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.073
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.074
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.075
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.047
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.048
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.049
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.050
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.051
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.052
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.053
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.054
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.076
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.055
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.056
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.057
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.058
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.059
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.060
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.061
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.062
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cone.077
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Torus.004
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Cube.063
+22:28:17 | INFO: Primitives created: 1
+22:28:17 | INFO: Extracting primitive: Hull badge.001
+22:28:17 | INFO: Primitives created: 1
+22:28:18 | INFO: Finished glTF 2.0 export in 0.867591381072998 s
+
+22:28:18 | INFO: Starting glTF 2.0 export
+22:28:18 | INFO: Extracting primitive: Mesh
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Sphere.158
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Sphere.159
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Sphere.160
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Sphere.161
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.078
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.079
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.080
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.081
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.064
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.065
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.066
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.067
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.068
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.069
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.070
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.071
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.082
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.072
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.073
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.074
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.075
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.076
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.077
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.078
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.079
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cone.083
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Torus.005
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Cube.080
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Extracting primitive: Hull badge.002
+22:28:18 | INFO: Primitives created: 1
+22:28:18 | INFO: Finished glTF 2.0 export in 0.33527159690856934 s
+
+22:28:18 | INFO: Starting glTF 2.0 export
+22:28:19 | INFO: Extracting primitive: Mesh
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.158
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.159
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.160
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.161
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.078
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.079
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.080
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.081
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.064
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.065
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.066
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.067
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.068
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.069
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.070
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.071
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.082
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.072
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.073
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.074
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.075
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.076
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.077
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.078
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.079
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.083
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Torus.005
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.080
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Hull badge.002
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Finished glTF 2.0 export in 0.2868969440460205 s
+
+22:28:19 | INFO: Starting glTF 2.0 export
+22:28:19 | INFO: Extracting primitive: Mesh
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.158
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.159
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.160
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.161
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.078
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.079
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.080
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.081
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.064
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.065
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.066
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.067
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.068
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.069
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.070
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.071
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.082
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.072
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.073
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.074
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.075
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.076
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.077
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.078
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.079
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.083
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Torus.005
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cube.080
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Hull badge.002
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Finished glTF 2.0 export in 0.22707438468933105 s
+
+22:28:19 | INFO: Starting glTF 2.0 export
+22:28:19 | INFO: Extracting primitive: Cone.084
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.085
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.086
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.087
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.088
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.089
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.090
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.001
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.002
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.003
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.004
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.005
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.006
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.007
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.162
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.163
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.164
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Finished glTF 2.0 export in 0.12885165214538574 s
+
+22:28:19 | INFO: Starting glTF 2.0 export
+22:28:19 | INFO: Extracting primitive: Cone.084
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.085
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.086
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.087
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.088
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.089
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.090
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.001
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.002
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.003
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.004
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.005
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.006
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.007
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.162
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.163
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.164
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Finished glTF 2.0 export in 0.11971616744995117 s
+
+22:28:19 | INFO: Starting glTF 2.0 export
+22:28:19 | INFO: Extracting primitive: Cone.084
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.085
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.086
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.087
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.088
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.089
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Cone.090
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.001
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.002
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.003
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.004
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.005
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.006
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Palm frond.007
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.162
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.163
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Extracting primitive: Sphere.164
+22:28:19 | INFO: Primitives created: 1
+22:28:19 | INFO: Finished glTF 2.0 export in 0.08884906768798828 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.001
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.002
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.03344416618347168 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.001
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.002
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.0284883975982666 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.001
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.002
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.02810955047607422 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere.003
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.004
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.005
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.031737565994262695 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere.003
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.004
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.005
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.027585983276367188 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Icosphere.003
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.004
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Icosphere.005
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.036734580993652344 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Cube.081
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.082
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.083
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.084
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.085
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.086
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.087
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.088
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.089
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.090
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.093
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.094
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.08576035499572754 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Cube.081
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.082
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.083
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.084
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.085
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.086
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.087
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.088
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.089
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.090
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.093
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.094
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.10150289535522461 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Cube.081
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.082
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.083
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.084
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.085
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.086
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.087
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.088
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.089
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.090
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cube.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.091
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.092
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.093
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.094
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.11938333511352539 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Sphere.165
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Torus.006
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.095
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Flag
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.10036015510559082 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Sphere.165
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Torus.006
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.095
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Flag
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Finished glTF 2.0 export in 0.10652923583984375 s
+
+22:28:20 | INFO: Starting glTF 2.0 export
+22:28:20 | INFO: Extracting primitive: Sphere.165
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Torus.006
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Cone.095
+22:28:20 | INFO: Primitives created: 1
+22:28:20 | INFO: Extracting primitive: Flag
+22:28:20 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.08804583549499512 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Cone.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.166
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.167
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.093
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Start title
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.094
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.095
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.098
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.099
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.2681124210357666 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Cone.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.166
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.167
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.093
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Start title
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.094
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.095
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.098
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.099
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.155592679977417 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Cone.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.166
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Sphere.167
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.093
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Start title
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.094
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.095
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.096
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.097
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.098
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cube.099
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.15118193626403809 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Ramp
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.098
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.099
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.06700396537780762 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Ramp
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.098
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Extracting primitive: Cone.099
+22:28:21 | INFO: Primitives created: 1
+22:28:21 | INFO: Finished glTF 2.0 export in 0.07194304466247559 s
+
+22:28:21 | INFO: Starting glTF 2.0 export
+22:28:21 | INFO: Extracting primitive: Ramp
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.098
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.099
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Finished glTF 2.0 export in 0.1414475440979004 s
+
+22:28:22 | INFO: Starting glTF 2.0 export
+22:28:22 | INFO: Extracting primitive: Cube.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Arrow
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.101
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Finished glTF 2.0 export in 0.09856796264648438 s
+
+22:28:22 | INFO: Starting glTF 2.0 export
+22:28:22 | INFO: Extracting primitive: Cube.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Arrow
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.101
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Finished glTF 2.0 export in 0.10999703407287598 s
+
+22:28:22 | INFO: Starting glTF 2.0 export
+22:28:22 | INFO: Extracting primitive: Cube.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Arrow
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.100
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cone.101
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Finished glTF 2.0 export in 0.07564520835876465 s
+
+22:28:22 | INFO: Starting glTF 2.0 export
+22:28:22 | INFO: Extracting primitive: Cube.101
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.102
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.103
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.104
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.105
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.106
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.107
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.108
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.109
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.110
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.111
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.112
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.113
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.114
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.115
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.116
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.117
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.118
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.119
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.120
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.121
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.122
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.123
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.124
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.125
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.126
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.127
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.128
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.129
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.130
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.131
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.132
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.133
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.134
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cube.135
+22:28:22 | INFO: Primitives created: 1
+22:28:22 | INFO: Extracting primitive: Cargo label
+22:28:22 | INFO: Primitives created: 1
+22:28:23 | INFO: Finished glTF 2.0 export in 0.26964306831359863 s
+
+22:28:23 | INFO: Starting glTF 2.0 export
+22:28:23 | INFO: Extracting primitive: Cube.101
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.102
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.103
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.104
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.105
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.106
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.107
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.108
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.109
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.110
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.111
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.112
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.113
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.114
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.115
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.116
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.117
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.118
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.119
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.120
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.121
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.122
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.123
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.124
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.125
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.126
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.127
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.128
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.129
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.130
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.131
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.132
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.133
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.134
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.135
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cargo label
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Finished glTF 2.0 export in 0.26485276222229004 s
+
+22:28:23 | INFO: Starting glTF 2.0 export
+22:28:23 | INFO: Extracting primitive: Cube.101
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.102
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.103
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.104
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.105
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.106
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.107
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.108
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.109
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.110
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.111
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.112
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.113
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.114
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.115
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.116
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.117
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.118
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.119
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.120
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.121
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.122
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.123
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.124
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.125
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.126
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.127
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.128
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.129
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.130
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.131
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.132
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.133
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.134
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.135
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cargo label
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Finished glTF 2.0 export in 0.2695012092590332 s
+
+22:28:23 | INFO: Starting glTF 2.0 export
+22:28:23 | INFO: Extracting primitive: Cube.136
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.137
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.138
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.139
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.140
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.141
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.142
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.143
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.144
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.145
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.146
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.147
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.148
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.149
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.150
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.151
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Neon sign
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Finished glTF 2.0 export in 0.15587687492370605 s
+
+22:28:23 | INFO: Starting glTF 2.0 export
+22:28:23 | INFO: Extracting primitive: Cube.136
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.137
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.138
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.139
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.140
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.141
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.142
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.143
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.144
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.145
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.146
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.147
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.148
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.149
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.150
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Cube.151
+22:28:23 | INFO: Primitives created: 1
+22:28:23 | INFO: Extracting primitive: Neon sign
+22:28:23 | INFO: Primitives created: 1
+22:28:24 | INFO: Finished glTF 2.0 export in 0.17160844802856445 s
+
+22:28:24 | INFO: Starting glTF 2.0 export
+22:28:24 | INFO: Extracting primitive: Cube.136
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.137
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.138
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.139
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.140
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.141
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.142
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.143
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.144
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.145
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.146
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.147
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.148
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.149
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.150
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.151
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Neon sign
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Finished glTF 2.0 export in 0.19675946235656738 s
+
+22:28:24 | INFO: Starting glTF 2.0 export
+22:28:24 | INFO: Extracting primitive: Cone.102
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.103
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.168
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.104
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.169
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.105
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.170
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.106
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.171
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.107
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.172
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.108
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.173
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Finished glTF 2.0 export in 0.10008001327514648 s
+
+22:28:24 | INFO: Starting glTF 2.0 export
+22:28:24 | INFO: Extracting primitive: Cone.102
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.103
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.168
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.104
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.169
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.105
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.170
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.106
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.171
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.107
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.172
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.108
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.173
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Finished glTF 2.0 export in 0.12349843978881836 s
+
+22:28:24 | INFO: Starting glTF 2.0 export
+22:28:24 | INFO: Extracting primitive: Cone.102
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.103
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.168
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.104
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.169
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.105
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.170
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.106
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.171
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.107
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.172
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cone.108
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Sphere.173
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Finished glTF 2.0 export in 0.11993050575256348 s
+
+22:28:24 | INFO: Starting glTF 2.0 export
+22:28:24 | INFO: Extracting primitive: Cube.152
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.153
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.154
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.155
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.156
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.157
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.158
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.159
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.160
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.161
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.162
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.163
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.164
+22:28:24 | INFO: Primitives created: 1
+22:28:24 | INFO: Extracting primitive: Cube.165
+22:28:24 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.10014891624450684 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cube.152
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.153
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.154
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.155
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.156
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.157
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.158
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.159
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.160
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.161
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.162
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.163
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.164
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.165
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.09076356887817383 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cube.152
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.153
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.154
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.155
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.156
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.157
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.158
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.159
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.160
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.161
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.162
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.163
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.164
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cube.165
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.09770321846008301 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.109
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.110
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.111
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.112
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.04786062240600586 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.109
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.110
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.111
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.112
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.048363685607910156 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.109
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.110
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.111
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.112
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.04179978370666504 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.113
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.114
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.115
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.116
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.117
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.118
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.119
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.007
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.05800819396972656 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.113
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.114
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.115
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.116
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.117
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.118
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.119
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.007
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.07143378257751465 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.113
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.114
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.115
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.116
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.117
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.118
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.119
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.007
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.10274410247802734 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.120
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.008
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Sphere.174
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.121
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.122
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.123
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.0483241081237793 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.120
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.008
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Sphere.174
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.121
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.122
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.123
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.04975771903991699 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Cone.120
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.008
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Sphere.174
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.121
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.122
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Cone.123
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.05494046211242676 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:25 | INFO: Extracting primitive: Icosphere.006
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Icosphere.007
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Icosphere.008
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Torus.009
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Extracting primitive: Sphere.175
+22:28:25 | INFO: Primitives created: 1
+22:28:25 | INFO: Finished glTF 2.0 export in 0.04307436943054199 s
+
+22:28:25 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Icosphere.006
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Icosphere.007
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Icosphere.008
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Torus.009
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.175
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05550408363342285 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Icosphere.006
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Icosphere.007
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Icosphere.008
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Torus.009
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.175
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.051874399185180664 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.176
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.166
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.167
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cone.124
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.04213690757751465 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.176
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.166
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.167
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cone.124
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.044167518615722656 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.176
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.166
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.167
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cone.124
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05492997169494629 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Cone.125
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.001
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.002
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.003
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.004
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.005
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.006
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.007
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05435895919799805 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Cone.125
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.001
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.002
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.003
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.004
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.005
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.006
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.007
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.04065251350402832 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Cone.125
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.001
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.002
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.003
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.004
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.005
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.006
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Canopy panel.007
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.04911661148071289 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.177
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.178
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.179
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.180
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.181
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05077052116394043 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.177
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.178
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.179
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.180
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.181
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05762839317321777 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Sphere.177
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.178
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.179
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.180
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.181
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.049724578857421875 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Torus.010
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.168
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.169
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Charge
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.04954934120178223 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Torus.010
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.168
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.169
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Charge
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.05317234992980957 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Torus.010
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.168
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Cube.169
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Charge
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.051378488540649414 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:26 | INFO: Extracting primitive: Torus.011
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Extracting primitive: Sphere.182
+22:28:26 | INFO: Primitives created: 1
+22:28:26 | INFO: Finished glTF 2.0 export in 0.0342252254486084 s
+
+22:28:26 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.011
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Sphere.182
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.04491066932678223 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.011
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Sphere.182
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.04050731658935547 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.012
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.013
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.014
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.015
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.04502582550048828 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.012
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.013
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.014
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.015
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.05755329132080078 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.012
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.013
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.014
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.015
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.06183934211730957 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.016
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.017
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.018
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.019
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.020
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.021
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.04876446723937988 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.016
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.017
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.018
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.019
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.020
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.021
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.06231856346130371 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Torus.016
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.017
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.018
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.019
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.020
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.021
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.06369638442993164 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Cube.170
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Cone.126
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Sphere.183
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.022
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.023
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.05163764953613281 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Cube.170
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Cone.126
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Sphere.183
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.022
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.023
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.04908156394958496 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Cube.170
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Cone.126
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Sphere.183
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.022
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Extracting primitive: Torus.023
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.06511473655700684 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Water surface
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.03270411491394043 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Water surface
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.034160614013671875 s
+
+22:28:27 | INFO: Starting glTF 2.0 export
+22:28:27 | INFO: Extracting primitive: Water surface
+22:28:27 | INFO: Primitives created: 1
+22:28:27 | INFO: Finished glTF 2.0 export in 0.038344383239746094 s
+01:36.625  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\01_characters.png'
+02:17.344  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\02_watercraft.png'
+03:01.438  render           | Saved: 'C:\SahilAppProjects\Spruce-M\assets\previews\03_environment_library.png'
+
+Info: Saved as "Hydro_Drift_Library.blend"
+HYDRO_ASSETS_COMPLETE 36
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

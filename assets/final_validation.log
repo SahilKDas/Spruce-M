@@ -1,0 +1,293 @@
+22:41:28 | INFO: Data are loaded, start creating Blender stuff
+22:41:28 | INFO: Blender create Mesh node Sphere.010
+22:41:28 | INFO: Blender create Mesh node Sphere.011
+22:41:28 | INFO: Blender create Mesh node Sphere.005
+22:41:28 | INFO: Blender create Mesh node Sphere.008
+22:41:28 | INFO: Blender create Mesh node Sphere.003
+22:41:28 | INFO: Blender create Mesh node Sphere.006
+22:41:28 | INFO: Blender create Mesh node Sphere.009
+22:41:28 | INFO: Blender create Mesh node Sphere.002
+22:41:28 | INFO: Blender create Mesh node Cube.004
+22:41:28 | INFO: Blender create Mesh node Sphere.012
+22:41:28 | INFO: Blender create Mesh node Sphere.004
+22:41:28 | INFO: Blender create Mesh node Sphere.007
+22:41:28 | INFO: Blender create Mesh node Cone.002
+22:41:28 | INFO: Blender create Mesh node Sphere.015
+22:41:28 | INFO: Blender create Mesh node Sphere.014
+22:41:28 | INFO: Blender create Mesh node Cone.001
+22:41:28 | INFO: Blender create Mesh node Sphere.013
+22:41:28 | INFO: Blender create Mesh node Cone
+22:41:28 | INFO: Blender create Mesh node Cone.005
+22:41:28 | INFO: Blender create Mesh node Sphere.018
+22:41:28 | INFO: Blender create Mesh node Sphere.017
+22:41:28 | INFO: Blender create Mesh node Cone.004
+22:41:28 | INFO: Blender create Mesh node Sphere.016
+22:41:28 | INFO: Blender create Mesh node Cone.003
+22:41:28 | INFO: Blender create Mesh node Sphere.001
+22:41:28 | INFO: Blender create Mesh node Sphere
+22:41:28 | INFO: Blender create Mesh node Cube.003
+22:41:28 | INFO: Blender create Mesh node Cube.001
+22:41:28 | INFO: Blender create Mesh node Cube.002
+22:41:28 | INFO: glTF import finished in 0.54s
+22:41:29 | INFO: Data are loaded, start creating Blender stuff
+22:41:29 | INFO: Blender create Mesh node Sphere.010
+22:41:29 | INFO: Blender create Mesh node Sphere.011
+22:41:29 | INFO: Blender create Mesh node Sphere.005
+22:41:29 | INFO: Blender create Mesh node Sphere.008
+22:41:29 | INFO: Blender create Mesh node Sphere.003
+22:41:29 | INFO: Blender create Mesh node Sphere.006
+22:41:29 | INFO: Blender create Mesh node Sphere.009
+22:41:29 | INFO: Blender create Mesh node Sphere.002
+22:41:29 | INFO: Blender create Mesh node Cube.004
+22:41:29 | INFO: Blender create Mesh node Sphere.012
+22:41:29 | INFO: Blender create Mesh node Sphere.004
+22:41:29 | INFO: Blender create Mesh node Sphere.007
+22:41:29 | INFO: Blender create Mesh node Cone.002
+22:41:29 | INFO: Blender create Mesh node Sphere.015
+22:41:29 | INFO: Blender create Mesh node Sphere.014
+22:41:29 | INFO: Blender create Mesh node Cone.001
+22:41:29 | INFO: Blender create Mesh node Sphere.013
+22:41:29 | INFO: Blender create Mesh node Cone
+22:41:29 | INFO: Blender create Mesh node Cone.005
+22:41:29 | INFO: Blender create Mesh node Sphere.018
+22:41:29 | INFO: Blender create Mesh node Sphere.017
+22:41:29 | INFO: Blender create Mesh node Cone.004
+22:41:29 | INFO: Blender create Mesh node Sphere.016
+22:41:29 | INFO: Blender create Mesh node Cone.003
+22:41:29 | INFO: Blender create Mesh node Sphere.001
+22:41:29 | INFO: Blender create Mesh node Sphere
+22:41:29 | INFO: Blender create Mesh node Cube.003
+22:41:29 | INFO: Blender create Mesh node Cube.001
+22:41:29 | INFO: Blender create Mesh node Cube.002
+22:41:29 | INFO: glTF import finished in 0.29s
+22:41:30 | INFO: Data are loaded, start creating Blender stuff
+22:41:30 | INFO: Blender create Mesh node Mesh
+22:41:30 | INFO: Blender create Mesh node Sphere.158
+22:41:30 | INFO: Blender create Mesh node Sphere.159
+22:41:30 | INFO: Blender create Mesh node Sphere.160
+22:41:30 | INFO: Blender create Mesh node Sphere.161
+22:41:30 | INFO: Blender create Mesh node Cone.078
+22:41:30 | INFO: Blender create Mesh node Cone.079
+22:41:30 | INFO: Blender create Mesh node Cone.080
+22:41:30 | INFO: Blender create Mesh node Cone.081
+22:41:30 | INFO: Blender create Mesh node Cube.064
+22:41:30 | INFO: Blender create Mesh node Cube.065
+22:41:30 | INFO: Blender create Mesh node Cube.066
+22:41:30 | INFO: Blender create Mesh node Cube.067
+22:41:30 | INFO: Blender create Mesh node Cube.068
+22:41:30 | INFO: Blender create Mesh node Cube.069
+22:41:30 | INFO: Blender create Mesh node Cube.070
+22:41:30 | INFO: Blender create Mesh node Cube.071
+22:41:30 | INFO: Blender create Mesh node Cone.082
+22:41:30 | INFO: Blender create Mesh node Cube.072
+22:41:30 | INFO: Blender create Mesh node Cube.073
+22:41:30 | INFO: Blender create Mesh node Cube.074
+22:41:30 | INFO: Blender create Mesh node Cube.075
+22:41:30 | INFO: Blender create Mesh node Cube.076
+22:41:30 | INFO: Blender create Mesh node Cube.077
+22:41:30 | INFO: Blender create Mesh node Cube.078
+22:41:30 | INFO: Blender create Mesh node Cube.079
+22:41:30 | INFO: Blender create Mesh node Cone.083
+22:41:30 | INFO: Blender create Mesh node Torus.005
+22:41:30 | INFO: Blender create Mesh node Cube.080
+22:41:30 | INFO: Blender create Mesh node Hull badge.002
+22:41:30 | INFO: glTF import finished in 0.28s
+22:41:30 | INFO: Data are loaded, start creating Blender stuff
+22:41:30 | INFO: Blender create Mesh node Cone.084
+22:41:30 | INFO: Blender create Mesh node Cone.085
+22:41:30 | INFO: Blender create Mesh node Cone.086
+22:41:30 | INFO: Blender create Mesh node Cone.087
+22:41:30 | INFO: Blender create Mesh node Cone.088
+22:41:30 | INFO: Blender create Mesh node Cone.089
+22:41:30 | INFO: Blender create Mesh node Cone.090
+22:41:30 | INFO: Blender create Mesh node Palm frond
+22:41:30 | INFO: Blender create Mesh node Palm frond.001
+22:41:30 | INFO: Blender create Mesh node Palm frond.002
+22:41:30 | INFO: Blender create Mesh node Palm frond.003
+22:41:30 | INFO: Blender create Mesh node Palm frond.004
+22:41:30 | INFO: Blender create Mesh node Palm frond.005
+22:41:30 | INFO: Blender create Mesh node Palm frond.006
+22:41:30 | INFO: Blender create Mesh node Palm frond.007
+22:41:30 | INFO: Blender create Mesh node Sphere.162
+22:41:30 | INFO: Blender create Mesh node Sphere.163
+22:41:30 | INFO: Blender create Mesh node Sphere.164
+22:41:30 | INFO: glTF import finished in 0.17s
+22:41:31 | INFO: Data are loaded, start creating Blender stuff
+22:41:31 | INFO: Blender create Mesh node Sphere.098
+22:41:31 | INFO: Blender create Mesh node Plane
+22:41:31 | INFO: Blender create Mesh node Sphere.162
+22:41:31 | INFO: Blender create Mesh node Sphere.163
+22:41:31 | INFO: Blender create Mesh node Sphere.164
+22:41:31 | INFO: Blender create Mesh node Palm frond
+22:41:31 | INFO: Blender create Mesh node Palm frond.001
+22:41:31 | INFO: Blender create Mesh node Palm frond.002
+22:41:31 | INFO: Blender create Mesh node Palm frond.003
+22:41:31 | INFO: Blender create Mesh node Palm frond.004
+22:41:31 | INFO: Blender create Mesh node Palm frond.005
+22:41:31 | INFO: Blender create Mesh node Palm frond.006
+22:41:31 | INFO: Blender create Mesh node Palm frond.007
+22:41:31 | INFO: Blender create Mesh node Cone.084
+22:41:31 | INFO: Blender create Mesh node Cone.085
+22:41:31 | INFO: Blender create Mesh node Cone.086
+22:41:31 | INFO: Blender create Mesh node Cone.087
+22:41:31 | INFO: Blender create Mesh node Cone.088
+22:41:31 | INFO: Blender create Mesh node Cone.089
+22:41:31 | INFO: Blender create Mesh node Cone.090
+22:41:32 | INFO: Blender create Mesh node Canopy panel
+22:41:32 | INFO: Blender create Mesh node Canopy panel.001
+22:41:32 | INFO: Blender create Mesh node Canopy panel.002
+22:41:32 | INFO: Blender create Mesh node Canopy panel.003
+22:41:32 | INFO: Blender create Mesh node Canopy panel.004
+22:41:32 | INFO: Blender create Mesh node Canopy panel.005
+22:41:32 | INFO: Blender create Mesh node Canopy panel.006
+22:41:32 | INFO: Blender create Mesh node Canopy panel.007
+22:41:32 | INFO: Blender create Mesh node Cone.125
+22:41:32 | INFO: Blender create Mesh node Sphere.165
+22:41:32 | INFO: Blender create Mesh node Cone.095
+22:41:32 | INFO: Blender create Mesh node Flag
+22:41:32 | INFO: Blender create Mesh node Torus.006
+22:41:32 | INFO: Blender create Mesh node Cone.096
+22:41:32 | INFO: Blender create Mesh node Cone.097
+22:41:32 | INFO: Blender create Mesh node Sphere.166
+22:41:32 | INFO: Blender create Mesh node Sphere.167
+22:41:32 | INFO: Blender create Mesh node Cube.093
+22:41:32 | INFO: Blender create Mesh node Cube.094
+22:41:32 | INFO: Blender create Mesh node Cube.095
+22:41:32 | INFO: Blender create Mesh node Cube.096
+22:41:32 | INFO: Blender create Mesh node Cube.097
+22:41:32 | INFO: Blender create Mesh node Cube.098
+22:41:32 | INFO: Blender create Mesh node Cube.099
+22:41:32 | INFO: Blender create Mesh node Start title
+22:41:32 | INFO: Blender create Mesh node Cone.098
+22:41:32 | INFO: Blender create Mesh node Cone.099
+22:41:32 | INFO: Blender create Mesh node Ramp
+22:41:32 | INFO: Blender create Mesh node Cube.168
+22:41:32 | INFO: Blender create Mesh node Charge
+22:41:32 | INFO: Blender create Mesh node Torus.010
+22:41:32 | INFO: Blender create Mesh node Cube.169
+22:41:32 | INFO: Blender create Mesh node Arrow
+22:41:32 | INFO: Blender create Mesh node Cone.100
+22:41:32 | INFO: Blender create Mesh node Cone.101
+22:41:32 | INFO: Blender create Mesh node Cube.100
+22:41:32 | INFO: Blender create Mesh node Cube.168
+22:41:32 | INFO: Blender create Mesh node Cube.169
+22:41:32 | INFO: Blender create Mesh node Cube.100
+22:41:32 | INFO: Blender create Mesh node Cube.168
+22:41:32 | INFO: Blender create Mesh node Cube.169
+22:41:32 | INFO: Blender create Mesh node Cube.100
+22:41:32 | INFO: Blender create Mesh node Cube.081
+22:41:32 | INFO: Blender create Mesh node Cube.082
+22:41:32 | INFO: Blender create Mesh node Cube.083
+22:41:32 | INFO: Blender create Mesh node Cube.084
+22:41:32 | INFO: Blender create Mesh node Cube.085
+22:41:32 | INFO: Blender create Mesh node Cube.086
+22:41:32 | INFO: Blender create Mesh node Cube.087
+22:41:32 | INFO: Blender create Mesh node Cube.088
+22:41:32 | INFO: Blender create Mesh node Cube.089
+22:41:32 | INFO: Blender create Mesh node Cube.090
+22:41:33 | INFO: Blender create Mesh node Cube.091
+22:41:33 | INFO: Blender create Mesh node Cube.092
+22:41:33 | INFO: Blender create Mesh node Cone.091
+22:41:33 | INFO: Blender create Mesh node Cone.092
+22:41:33 | INFO: Blender create Mesh node Cone.093
+22:41:33 | INFO: Blender create Mesh node Cone.094
+22:41:33 | INFO: Blender create Mesh node Sphere.176
+22:41:33 | INFO: Blender create Mesh node Cube.166
+22:41:33 | INFO: Blender create Mesh node Cone.124
+22:41:33 | INFO: Blender create Mesh node Cube.167
+22:41:33 | INFO: Blender create Mesh node Cube.031
+22:41:33 | INFO: Blender create Mesh node Cube.032
+22:41:33 | INFO: Blender create Mesh node Cube.033
+22:41:33 | INFO: Blender create Mesh node Cube.034
+22:41:33 | INFO: Blender create Mesh node Cube.035
+22:41:33 | INFO: Blender create Mesh node Cube.036
+22:41:33 | INFO: Blender create Mesh node Cube.037
+22:41:33 | INFO: Blender create Mesh node Cube.039
+22:41:33 | INFO: Blender create Mesh node Cube.040
+22:41:33 | INFO: Blender create Mesh node Cube.041
+22:41:33 | INFO: Blender create Mesh node Cube.042
+22:41:33 | INFO: Blender create Mesh node Cube.043
+22:41:33 | INFO: Blender create Mesh node Cube.044
+22:41:33 | INFO: Blender create Mesh node Cube.045
+22:41:33 | INFO: Blender create Mesh node Cube.030
+22:41:33 | INFO: Blender create Mesh node Cube.038
+22:41:33 | INFO: Blender create Mesh node Sphere.152
+22:41:33 | INFO: Blender create Mesh node Cone.068
+22:41:33 | INFO: Blender create Mesh node Cone.069
+22:41:33 | INFO: Blender create Mesh node Cone.067
+22:41:33 | INFO: Blender create Mesh node Hull badge
+22:41:33 | INFO: Blender create Mesh node Sphere.153
+22:41:33 | INFO: Blender create Mesh node Torus.003
+22:41:33 | INFO: Blender create Mesh node Sphere.150
+22:41:33 | INFO: Blender create Mesh node Cube.046
+22:41:33 | INFO: Blender create Mesh node Sphere.151
+22:41:33 | INFO: Blender create Mesh node Mesh
+22:41:33 | INFO: Blender create Mesh node Cone.070
+22:41:33 | INFO: Blender create Mesh node Cone.071
+22:41:33 | INFO: Blender create Mesh node Cone.066
+22:41:33 | INFO: Blender create Mesh node Cube.048
+22:41:33 | INFO: Blender create Mesh node Cube.049
+22:41:33 | INFO: Blender create Mesh node Cube.050
+22:41:33 | INFO: Blender create Mesh node Cube.051
+22:41:33 | INFO: Blender create Mesh node Cube.052
+22:41:33 | INFO: Blender create Mesh node Cube.053
+22:41:33 | INFO: Blender create Mesh node Cube.054
+22:41:33 | INFO: Blender create Mesh node Cube.056
+22:41:33 | INFO: Blender create Mesh node Cube.057
+22:41:33 | INFO: Blender create Mesh node Cube.058
+22:41:33 | INFO: Blender create Mesh node Cube.059
+22:41:33 | INFO: Blender create Mesh node Cube.060
+22:41:33 | INFO: Blender create Mesh node Cube.061
+22:41:33 | INFO: Blender create Mesh node Cube.062
+22:41:33 | INFO: Blender create Mesh node Cube.047
+22:41:33 | INFO: Blender create Mesh node Cube.055
+22:41:33 | INFO: Blender create Mesh node Sphere.156
+22:41:33 | INFO: Blender create Mesh node Cone.074
+22:41:33 | INFO: Blender create Mesh node Cone.075
+22:41:33 | INFO: Blender create Mesh node Cone.073
+22:41:33 | INFO: Blender create Mesh node Hull badge.001
+22:41:33 | INFO: Blender create Mesh node Sphere.157
+22:41:33 | INFO: Blender create Mesh node Torus.004
+22:41:33 | INFO: Blender create Mesh node Sphere.154
+22:41:33 | INFO: Blender create Mesh node Cube.063
+22:41:33 | INFO: Blender create Mesh node Sphere.155
+22:41:33 | INFO: Blender create Mesh node Mesh
+22:41:33 | INFO: Blender create Mesh node Cone.076
+22:41:33 | INFO: Blender create Mesh node Cone.077
+22:41:33 | INFO: Blender create Mesh node Cone.072
+22:41:33 | INFO: Blender create Mesh node Cube.065
+22:41:33 | INFO: Blender create Mesh node Cube.066
+22:41:33 | INFO: Blender create Mesh node Cube.067
+22:41:33 | INFO: Blender create Mesh node Cube.068
+22:41:33 | INFO: Blender create Mesh node Cube.069
+22:41:33 | INFO: Blender create Mesh node Cube.070
+22:41:33 | INFO: Blender create Mesh node Cube.071
+22:41:33 | INFO: Blender create Mesh node Cube.073
+22:41:33 | INFO: Blender create Mesh node Cube.074
+22:41:33 | INFO: Blender create Mesh node Cube.075
+22:41:33 | INFO: Blender create Mesh node Cube.076
+22:41:33 | INFO: Blender create Mesh node Cube.077
+22:41:33 | INFO: Blender create Mesh node Cube.078
+22:41:33 | INFO: Blender create Mesh node Cube.079
+22:41:33 | INFO: Blender create Mesh node Cube.064
+22:41:34 | INFO: Blender create Mesh node Cube.072
+22:41:34 | INFO: Blender create Mesh node Sphere.160
+22:41:34 | INFO: Blender create Mesh node Cone.080
+22:41:34 | INFO: Blender create Mesh node Cone.081
+22:41:34 | INFO: Blender create Mesh node Cone.079
+22:41:34 | INFO: Blender create Mesh node Hull badge.002
+22:41:34 | INFO: Blender create Mesh node Sphere.161
+22:41:34 | INFO: Blender create Mesh node Torus.005
+22:41:34 | INFO: Blender create Mesh node Sphere.158
+22:41:34 | INFO: Blender create Mesh node Cube.080
+22:41:34 | INFO: Blender create Mesh node Sphere.159
+22:41:34 | INFO: Blender create Mesh node Mesh
+22:41:34 | INFO: Blender create Mesh node Cone.082
+22:41:34 | INFO: Blender create Mesh node Cone.083
+22:41:34 | INFO: Blender create Mesh node Cone.078
+22:41:34 | INFO: glTF import finished in 2.73s
+BLENDER_IMPORTS_OK [{"file": "Kai.glb", "mesh_objects": 29, "bounds_m": [1.146774709224701, 0.7269024550914764, 1.9199997725598053], "actions": 9}, {"file": "Kai_LOD2.glb", "mesh_objects": 29, "bounds_m": [1.146774709224701, 0.7255026996135712, 1.9208396168833133], "actions": 9}, {"file": "03_Leviathan_Power.glb", "mesh_objects": 30, "bounds_m": [1.2461994886398315, 3.213942289352417, 1.0499999821186066], "actions": 0}, {"file": "Palm_tree.glb", "mesh_objects": 18, "bounds_m": [3.299999952316284, 3.299999952316284, 3.2412132546305656], "actions": 0}, {"file": "Track_Sunbeam_Lagoon.glb", "mesh_objects": 674, "bounds_m": [180.0, 180.0, 12.240000247955322], "actions": 0}]
+{"file_count": 114, "storage_bytes": 38110065, "budget_bytes": 10000000000}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

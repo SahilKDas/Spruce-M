@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kai",
+    "category": "character",
+    "triangles_lod0": 187132,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Zuri",
+    "category": "character",
+    "triangles_lod0": 188196,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Riptide",
+    "category": "character",
+    "triangles_lod0": 78204,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Pip",
+    "category": "character",
+    "triangles_lod0": 80352,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Marina",
+    "category": "character",
+    "triangles_lod0": 77980,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Bolt",
+    "category": "character",
+    "triangles_lod0": 78272,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Mochi",
+    "category": "character",
+    "triangles_lod0": 80228,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  },
+  {
+    "name": "Ink",
+    "category": "character",
+    "triangles_lod0": 78940,
+    "bones": 28,
+    "finger_bones": 0,
+    "skinned": true,
+    "notes": "Revision 2: continuous elbow/knee topology, skinned body, fixed five-digit hands, FK and optional IK controls, joint-bend test."
+  }
+]
