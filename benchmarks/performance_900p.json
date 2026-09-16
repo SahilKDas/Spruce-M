@@ -1,0 +1,113 @@
+{
+	"adapter": "NVIDIA GeForce MX550",
+	"average_fps": 60.0022921100546,
+	"duration_seconds": 90.0069420000002,
+	"fps_cap": 60,
+	"fullscreen": true,
+	"internal_pixels": "(1600, 900)",
+	"kind": "rendered benchmark",
+	"notes": "Renderer memory excludes driver/desktop allocations. Headless results do not measure GPU performance.",
+	"one_percent_low_fps": 55.6019535576173,
+	"output_pixels": "(1920, 1080)",
+	"peak_draw_calls": 867,
+	"peak_primitives": 175867,
+	"peak_renderer_memory_bytes": 160082800.0,
+	"quality": 1,
+	"race_finishes": 0,
+	"recoveries_current_race": 0,
+	"renderer": "mobile",
+	"resolution": "(1280.0, 720.0)",
+	"riders": [
+		{
+			"next_gate": 15,
+			"passed_gates": 54,
+			"position": [
+				-8.32429218292236,
+				0.405655145645142,
+				-102.251289367676
+			],
+			"rider": "Kai",
+			"speed_kph": 59.1286102294922
+		},
+		{
+			"next_gate": 14,
+			"passed_gates": 53,
+			"position": [
+				-32.4797859191895,
+				0.496982663869858,
+				-89.2690277099609
+			],
+			"rider": "Zuri",
+			"speed_kph": 48.0223320007324
+		},
+		{
+			"next_gate": 6,
+			"passed_gates": 45,
+			"position": [
+				-16.3626003265381,
+				0.361876934766769,
+				94.7232513427734
+			],
+			"rider": "Riptide",
+			"speed_kph": 63.0328971862793
+		},
+		{
+			"next_gate": 7,
+			"passed_gates": 46,
+			"position": [
+				-31.6500282287598,
+				0.119223587214947,
+				95.6165313720703
+			],
+			"rider": "Pip",
+			"speed_kph": 49.6307373046875
+		},
+		{
+			"next_gate": 12,
+			"passed_gates": 51,
+			"position": [
+				-50.562068939209,
+				0.433725416660309,
+				-53.8012313842773
+			],
+			"rider": "Marina",
+			"speed_kph": 66.1330810546875
+		},
+		{
+			"next_gate": 9,
+			"passed_gates": 48,
+			"position": [
+				-60.6445274353027,
+				0.262966364622116,
+				54.214958190918
+			],
+			"rider": "Bolt",
+			"speed_kph": 44.242599105835
+		},
+		{
+			"next_gate": 12,
+			"passed_gates": 51,
+			"position": [
+				-55.2743339538574,
+				0.357147544622421,
+				-46.9999694824219
+			],
+			"rider": "Mochi",
+			"speed_kph": 65.8803131103516
+		},
+		{
+			"next_gate": 11,
+			"passed_gates": 50,
+			"position": [
+				-69.4715042114258,
+				0.487141638994217,
+				-5.32001066207886
+			],
+			"rider": "Ink",
+			"speed_kph": 69.246118927002
+		}
+	],
+	"scale_3d": 0.833333313465118,
+	"slow_frames_over_22ms": [],
+	"vsync": 1
+}

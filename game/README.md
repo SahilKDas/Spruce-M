@@ -1,0 +1,57 @@
+# Hydro Drift — first playable prototype
+
+From the repository root, double-click **Play Hydro Drift.cmd**.
+
+The game launches fullscreen in 16:9, capped at 60 FPS. The default Performance preset renders the 3D scene at 1280 × 720 and keeps the interface sharp at the display resolution. F11 switches fullscreen/windowed. Other aspect ratios use letterboxing.
+
+## Play
+
+Choose one of eight riders and three watercraft, then start an eight-racer race or a solo time trial. Follow the buoy course around Sunbeam Lagoon. Complete all 20 checkpoints in order for each of three laps. The minimap shows your heading, opponents, and the next checkpoint.
+
+| Action | Keyboard | Controller |
+| --- | --- | --- |
+| Throttle / brake / reverse | W / S or up / down | Right / left trigger |
+| Steer | A / D or left / right | Left stick |
+| Drift; release to earn boost | Shift | Right bumper |
+| Spend boost | Ctrl or E | X |
+| Hop | Space | A |
+| Recover at last checkpoint | R | Y |
+| Pause | Escape | Start |
+| Mute | M | Pause menu |
+| Performance overlay | F3 | — |
+| Fullscreen | F11 | — |
+
+Collect turquoise batteries to refill boost. Orange ramps offer a jump route. Rider fingers are fixed to the hands; body rigs retain bendable elbows and knees. The prototype uses a baked riding pose and whole-rider lean; a full animation set is still to come.
+
+## Current scope
+
+This is the handling and race-loop prototype: one short course, four-point buoyancy, drift/boost/hop, seven AI opponents, three craft handling profiles, checkpoints/laps, recovery, chase camera, wakes, pickups, minimap, pause/restart/results, and saved selections and time-trial records.
+
+Scenery, water, synthetic engine audio, AI tactics, and riding animation are preliminary. The six production courses, cups, other items, cosmetics, rebinding, vibration, accessibility options, and final sound/animation passes remain planned. A higher graphics preset is an option, not a promise of 60 FPS.
+
+## Rebuild runtime art
+
+The original high-detail Blender sources remain in `assets/source`. Runtime meshes are generated into ignored `game/art`: approximately 36,000 triangles for the local rider and 11,000 for each opponent, with Godot mesh LODs for distance. Fingers have no animation bones. No online services or paid assets are required.
+
+```powershell
+./tools/Setup-HydroDrift.ps1
+```
+
+Setup uses the locally downloaded Godot 4.7 Windows ZIP and installed Blender 5.1. It exports the committed source art, then imports the Godot project. The portable engine lives in ignored `.tools/godot`; asset caches live in ignored `game/.godot`. No installer or export templates are needed to play through the launcher.
+
+## Validation
+
+Run from the repository root:
+
+```powershell
+$godot = './.tools/godot/Godot_v4.7-stable_win64_console.exe'
+& $godot --headless --path game --script res://tests/rules_test.gd
+& $godot --headless --path game --script res://tests/controls_test.gd
+& $godot --headless --path game --script res://tests/three_lap_test.gd
+& $godot --headless --path game --script res://tests/integration_test.gd
+& $godot --path game -- --benchmark=90 --quality=0
+```
+
+Rendered benchmarks retain the 60 FPS cap and skip a 10-second warm-up. Presets are `0` (720p), `1` (900p), and `2` (1080p). Results go to `benchmarks/performance_720p.json` and corresponding resolution files. Renderer allocation counters exclude driver and desktop GPU allocations. Headless tests accelerate simulation while preserving the gameplay physics step; their FPS does not measure GPU performance.
+
+See `../benchmarks/README.md` for measurements and remaining acceptance criteria.

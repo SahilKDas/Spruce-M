@@ -1,0 +1,12 @@
+# Local tools, engine caches, captures and builds
+.tools/
+game/.godot/
+game/art/
+builds/
+benchmarks/*.png
+benchmarks/*.log
+benchmarks/*_raw.csv
+*.blend@
+*.blend[0-9]
+__pycache__/
+/*.log

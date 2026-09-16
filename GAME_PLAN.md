@@ -1,5 +1,17 @@
 # Hydro Drift — production plan
 
+## Implementation status — September 15, 2026
+
+The first native Godot prototype is implemented. Launch it with `Play Hydro Drift.cmd`; controls and rebuild instructions are in `game/README.md`.
+
+- Fullscreen 16:9 and a 60 FPS cap, as requested. Performance renders the world at 720p internally while keeping the interface at display resolution.
+- Eight selectable riders and three craft, one short Sunbeam Lagoon blockout, seven AI opponents, three-lap races and time trial.
+- Four-point buoyancy, drift-to-boost, hop, ramps, battery pickups, wakes, chase camera, minimap, ordered checkpoints, recovery, pause, results and saved preferences/records.
+- Blender-generated runtime riding poses with body skinning and fixed fingers. Local riders target 36k triangles and opponents 11k; source art is unchanged. These measured prototype budgets replace the larger initial targets for now.
+- Automated checks have completed 20 one-lap eight-racer races and verified all rider imports, menu flow, pause, recovery, results and time trial. Full milestone acceptance still requires the specified longer handling sessions, production lap length and hardware performance targets.
+
+`benchmarks/README.md` records actual hardware measurements and their limitations. This remains a prototype: final animation, sound, track art, additional tracks, cups, tactical AI and the other items are unfinished. The immediate next step is handling feedback and profiling the lowest frame rates before adding production content.
+
 ## Product target
 
 Hydro Drift is a third-person arcade racing game for Windows. Eight distinct riders race personal watercraft across bright coastal courses. The handling should be readable and responsive: carve, drift, jump, land, ride wakes, earn boost, and use a small set of items.
@@ -214,7 +226,7 @@ Done when the default preset selected on the target computer produces stable pla
 | --- | --- | --- | --- |
 | Internal resolution | 1280 × 720 | 1600 × 900 | 1920 × 1080 |
 | Shadows | one sun, short distance | one sun, medium distance | longer distance |
-| Reflection | probes only | probes + selective SSR | low-resolution planar where budget permits |
+| Reflection | sky/probes only | sky/probes | low-resolution planar where budget permits |
 | Water refraction | off | shallow/simple | full local effect |
 | Wake particles | 35% | 65% | 100% |
 | Opponent detail | earlier LOD | standard LOD | later LOD |
@@ -222,6 +234,8 @@ Done when the default preset selected on the target computer produces stable pla
 | Post effects | color grade | color grade + subtle bloom | adds selective effects |
 
 Use dynamic resolution only as a guarded fallback, with a floor of 67% and a slow response to prevent visible pumping. The Medium preset should pass without relying on frequent resolution changes.
+
+Godot's Mobile renderer does not support screen-space reflections (SSR). The prototype uses sky reflection on opaque water; probes and planar reflections are future profiling experiments. The current presets change internal resolution, shadow distance and MSAA only. See the [Godot renderer comparison](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html).
 
 ## Storage allocation
 
