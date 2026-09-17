@@ -1,0 +1,22 @@
+{
+  "file": "Hydro_Drift_Knights.blend",
+  "bytes": 140814651,
+  "sha256": "116616d7c3b366a04ad5ec8aa67c1884fda01fb67b5c3a10270d88dbb915aed7",
+  "parts": [
+    {
+      "file": "Hydro_Drift_Knights.blend.part01",
+      "bytes": 70000000,
+      "sha256": "e778a119e4c56e650fd5abe29a786ae86dc78bac67dcbb3d09d46b28c5395618"
+    },
+    {
+      "file": "Hydro_Drift_Knights.blend.part02",
+      "bytes": 70000000,
+      "sha256": "ebd4ef7102fb14b7f1433973bd6c3a99769ac287e70fcad58dcb884a7af5cffa"
+    },
+    {
+      "file": "Hydro_Drift_Knights.blend.part03",
+      "bytes": 814651,
+      "sha256": "0f3955ff52bcea6aa6890944f3708982c3a25b6ded1493f082673e9e889911ff"
+    }
+  ]
+}

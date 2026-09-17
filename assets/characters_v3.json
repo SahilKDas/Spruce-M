@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Kai",
+    "body_components": 1,
+    "body_control_vertices": 11676,
+    "body_control_faces": 12070,
+    "evaluated_source_triangles": 633664,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Zuri",
+    "body_components": 1,
+    "body_control_vertices": 11676,
+    "body_control_faces": 12070,
+    "evaluated_source_triangles": 683232,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Riptide",
+    "body_components": 1,
+    "body_control_vertices": 11290,
+    "body_control_faces": 11618,
+    "evaluated_source_triangles": 481472,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Pip",
+    "body_components": 1,
+    "body_control_vertices": 11676,
+    "body_control_faces": 12070,
+    "evaluated_source_triangles": 501312,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Marina",
+    "body_components": 1,
+    "body_control_vertices": 11680,
+    "body_control_faces": 12110,
+    "evaluated_source_triangles": 495584,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Bolt",
+    "body_components": 1,
+    "body_control_vertices": 11290,
+    "body_control_faces": 11618,
+    "evaluated_source_triangles": 489376,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Mochi",
+    "body_components": 1,
+    "body_control_vertices": 11676,
+    "body_control_faces": 12070,
+    "evaluated_source_triangles": 501312,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  },
+  {
+    "name": "Ink",
+    "body_components": 1,
+    "body_control_vertices": 11614,
+    "body_control_faces": 12010,
+    "evaluated_source_triangles": 492928,
+    "bone_count": 28,
+    "finger_bones": 0,
+    "method": "Connected branch topology; sculpted facial displacement; fitted clothing surfaces; subdivided control cages"
+  }
+]

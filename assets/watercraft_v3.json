@@ -1,0 +1,17 @@
+[
+  {
+    "name": "01_Needle_Agile",
+    "source_triangles": 514584,
+    "components": "Manufactured parts are separate fitted meshes; hull is one continuous shell"
+  },
+  {
+    "name": "02_Surge_Balanced",
+    "source_triangles": 514924,
+    "components": "Manufactured parts are separate fitted meshes; hull is one continuous shell"
+  },
+  {
+    "name": "03_Leviathan_Power",
+    "source_triangles": 515156,
+    "components": "Manufactured parts are separate fitted meshes; hull is one continuous shell"
+  }
+]

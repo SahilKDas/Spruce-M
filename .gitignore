@@ -9,4 +9,9 @@ benchmarks/*_raw.csv
 *.blend@
 *.blend[0-9]
 __pycache__/
+assets/vendor/blender-human-base/
+assets/vendor/makehuman/
 /*.log
+
+# Reassembled Blender source; lossless chunks are tracked instead.
+/assets/source/Hydro_Drift_Knights.blend

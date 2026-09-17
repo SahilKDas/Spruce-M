@@ -205,15 +205,7 @@ func _build_environment() -> void:
 	engine_playback = engine_audio.get_stream_playback() as AudioStreamGeneratorPlayback
 
 func _build_course() -> void:
-	var sand := _material(Color("d6be82"))
-	var grass := _material(Color("50884e"))
-	var island := SphereMesh.new()
-	island.radius = 1
-	island.height = 2
-	island.radial_segments = 64
-	island.rings = 24
-	_mesh(island,sand,Vector3(0,-2.3,0),Vector3(54,4,83))
-	_mesh(island,grass,Vector3(0,-3.3,0),Vector3(43,6.2,68))
+	_prop("Sunbeam_Island",Vector3.ZERO,1.0,0.0)
 	var solid := StaticBody3D.new()
 	var collision := CollisionShape3D.new()
 	var outline := PackedVector3Array()
@@ -236,12 +228,8 @@ func _build_course() -> void:
 	for i in 6:
 		_prop("Beach_umbrella",Vector3(40,1.0,-22+i*7),1.4,i)
 	_prop("Dock_3m",Vector3(49,0,12),2.0,PI*.5)
-	var buoy_mesh := CylinderMesh.new()
-	buoy_mesh.top_radius = .38
-	buoy_mesh.bottom_radius = .62
-	buoy_mesh.height = 1.05
-	buoy_mesh.radial_segments = 10
-	var buoy_mat := _material(Color("ff7949"),.38)
+	var buoy_scene := (load("res://art/Course_buoy.glb") as PackedScene).instantiate()
+	var buoy_mesh: Mesh = (buoy_scene.find_children("*","MeshInstance3D",true,false)[0] as MeshInstance3D).mesh
 	var buoys := MultiMesh.new()
 	buoys.transform_format = MultiMesh.TRANSFORM_3D
 	buoys.mesh = buoy_mesh
@@ -251,11 +239,11 @@ func _build_course() -> void:
 		var side := HydroCourse.tangent(a).cross(Vector3.UP)
 		for edge in 2:
 			var p := HydroCourse.point(a)+side*(HydroCourse.WIDTH*.55)*(1 if edge==0 else -1)
-			p.y = .35
+			p.y = .06
 			buoys.set_instance_transform(i*2+edge,Transform3D(Basis.IDENTITY,p))
 	var buoy_batch := MultiMeshInstance3D.new()
 	buoy_batch.multimesh = buoys
-	buoy_batch.material_override = buoy_mat
+	buoy_scene.free()
 	add_child(buoy_batch)
 	_start_arch()
 	for i in [4,11,16]:
@@ -292,6 +280,8 @@ func _prop(asset: String, p: Vector3, size: float, yaw: float) -> void:
 		return
 	var prop := scene_resource.instantiate() as Node3D
 	prop.position = p
+	if asset in ["Palm_tree","Coastal_rocks","Beach_umbrella"]:
+		prop.position.y = _terrain_height(p)-.08
 	prop.scale = Vector3.ONE*size
 	prop.rotation.y = yaw
 	add_child(prop)
@@ -336,17 +326,17 @@ func _ramp(p: Vector3, angle: float) -> void:
 	var collision := CollisionShape3D.new()
 	collision.shape = shape
 	body.add_child(collision)
-	var surface := SurfaceTool.new()
-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for index in [0,1,5,0,5,4,0,4,2,1,3,5,2,4,5,2,5,3,0,2,3,0,3,1]:
-		surface.add_vertex(points[index])
-	surface.generate_normals()
-	var model := MeshInstance3D.new()
-	model.mesh = surface.commit()
-	var material := _material(Color("ed8245"),.55)
-	material.cull_mode = BaseMaterial3D.CULL_DISABLED
-	model.material_override = material
+	var model := (load("res://art/Jump_ramp.glb") as PackedScene).instantiate() as Node3D
+	model.rotation.y = PI
 	body.add_child(model)
+
+func _terrain_height(p: Vector3) -> float:
+	var r := Vector2(p.x/54.0,p.z/83.0).length()
+	var radii := [0.0,.4,.65,.82,.95,1.0,1.18]
+	var heights := [2.65,2.5,1.8,.9,.2,-.08,-1.0]
+	for i in range(1,radii.size()):
+		if r<=radii[i]:return lerpf(heights[i-1],heights[i],inverse_lerp(radii[i-1],radii[i],r))
+	return -1.0
 
 func _style(color: Color, radius: int = 10) -> StyleBoxFlat:
 	var s := StyleBoxFlat.new()
@@ -407,9 +397,9 @@ func _build_ui() -> void:
 	var menu := _column(menu_panel,10)
 	menu.add_child(_label("SUNBEAM LAGOON  /  FIRST RIDE",13,TEAL))
 	menu.add_child(_label("HYDRO DRIFT",45))
-	menu.add_child(_label("Find your line. Ride the wake.",19,MUTED))
+	menu.add_child(_label("Steel armor. Salt water.",19,MUTED))
 	menu.add_child(HSeparator.new())
-	menu.add_child(_label("01   CHOOSE YOUR RIDER",13,MUTED))
+	menu.add_child(_label("01   CHOOSE YOUR KNIGHT",13,MUTED))
 	var grid := GridContainer.new()
 	grid.columns = 4
 	grid.add_theme_constant_override("h_separation",8)
@@ -438,7 +428,7 @@ func _build_ui() -> void:
 	graphics.custom_minimum_size.y = 36
 	graphics.item_selected.connect(_apply_quality)
 	menu.add_child(graphics)
-	menu.add_child(_button("RACE   /   8 RIDERS",func():time_trial=false;start_race(),true))
+	menu.add_child(_button("RACE   /   8 KNIGHTS",func():time_trial=false;start_race(),true))
 	menu.add_child(_button("TIME TRIAL",func():time_trial=true;start_race()))
 	menu.add_child(_label("WASD / arrows · steer & throttle\nSHIFT · drift    CTRL / E · boost    SPACE · hop\nR · recover    ESC · pause    F3 · stats    F11 · fullscreen",13,MUTED))
 	menu.add_child(_label("Controller: triggers · throttle/brake   RB · drift   X · boost",11,MUTED))
@@ -577,7 +567,7 @@ func _make_preview() -> void:
 	_clear_racers()
 	player = _spawn_racer(0,RIDERS[chosen_rider],chosen_craft,true)
 	player.freeze = true
-	player.position = HydroCourse.point(0)+Vector3(0,.2,-2)
+	player.position = HydroCourse.point(0)+Vector3(0,-.14,-2)
 
 func start_race() -> void:
 	get_tree().paused = false
@@ -664,11 +654,13 @@ func _update_camera(delta: float) -> void:
 	if not is_instance_valid(player):
 		return
 	if mode == "menu":
+		player.position.y = HydroCourse.wave(player.position,water_time)-.14
 		var angle := water_time*.075 + .60
 		var anchor := player.global_position
-		camera.position = anchor + Vector3(cos(angle)*6.1,3.0,sin(angle)*6.1)
-		camera.look_at(anchor+Vector3.UP*.9 + Vector3(-2.0,0,0))
-		camera.fov = 51
+		camera.position = anchor + Vector3(cos(angle)*4.5,2.3,sin(angle)*4.5)
+		var camera_right := Vector3(sin(angle),0,-cos(angle))
+		camera.look_at(anchor+Vector3.UP*.8-camera_right*1.25)
+		camera.fov = 46
 		return
 	var behind := player.global_basis.z
 	behind.y = 0
@@ -804,6 +796,8 @@ func _write_benchmark() -> void:
 	var report := {"kind":"headless smoke" if smoke else "rendered benchmark","duration_seconds":benchmark_elapsed,"adapter":RenderingServer.get_video_adapter_name(),"renderer":RenderingServer.get_current_rendering_method(),"resolution":str(get_viewport().get_visible_rect().size),"scale_3d":get_viewport().scaling_3d_scale,"quality":quality,"average_fps":1000.0/maxf(.001,total/maxi(1,samples.size())),"one_percent_low_fps":1000.0/maxf(.001,slow/slow_count),"peak_renderer_memory_bytes":memory_peak,"peak_draw_calls":draw_peak,"peak_primitives":primitive_peak,"race_finishes":race_finishes,"recoveries_current_race":recovery_count,"riders":progress,"notes":"Renderer memory excludes driver/desktop allocations. Headless results do not measure GPU performance."}
 	var folder := ProjectSettings.globalize_path("res://../benchmarks")
 	report["fps_cap"] = Engine.max_fps
+	report["asset_revision"] = 4
+	report["warmup_seconds"] = benchmark_warmup
 	report["vsync"] = DisplayServer.window_get_vsync_mode()
 	report["slow_frames_over_22ms"] = slow_frames
 	report["output_pixels"] = str(get_viewport().size)

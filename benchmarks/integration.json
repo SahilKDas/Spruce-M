@@ -3,8 +3,8 @@
 	"automated_races_completed": 20,
 	"mode": "headless, 8x simulation, one-lap eight-racer races; no GPU performance measurement",
 	"respawn_progress_preserved": true,
-	"simulated_seconds": 643.244663999892,
+	"simulated_seconds": 651.223903999879,
 	"target": 20,
 	"ui_flow_checks": true,
-	"wall_seconds": 80.588
+	"wall_seconds": 81.451
 }

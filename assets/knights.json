@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kai",
+    "title": "Sun Knight",
+    "width": 1,
+    "height": 1,
+    "crest": "sun",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Zuri",
+    "title": "Tide Knight",
+    "width": 0.92,
+    "height": 0.98,
+    "crest": "sail",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Riptide",
+    "title": "Deepwater Knight",
+    "width": 1.12,
+    "height": 1.07,
+    "crest": "fin",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Pip",
+    "title": "Copper Scout",
+    "width": 0.86,
+    "height": 0.9,
+    "crest": "low",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Marina",
+    "title": "Rose Knight",
+    "width": 0.94,
+    "height": 1.02,
+    "crest": "wings",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Bolt",
+    "title": "Iron Knight",
+    "width": 1.17,
+    "height": 1.05,
+    "crest": "block",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Mochi",
+    "title": "Bronze Guardian",
+    "width": 1.22,
+    "height": 0.94,
+    "crest": "crown",
+    "bones": 20,
+    "finger_bones": 0
+  },
+  {
+    "name": "Ink",
+    "title": "Violet Knight",
+    "width": 1,
+    "height": 1.04,
+    "crest": "split",
+    "bones": 20,
+    "finger_bones": 0
+  }
+]

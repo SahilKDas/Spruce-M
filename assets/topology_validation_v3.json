@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kai",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11676,
+    "control_faces": 12070
+  },
+  {
+    "name": "Zuri",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11676,
+    "control_faces": 12070
+  },
+  {
+    "name": "Riptide",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11290,
+    "control_faces": 11618
+  },
+  {
+    "name": "Pip",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11676,
+    "control_faces": 12070
+  },
+  {
+    "name": "Marina",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11680,
+    "control_faces": 12110
+  },
+  {
+    "name": "Bolt",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11290,
+    "control_faces": 11618
+  },
+  {
+    "name": "Mochi",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11676,
+    "control_faces": 12070
+  },
+  {
+    "name": "Ink",
+    "body_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "control_vertices": 11614,
+    "control_faces": 12010
+  }
+]

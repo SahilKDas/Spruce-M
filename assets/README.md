@@ -1,58 +1,71 @@
-# Hydro Drift — Blender asset library
+# Hydro Drift — knight roster and high-detail watercraft
 
-Character revision 2 replaces the original riders with anatomically proportioned, skinned characters. See `CHARACTER_RIGS.md` and open `source/Hydro_Drift_Characters.blend`. Rebuild revision 2 after any use of the legacy base-generation scripts.
+The active cast is now **eight armored knights**. The character rebuild uses an anatomical base with sculpted multiresolution detail, fitted metal armor, a closed helmet, gauntlets, and armored boots. Bodies have natural shoulders, elbows, hands, hips, and knees. Each knight has a distinct build, enamel palette, and helmet crest.
 
-Original procedural models authored in Blender 5.1.2 for this project. No downloaded models, texture packs, or external linked resources are required.
+## Current editable sources
 
-## Open the files
+- [Knight roster](source/Hydro_Drift_Knights.blend): all eight characters and their 20-bone body rigs.
+- [Kai authoring source](source/Hydro_Drift_Knight_Kai.blend): the base knight's editable armor and anatomical mesh.
+- [Watercraft](source/Hydro_Drift_Watercraft_v3.blend): Needle, Surge, and Leviathan, with continuous shaped hulls, footwell tread, upholstered saddles, controls, and waterjets.
+- [Environment](source/Hydro_Drift_Environment_v3.blend): palm, rocks, buoy, ramp, dock, umbrella, and Sunbeam island terrain.
+- [Knight roster preview](previews/25_knight_roster.png) and [actual exported riding pose](previews/26_knight_riding_pose.png).
 
-- `source/Hydro_Drift_Library.blend`: editable characters, watercraft, scenery, race props and presentation lighting. Individual models are collections. Source collections are excluded from the presentation view layer; enable a collection in the Outliner to edit it.
-- `source/Hydro_Drift_Courses.blend`: six assembled course art layouts. Sunbeam Lagoon is visible by default. Toggle collection visibility to inspect another layout.
-- `exports/`: individual binary glTF files, two reduced-detail versions of every individual asset, and six course layout exports.
-- `previews/`: Blender-rendered model sheets and course overviews.
-- `manifest.json`: asset inventory and evaluated triangle counts.
-- `validation.json`: export structure, geometry counts, animation counts and storage audit.
-- `course_layouts.json`: ordered reference race-line points and checkpoint counts.
+The neutral knight GLBs contain approximately **1.72 million triangles each**. The Blender body retains its additional sculpted multiresolution level. Watercraft have approximately **515k source triangles**. These counts describe geometry density; visual review of shape, materials, armor fit, and deformation is still required.
 
-## Inventory
+The anatomical mesh comes from Blender's official CC0 human base-mesh bundle. Hydro Drift's armor, helmets, materials, skeleton, weights, and export pipeline are custom work. See [source credit and license](vendor/README.md). This replaces the earlier mannequin construction; the anatomical base is not claimed as original project modeling.
 
-8 riders: Kai, Zuri, Riptide, Pip, Marina, Bolt, Mochi, Ink.
+## Knight roster
 
-3 watercraft: Needle (agile), Surge (balanced), Leviathan (power).
+| Name | Armor identity |
+| --- | --- |
+| Kai | Sun Knight — orange and teal |
+| Zuri | Tide Knight — teal and pale steel |
+| Riptide | Deepwater Knight — blue with a high fin crest |
+| Pip | Copper Scout — smaller copper armor |
+| Marina | Rose Knight — rose enamel and paired crests |
+| Bolt | Iron Knight — broad gunmetal armor |
+| Mochi | Bronze Guardian — broad cream and bronze armor |
+| Ink | Violet Knight — purple armor and split crest |
 
-25 other assets: palm, coastal rocks, ice cluster, dock, buoy, start arch, ramp, direction sign, shipping container, harbor building, mangrove, ruins arch, iceberg, lighthouse, volcano, geyser vent, boat, umbrella, barrier, four pickups, trophy, and water tile.
+## Runtime art
 
-6 assembled course art layouts: Sunbeam Lagoon, Neon Harbor, Mangrove Rush, Glacier Run, Stormbreak Bay, Ember Atoll. These share a reference loop for early art evaluation; distinct final racing geometry must be designed and playtested.
+Generated `game/art` is ignored by Git and recreated by setup. The local knight targets **160k triangles**, opponents **22k**, before Godot distance LODs. Craft use 120k local / 40k opponent meshes. Repeated buoys use 2k meshes in a MultiMesh. Full-detail sources and reusable GLBs stay available in `assets/source` and `assets/exports`.
 
-## Asset conventions
+Each hand and its modeled fingers move together; **there are no finger or thumb bones**. Plate pieces use rigid limb weights. The exporter solves the seated pose geometrically and bakes a static `Riding` action. Full racing, trick, and victory animations remain future work. See [rig instructions](CHARACTER_RIGS.md).
 
-- Blender source uses meters, Z up, forward -Y. glTF exports use the standard glTF axis conversion.
-- Main assets sit near their local origin. Craft have named rider, handlebar, and wake markers.
-- Base exports are the highest runtime detail; `_LOD1` and `_LOD2` are progressively reduced. Engine import does not automatically configure LOD switching. Small parts are retained to protect silhouettes.
-- Revision 2 riders use shared PBR colors and a small embedded woven normal map. Scenery and watercraft retain solid PBR colors. Surface UVs are provided on the main rider forms; dedicated painted texture atlases and lightmap unwraps are not included.
-- Curved character surfaces are smooth polygon meshes; watercraft hulls retain editable subdivision modifiers in Blender. This is a stylized foundational art pack, not finished hand-sculpted cinematic art.
-- Revision 2 characters have 28-bone rigs including optional IK controls, a skinned mesh with weighted elbows and knees, and a 100-frame joint-bend test. Fingers are modeled but have no individual bones; they remain fixed to each hand. See CHARACTER_RIGS.md for controls. Final racing clips and facial animation are not included.
-- Course checkpoint empties and a reference curve are authoring aids. No racing logic, collision setup, AI, water simulation, buoyancy, audio or engine effects are implemented here.
-- The water mesh and course water planes are visual placeholders. Engine water needs continuous waves, reflection settings and wake effects. Blender presentation lighting is not a gameplay performance benchmark.
-
-## Storage and performance budget
-
-Persistent project budget: **10,000,000,000 bytes** (10 GB decimal), including source assets, exports, previews and future game files. Temporary build files may be excluded, as requested. Do not fill the budget unnecessarily.
-
-Target machine: i7-1255U, NVIDIA MX550 2 GB VRAM, approximately 16 GB RAM, 1920×1080 display. Runtime FPS has not been measured: no playable engine build exists yet. Start performance testing at 1280×720 and tune toward 60 FPS. Import only one detail level at a time for distant props; use instancing for repeated track scenery; combine compatible render parts when preparing final runtime characters.
+Blender uses meters, Z up, forward -Y. Standard GLB export performs the coordinate conversion for Godot. Shared PBR materials define the colors and metal finishes. The Blender look-development materials include procedural microdetail; dedicated baked production texture atlases remain future work.
 
 ## Rebuild
 
-From the project root, using PowerShell:
+To prepare the game from committed sources:
 
 ```powershell
-& 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe' --background --python assets/build_assets.py
-& 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe' --background --python assets/rig_riders.py
-& 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe' --background --python assets/build_courses.py
-& 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe' --background --python assets/validate_assets.py
+./tools/Setup-HydroDrift.ps1
 ```
 
-The build writes the same named outputs. Blender may retain `.blend1` backup files. Rendering uses CPU Cycles so this asset-generation step does not depend on GPU render support. All generated geometry and material definitions are editable in the source script and saved Blender files.
+To rebuild the knight authoring files and exports:
 
+```powershell
+$blender = 'C:\Program Files\Blender Foundation\Blender 5.1\blender.exe'
+& $blender --background --python-exit-code 1 --python assets/rebuild_knight_kai.py -- --no-render
+& $blender --background --python-exit-code 1 --python assets/build_knight_roster.py
+& $blender --background --python-exit-code 1 --python assets/audit_knight_sources.py
+& $blender --background --python-exit-code 1 --python assets/export_knights.py
+python assets/validate_knights.py
+& $blender --background --python-exit-code 1 --python assets/render_knight_riding.py
+```
 
+The committed `vendor/Blender_CC0_Male_Anatomy.blend` makes the character build self-contained. Exporting all eight dense models takes several minutes. Most source viewport subdivision is disabled to keep editing responsive; render detail is retained.
 
+Rebuild watercraft/environment with `rebuild_watercraft_v3.py` and `rebuild_environment_v3.py`, then run `export_assets_v3.py -- --props-only` through Blender. `tools/prepare_runtime_assets.py` exports these props and then the current knights.
+
+## Validation and scope
+
+- [Source rig audit](knight_source_validation.json): 20 body bones, no finger bones, rigid digit and armor weights.
+- [Export audit](knight_validation.json): evaluated geometry and normalized skinning.
+- [Actual GLB audit](knight_glb_validation.json): triangle counts, finite bounds, limb bones, actual weight values, and riding animation channels.
+- [Hardware performance and game tests](../benchmarks/README.md).
+
+The earlier unversioned libraries, revision 2/3 character files, their previews, and old validation reports are historical studies. They are not the active game cast. Future-course props and six earlier course layouts have not been redesigned in this pass and are not loaded by the playable course.
+
+Persistent storage must remain below **10 GB**. Target hardware remains the i7-1255U, MX550 2 GB, and 16 GB RAM. The game retains 16:9 fullscreen and its 60 FPS cap.

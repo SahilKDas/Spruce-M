@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Palm_tree",
+    "source_triangles": 113856
+  },
+  {
+    "name": "Coastal_rocks",
+    "source_triangles": 95040
+  },
+  {
+    "name": "Course_buoy",
+    "source_triangles": 27488
+  },
+  {
+    "name": "Beach_umbrella",
+    "source_triangles": 43360
+  },
+  {
+    "name": "Dock_3m",
+    "source_triangles": 69120
+  },
+  {
+    "name": "Jump_ramp",
+    "source_triangles": 54168
+  },
+  {
+    "name": "Sunbeam_Island",
+    "source_triangles": 124032
+  }
+]

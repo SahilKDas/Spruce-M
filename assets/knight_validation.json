@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Kai",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Zuri",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Riptide",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Pip",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Marina",
+    "source_glb_triangles": 1739984,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Bolt",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Mochi",
+    "source_glb_triangles": 1720976,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  },
+  {
+    "name": "Ink",
+    "source_glb_triangles": 1739984,
+    "near_target": 160000,
+    "far_target": 22000,
+    "bones": 20,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "weights_normalized_after_modifiers": 0,
+    "theme": "knight"
+  }
+]

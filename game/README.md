@@ -6,7 +6,7 @@ The game launches fullscreen in 16:9, capped at 60 FPS. The default Performance 
 
 ## Play
 
-Choose one of eight riders and three watercraft, then start an eight-racer race or a solo time trial. Follow the buoy course around Sunbeam Lagoon. Complete all 20 checkpoints in order for each of three laps. The minimap shows your heading, opponents, and the next checkpoint.
+Choose one of eight armored knights and three watercraft, then start an eight-racer race or a solo time trial. Follow the buoy course around Sunbeam Lagoon. Complete all 20 checkpoints in order for each of three laps. The minimap shows your heading, opponents, and the next checkpoint.
 
 | Action | Keyboard | Controller |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ Scenery, water, synthetic engine audio, AI tactics, and riding animation are pre
 
 ## Rebuild runtime art
 
-The original high-detail Blender sources remain in `assets/source`. Runtime meshes are generated into ignored `game/art`: approximately 36,000 triangles for the local rider and 11,000 for each opponent, with Godot mesh LODs for distance. Fingers have no animation bones. No online services or paid assets are required.
+The current editable Blender sources are `assets/source/Hydro_Drift_Knights.blend`, `Hydro_Drift_Watercraft_v3.blend`, and `Hydro_Drift_Environment_v3.blend`. Runtime meshes are generated into ignored `game/art`: approximately 160,000 triangles for the local knight, 22,000 per opponent, and 120,000/40,000 for local/opponent craft before Godot mesh LODs. All knights use 20-bone body rigs and static modeled fingers. The anatomical mesh is from Blender's CC0 human base-mesh bundle; armor, rigs, watercraft, and scenery are custom Blender work. See `assets/vendor/README.md` for attribution.
 
 ```powershell
 ./tools/Setup-HydroDrift.ps1

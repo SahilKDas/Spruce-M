@@ -48,7 +48,7 @@ func _ready() -> void:
 	max_contacts_reported = 4
 	var shape := CollisionShape3D.new()
 	var box := BoxShape3D.new()
-	box.size = Vector3(1.1,.55,2.7)
+	box.size = Vector3(1.1,.55,3.05)
 	shape.shape = box
 	shape.position.y = .35
 	add_child(shape)
@@ -57,7 +57,7 @@ func _ready() -> void:
 	physics_material_override.bounce = .05
 	visual = Node3D.new()
 	add_child(visual)
-	var model := load("res://art/%s.glb" % CRAFT_FILES[craft_index]) as PackedScene
+	var model := load("res://art/%s%s.glb" % [CRAFT_FILES[craft_index],"" if human else "_far"]) as PackedScene
 	if model:
 		var craft := model.instantiate() as Node3D
 		craft.rotation.y = PI
@@ -184,7 +184,7 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 	for sample in SAMPLE_POINTS:
 		var offset: Vector3 = basis * sample
 		var p := origin + offset
-		var depth := HydroCourse.wave(p, race.water_time) + .52 - p.y
+		var depth := HydroCourse.wave(p, race.water_time) + .10 - p.y
 		if depth > 0.0:
 			wet += 1
 			var local_speed := state.linear_velocity + state.angular_velocity.cross(offset)

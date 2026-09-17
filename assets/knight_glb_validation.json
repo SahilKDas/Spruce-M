@@ -1,0 +1,381 @@
+{
+  "revision": 4,
+  "assets": [
+    {
+      "name": "Kai",
+      "exports": [
+        {
+          "file": "assets\\exports\\Kai.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72407628,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Kai_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91420,
+          "bytes": 6468052,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Kai_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14919,
+          "bytes": 1048368,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Kai_near.glb",
+          "triangles": 160000,
+          "vertices": 91478,
+          "bytes": 6486540,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Kai_far.glb",
+          "triangles": 21990,
+          "vertices": 14955,
+          "bytes": 1065524,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Zuri",
+      "exports": [
+        {
+          "file": "assets\\exports\\Zuri.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72407816,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Zuri_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91415,
+          "bytes": 6467936,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Zuri_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14923,
+          "bytes": 1048788,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Zuri_near.glb",
+          "triangles": 160000,
+          "vertices": 91478,
+          "bytes": 6486752,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Zuri_far.glb",
+          "triangles": 21990,
+          "vertices": 14959,
+          "bytes": 1065956,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Riptide",
+      "exports": [
+        {
+          "file": "assets\\exports\\Riptide.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72407996,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Riptide_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91418,
+          "bytes": 6468304,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Riptide_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14919,
+          "bytes": 1048720,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Riptide_near.glb",
+          "triangles": 160000,
+          "vertices": 91479,
+          "bytes": 6486888,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Riptide_far.glb",
+          "triangles": 21990,
+          "vertices": 14959,
+          "bytes": 1066024,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Pip",
+      "exports": [
+        {
+          "file": "assets\\exports\\Pip.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72407840,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Pip_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91423,
+          "bytes": 6468452,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Pip_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14920,
+          "bytes": 1048632,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Pip_near.glb",
+          "triangles": 160000,
+          "vertices": 91492,
+          "bytes": 6487428,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Pip_far.glb",
+          "triangles": 21990,
+          "vertices": 14960,
+          "bytes": 1065852,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Marina",
+      "exports": [
+        {
+          "file": "assets\\exports\\Marina.glb",
+          "triangles": 1739984,
+          "vertices": 902395,
+          "bytes": 73092336,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Marina_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91388,
+          "bytes": 6466428,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Marina_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14904,
+          "bytes": 1047756,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Marina_near.glb",
+          "triangles": 160000,
+          "vertices": 91450,
+          "bytes": 6485476,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Marina_far.glb",
+          "triangles": 21990,
+          "vertices": 14944,
+          "bytes": 1065480,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Bolt",
+      "exports": [
+        {
+          "file": "assets\\exports\\Bolt.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72408012,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Bolt_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91419,
+          "bytes": 6468384,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Bolt_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14920,
+          "bytes": 1048804,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Bolt_near.glb",
+          "triangles": 160000,
+          "vertices": 91488,
+          "bytes": 6487604,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Bolt_far.glb",
+          "triangles": 21990,
+          "vertices": 14960,
+          "bytes": 1066268,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Mochi",
+      "exports": [
+        {
+          "file": "assets\\exports\\Mochi.glb",
+          "triangles": 1720976,
+          "vertices": 892889,
+          "bytes": 72407940,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Mochi_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91414,
+          "bytes": 6468000,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Mochi_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14917,
+          "bytes": 1047176,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Mochi_near.glb",
+          "triangles": 160000,
+          "vertices": 91475,
+          "bytes": 6486628,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Mochi_far.glb",
+          "triangles": 21990,
+          "vertices": 14956,
+          "bytes": 1064436,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    },
+    {
+      "name": "Ink",
+      "exports": [
+        {
+          "file": "assets\\exports\\Ink.glb",
+          "triangles": 1739984,
+          "vertices": 902395,
+          "bytes": 73092212,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Ink_LOD1.glb",
+          "triangles": 160000,
+          "vertices": 91385,
+          "bytes": 6466124,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "assets\\exports\\Ink_LOD2.glb",
+          "triangles": 21990,
+          "vertices": 14905,
+          "bytes": 1047684,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Ink_near.glb",
+          "triangles": 160000,
+          "vertices": 91446,
+          "bytes": 6485112,
+          "bad_skin_weights": 0,
+          "skins": 1
+        },
+        {
+          "file": "game\\art\\Ink_far.glb",
+          "triangles": 21990,
+          "vertices": 14945,
+          "bytes": 1065396,
+          "bad_skin_weights": 0,
+          "skins": 1
+        }
+      ]
+    }
+  ]
+}

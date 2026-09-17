@@ -1,0 +1,140 @@
+[
+  {
+    "name": "01_Needle_Agile",
+    "source_triangles": 514584,
+    "runtime_target": 120000
+  },
+  {
+    "name": "02_Surge_Balanced",
+    "source_triangles": 514924,
+    "runtime_target": 120000
+  },
+  {
+    "name": "03_Leviathan_Power",
+    "source_triangles": 515156,
+    "runtime_target": 120000
+  },
+  {
+    "name": "Palm_tree",
+    "source_triangles": 113856,
+    "runtime_target": 30000
+  },
+  {
+    "name": "Coastal_rocks",
+    "source_triangles": 95040,
+    "runtime_target": 35000
+  },
+  {
+    "name": "Course_buoy",
+    "source_triangles": 27488,
+    "runtime_target": 4000
+  },
+  {
+    "name": "Jump_ramp",
+    "source_triangles": 54168,
+    "runtime_target": 18000
+  },
+  {
+    "name": "Dock_3m",
+    "source_triangles": 69120,
+    "runtime_target": 22000
+  },
+  {
+    "name": "Beach_umbrella",
+    "source_triangles": 43360,
+    "runtime_target": 18000
+  },
+  {
+    "name": "Sunbeam_Island",
+    "source_triangles": 124032,
+    "runtime_target": 100000
+  },
+  {
+    "name": "Kai",
+    "source_triangles": 633664,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Zuri",
+    "source_triangles": 683232,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Riptide",
+    "source_triangles": 481472,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Pip",
+    "source_triangles": 501312,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Marina",
+    "source_triangles": 495584,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Bolt",
+    "source_triangles": 489376,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Mochi",
+    "source_triangles": 501312,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  },
+  {
+    "name": "Ink",
+    "source_triangles": 492928,
+    "body_components": 1,
+    "bones": 28,
+    "finger_bones": 0,
+    "unweighted_vertices": 0,
+    "invalid_weight_sums": 0,
+    "near_target": 160000,
+    "far_target": 45000
+  }
+]

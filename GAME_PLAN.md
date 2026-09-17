@@ -1,20 +1,20 @@
-# Hydro Drift — production plan
+# Hydro Drift â€” production plan
 
-## Implementation status — September 15, 2026
+## Implementation status â€” September 16, 2026
 
 The first native Godot prototype is implemented. Launch it with `Play Hydro Drift.cmd`; controls and rebuild instructions are in `game/README.md`.
 
 - Fullscreen 16:9 and a 60 FPS cap, as requested. Performance renders the world at 720p internally while keeping the interface at display resolution.
-- Eight selectable riders and three craft, one short Sunbeam Lagoon blockout, seven AI opponents, three-lap races and time trial.
+- Eight selectable armored knights and three craft, one short Sunbeam Lagoon blockout, seven AI opponents, three-lap races and time trial.
 - Four-point buoyancy, drift-to-boost, hop, ramps, battery pickups, wakes, chase camera, minimap, ordered checkpoints, recovery, pause, results and saved preferences/records.
-- Blender-generated runtime riding poses with body skinning and fixed fingers. Local riders target 36k triangles and opponents 11k; source art is unchanged. These measured prototype budgets replace the larger initial targets for now.
+- Revision 4 replaces all riders with armored knights using a CC0 anatomical base, custom fitted plate armor, and 20-bone rigs with static fingers. High-detail character exports contain about 1.72–1.76 million triangles. Runtime targets are 160k for the local knight, 22k per opponent, 120k for the local craft, and 40k per opponent craft before distance LODs. New continuous hulls and course scenery remain from the revision 3 rebuild.
 - Automated checks have completed 20 one-lap eight-racer races and verified all rider imports, menu flow, pause, recovery, results and time trial. Full milestone acceptance still requires the specified longer handling sessions, production lap length and hardware performance targets.
 
 `benchmarks/README.md` records actual hardware measurements and their limitations. This remains a prototype: final animation, sound, track art, additional tracks, cups, tactical AI and the other items are unfinished. The immediate next step is handling feedback and profiling the lowest frame rates before adding production content.
 
 ## Product target
 
-Hydro Drift is a third-person arcade racing game for Windows. Eight distinct riders race personal watercraft across bright coastal courses. The handling should be readable and responsive: carve, drift, jump, land, ride wakes, earn boost, and use a small set of items.
+Hydro Drift is a third-person arcade racing game for Windows. Eight distinct armored knights race personal watercraft across bright coastal courses. The handling should be readable and responsive: carve, drift, jump, land, ride wakes, earn boost, and use a small set of items.
 
 The first release target is this computer:
 
@@ -23,10 +23,10 @@ The first release target is this computer:
 | CPU | Intel Core i7-1255U, 10 cores / 12 threads |
 | GPU | NVIDIA GeForce MX550, 2 GB dedicated VRAM |
 | Memory | 16 GB |
-| Display | 1920 × 1080 |
+| Display | 1920 Ã— 1080 |
 | Persistent project storage | 10 GB maximum |
 
-Primary performance target: a stable 60 FPS during an eight-racer match. Begin at 1280 × 720 internal resolution and test 1600 × 900 after the frame-time target is met. Offer a 30 FPS quality mode at 1920 × 1080 only if it remains stable.
+Primary performance target: a stable 60 FPS during an eight-racer match. Begin at 1280 Ã— 720 internal resolution and test 1600 Ã— 900 after the frame-time target is met. Offer a 30 FPS quality mode at 1920 Ã— 1080 only if it remains stable.
 
 ## Technical direction
 
@@ -71,12 +71,12 @@ Runtime character targets per racer:
 
 | Distance | Triangle target | Texture target |
 | --- | --- | --- |
-| Local rider close-up | 70k–100k | shared 2K body atlas, 1K gear atlas |
-| Nearby opponent | 25k–45k | 1K atlases |
-| Mid-distance opponent | 8k–15k | 512–1K atlases |
-| Far opponent | 2k–5k or impostor | 256–512 atlas |
+| Local rider close-up | 160k | shared 2K body atlas, 1K gear atlas |
+| Nearby opponent | 25kâ€“45k | 1K atlases |
+| Mid-distance opponent | 8kâ€“15k | 512â€“1K atlases |
+| Far opponent | 2kâ€“5k or impostor | 256â€“512 atlas |
 
-The current Kai and Zuri source meshes are about 187k–188k triangles, and their current LOD2 exports are about 47k. Treat the full meshes as Blender source art. Produce additional game LODs before eight-racer performance testing. Other riders are about 78k–80k at full detail and 19k–20k at LOD2, which is closer to the nearby-opponent budget.
+Revision 4 uses eight armored knights with roughly 1.72–1.76 million triangles in the high-detail neutral exports. Anatomical multiresolution detail remains editable in Blender. The game uses 160k/22k rider meshes and Godot-generated distance LODs. Painted texture atlases in the table remain production targets; current assets use PBR color materials.
 
 Texture rules:
 
@@ -185,7 +185,7 @@ Done when ten consecutive five-minute sessions have no loss of control, no flipp
 - Sunbeam Lagoon blockout, checkpoint and lap logic, four AI racers, countdown, HUD and results.
 - Position tracking, item pickup, audio placeholders and pause/settings menus.
 
-Done when 20 automated or observed races finish correctly and four racers hold 60 FPS at 1600 × 900 internal resolution in the blockout.
+Done when 20 automated or observed races finish correctly and four racers hold 60 FPS at 1600 Ã— 900 internal resolution in the blockout.
 
 ### 3. Visual benchmark
 
@@ -224,7 +224,7 @@ Done when the default preset selected on the target computer produces stable pla
 
 | Setting | Low | Medium (target default) | High |
 | --- | --- | --- | --- |
-| Internal resolution | 1280 × 720 | 1600 × 900 | 1920 × 1080 |
+| Internal resolution | 1280 Ã— 720 | 1600 Ã— 900 | 1920 Ã— 1080 |
 | Shadows | one sun, short distance | one sun, medium distance | longer distance |
 | Reflection | sky/probes only | sky/probes | low-resolution planar where budget permits |
 | Water refraction | off | shallow/simple | full local effect |

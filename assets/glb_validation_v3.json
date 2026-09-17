@@ -1,0 +1,771 @@
+{
+  "revision": 3,
+  "assets": [
+    {
+      "name": "01_Needle_Agile",
+      "exports": [
+        {
+          "file": "assets\\exports\\01_Needle_Agile.glb",
+          "triangles": 514584,
+          "bytes": 14365036,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\01_Needle_Agile_LOD1.glb",
+          "triangles": 120000,
+          "bytes": 3249816,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\01_Needle_Agile_LOD2.glb",
+          "triangles": 40000,
+          "bytes": 1130068,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\01_Needle_Agile.glb",
+          "triangles": 120000,
+          "bytes": 3249816,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "02_Surge_Balanced",
+      "exports": [
+        {
+          "file": "assets\\exports\\02_Surge_Balanced.glb",
+          "triangles": 514924,
+          "bytes": 14392596,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\02_Surge_Balanced_LOD1.glb",
+          "triangles": 120000,
+          "bytes": 3257740,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\02_Surge_Balanced_LOD2.glb",
+          "triangles": 39999,
+          "bytes": 1136028,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\02_Surge_Balanced.glb",
+          "triangles": 120000,
+          "bytes": 3257740,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "03_Leviathan_Power",
+      "exports": [
+        {
+          "file": "assets\\exports\\03_Leviathan_Power.glb",
+          "triangles": 515156,
+          "bytes": 14410772,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\03_Leviathan_Power_LOD1.glb",
+          "triangles": 120000,
+          "bytes": 3270956,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\03_Leviathan_Power_LOD2.glb",
+          "triangles": 40000,
+          "bytes": 1143340,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\03_Leviathan_Power.glb",
+          "triangles": 120000,
+          "bytes": 3270956,
+          "material_surfaces": 8,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Palm_tree",
+      "exports": [
+        {
+          "file": "assets\\exports\\Palm_tree.glb",
+          "triangles": 113856,
+          "bytes": 2858532,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Palm_tree_LOD1.glb",
+          "triangles": 30000,
+          "bytes": 870892,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Palm_tree_LOD2.glb",
+          "triangles": 9999,
+          "bytes": 331216,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Palm_tree.glb",
+          "triangles": 30000,
+          "bytes": 870892,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Coastal_rocks",
+      "exports": [
+        {
+          "file": "assets\\exports\\Coastal_rocks.glb",
+          "triangles": 95040,
+          "bytes": 2093480,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Coastal_rocks_LOD1.glb",
+          "triangles": 35000,
+          "bytes": 772520,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Coastal_rocks_LOD2.glb",
+          "triangles": 11666,
+          "bytes": 259164,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Coastal_rocks.glb",
+          "triangles": 35000,
+          "bytes": 772520,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Course_buoy",
+      "exports": [
+        {
+          "file": "assets\\exports\\Course_buoy.glb",
+          "triangles": 27488,
+          "bytes": 633736,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Course_buoy_LOD1.glb",
+          "triangles": 4000,
+          "bytes": 99528,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Course_buoy_LOD2.glb",
+          "triangles": 2000,
+          "bytes": 53148,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Course_buoy.glb",
+          "triangles": 4000,
+          "bytes": 99528,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Jump_ramp",
+      "exports": [
+        {
+          "file": "assets\\exports\\Jump_ramp.glb",
+          "triangles": 54168,
+          "bytes": 1218932,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Jump_ramp_LOD1.glb",
+          "triangles": 18000,
+          "bytes": 420412,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Jump_ramp_LOD2.glb",
+          "triangles": 6000,
+          "bytes": 151500,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Jump_ramp.glb",
+          "triangles": 18000,
+          "bytes": 420412,
+          "material_surfaces": 4,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Dock_3m",
+      "exports": [
+        {
+          "file": "assets\\exports\\Dock_3m.glb",
+          "triangles": 69120,
+          "bytes": 1525948,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Dock_3m_LOD1.glb",
+          "triangles": 22000,
+          "bytes": 489288,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Dock_3m_LOD2.glb",
+          "triangles": 7332,
+          "bytes": 166192,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Dock_3m.glb",
+          "triangles": 22000,
+          "bytes": 489288,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Beach_umbrella",
+      "exports": [
+        {
+          "file": "assets\\exports\\Beach_umbrella.glb",
+          "triangles": 43360,
+          "bytes": 982560,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Beach_umbrella_LOD1.glb",
+          "triangles": 18000,
+          "bytes": 414332,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Beach_umbrella_LOD2.glb",
+          "triangles": 6000,
+          "bytes": 145616,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Beach_umbrella.glb",
+          "triangles": 18000,
+          "bytes": 414332,
+          "material_surfaces": 3,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Sunbeam_Island",
+      "exports": [
+        {
+          "file": "assets\\exports\\Sunbeam_Island.glb",
+          "triangles": 124032,
+          "bytes": 2751896,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Sunbeam_Island_LOD1.glb",
+          "triangles": 99999,
+          "bytes": 2223124,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Sunbeam_Island_LOD2.glb",
+          "triangles": 33332,
+          "bytes": 753344,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Sunbeam_Island.glb",
+          "triangles": 99999,
+          "bytes": 2223124,
+          "material_surfaces": 2,
+          "skins": 0,
+          "animations": 0
+        }
+      ]
+    },
+    {
+      "name": "Kai",
+      "exports": [
+        {
+          "file": "assets\\exports\\Kai.glb",
+          "triangles": 633664,
+          "bytes": 23160624,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Kai_LOD1.glb",
+          "triangles": 160000,
+          "bytes": 5201056,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Kai_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1493448,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Kai_near.glb",
+          "triangles": 160000,
+          "bytes": 5214108,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Kai_far.glb",
+          "triangles": 45000,
+          "bytes": 1506500,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Zuri",
+      "exports": [
+        {
+          "file": "assets\\exports\\Zuri.glb",
+          "triangles": 683232,
+          "bytes": 25059272,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Zuri_LOD1.glb",
+          "triangles": 160000,
+          "bytes": 5197868,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Zuri_LOD2.glb",
+          "triangles": 44999,
+          "bytes": 1491960,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Zuri_near.glb",
+          "triangles": 160000,
+          "bytes": 5211200,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Zuri_far.glb",
+          "triangles": 44999,
+          "bytes": 1505288,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Riptide",
+      "exports": [
+        {
+          "file": "assets\\exports\\Riptide.glb",
+          "triangles": 481472,
+          "bytes": 17135164,
+          "material_surfaces": 11,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Riptide_LOD1.glb",
+          "triangles": 159999,
+          "bytes": 5208252,
+          "material_surfaces": 11,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Riptide_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1497140,
+          "material_surfaces": 11,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Riptide_near.glb",
+          "triangles": 159999,
+          "bytes": 5221416,
+          "material_surfaces": 11,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Riptide_far.glb",
+          "triangles": 45000,
+          "bytes": 1510296,
+          "material_surfaces": 11,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Pip",
+      "exports": [
+        {
+          "file": "assets\\exports\\Pip.glb",
+          "triangles": 501312,
+          "bytes": 17998088,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Pip_LOD1.glb",
+          "triangles": 160000,
+          "bytes": 5206084,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Pip_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1495732,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Pip_near.glb",
+          "triangles": 160000,
+          "bytes": 5219124,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Pip_far.glb",
+          "triangles": 45000,
+          "bytes": 1508776,
+          "material_surfaces": 12,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Marina",
+      "exports": [
+        {
+          "file": "assets\\exports\\Marina.glb",
+          "triangles": 495584,
+          "bytes": 17911860,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Marina_LOD1.glb",
+          "triangles": 160000,
+          "bytes": 5193436,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Marina_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1488524,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Marina_near.glb",
+          "triangles": 160000,
+          "bytes": 5206592,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Marina_far.glb",
+          "triangles": 45000,
+          "bytes": 1501672,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Bolt",
+      "exports": [
+        {
+          "file": "assets\\exports\\Bolt.glb",
+          "triangles": 489376,
+          "bytes": 17597208,
+          "material_surfaces": 8,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Bolt_LOD1.glb",
+          "triangles": 159999,
+          "bytes": 5192132,
+          "material_surfaces": 8,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Bolt_LOD2.glb",
+          "triangles": 44999,
+          "bytes": 1487240,
+          "material_surfaces": 8,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Bolt_near.glb",
+          "triangles": 159999,
+          "bytes": 5205764,
+          "material_surfaces": 8,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Bolt_far.glb",
+          "triangles": 44999,
+          "bytes": 1500880,
+          "material_surfaces": 8,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Mochi",
+      "exports": [
+        {
+          "file": "assets\\exports\\Mochi.glb",
+          "triangles": 501312,
+          "bytes": 17940916,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Mochi_LOD1.glb",
+          "triangles": 159999,
+          "bytes": 5208076,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Mochi_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1498064,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Mochi_near.glb",
+          "triangles": 159999,
+          "bytes": 5221104,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Mochi_far.glb",
+          "triangles": 45000,
+          "bytes": 1511088,
+          "material_surfaces": 13,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    },
+    {
+      "name": "Ink",
+      "exports": [
+        {
+          "file": "assets\\exports\\Ink.glb",
+          "triangles": 492928,
+          "bytes": 17810944,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Ink_LOD1.glb",
+          "triangles": 160000,
+          "bytes": 5193236,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        },
+        {
+          "file": "assets\\exports\\Ink_LOD2.glb",
+          "triangles": 45000,
+          "bytes": 1488208,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 0
+        }
+      ],
+      "runtime": [
+        {
+          "file": "game\\art\\Ink_near.glb",
+          "triangles": 160000,
+          "bytes": 5206524,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 1
+        },
+        {
+          "file": "game\\art\\Ink_far.glb",
+          "triangles": 45000,
+          "bytes": 1501496,
+          "material_surfaces": 10,
+          "skins": 1,
+          "animations": 1
+        }
+      ]
+    }
+  ]
+}
