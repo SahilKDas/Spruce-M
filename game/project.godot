@@ -11,8 +11,8 @@ run/max_fps=60
 [display]
 window/size/viewport_width=1280
 window/size/viewport_height=720
-window/size/window_width_override=1280
-window/size/window_height_override=720
+window/size/window_width_override=1920
+window/size/window_height_override=1080
 window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
@@ -30,6 +30,7 @@ environment/defaults/default_clear_color=Color(0.23,0.65,0.78,1)
 
 [physics]
 common/physics_ticks_per_second=60
+common/physics_interpolation=true
 3d/default_gravity=9.8
 
 [audio]

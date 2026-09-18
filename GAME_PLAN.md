@@ -1,5 +1,9 @@
 # Hydro Drift â€” production plan
 
+## September 18 display update
+
+Development continues in Godot after the Unity installation was canceled. The hardware display is confirmed as 1920 × 1080. Native 1080p with 2× MSAA is the new initial preset; UI fonts use grayscale antialiasing and quarter-pixel placement at display resolution. The 60 FPS cap remains. Native performance must be judged from the new hardware benchmark, not the older 720p figures. The next milestone remains handling refinement and profiling before expanding track content.
+
 ## Implementation status â€” September 16, 2026
 
 The first native Godot prototype is implemented. Launch it with `Play Hydro Drift.cmd`; controls and rebuild instructions are in `game/README.md`.
@@ -264,3 +268,9 @@ Generated import caches and temporary render files should live outside the persi
 9. Revise budgets from measured bottlenecks before producing final course art.
 
 The next engineering deliverable should be the gray-box handling benchmark. It decides whether 900p/60 is achievable and prevents the project from accumulating expensive art before the core racing feel and performance target are proven.
+
+## September 18 handling and storage checkpoint
+
+Godot remains the active engine. Available mk7re velocity code is adapted with MIT attribution; jet-ski acceleration, drift and two timed mini-turbos use original tuning. Interpolated rendering, camera following and wakes address visual tick jitter. Esc includes a confirmed Exit Game action. Native 1080p remains capped at 60 FPS; the latest 45-second run measured 60.00 FPS average and 54.81 FPS 1% low, requiring longer sustained validation.
+
+The knight roster source is stored in lossless 70 MB chunks, reassembled by setup. Run `python tools/assemble_sources.py --pack` after editing it. A local pre-commit size check rejects indexed files over 100,000,000 bytes. The original pre-repair history is retained in an ignored local Git bundle.

@@ -10,6 +10,10 @@ var player: HydroCraft
 var camera: Camera3D
 var water_material: ShaderMaterial
 var water_time := 0.0
+var render_water_time := 0.0
+var camera_focus := Vector3.ZERO
+var camera_steer := 0.0
+var exit_dialog: ConfirmationDialog
 var race_time := 0.0
 var lap_limit := 3
 var recovery_count := 0
@@ -17,7 +21,7 @@ var mode := "menu"
 var countdown := 3.0
 var chosen_rider := 0
 var chosen_craft := 0
-var quality := 0
+var quality := 2
 var time_trial := false
 var root_ui: Control
 var menu_panel: PanelContainer
@@ -125,7 +129,9 @@ func _load_settings() -> void:
 	if settings.load("user://settings.cfg") == OK and not benchmark and not smoke:
 		chosen_rider = clampi(int(settings.get_value("game","rider",0)),0,7)
 		chosen_craft = clampi(int(settings.get_value("game","craft",0)),0,2)
-		quality = clampi(int(settings.get_value("graphics","quality",0)),0,2)
+		# Adopt native 1080p once for the display update; later user choices persist.
+		if int(settings.get_value("graphics","display_revision",0)) >= 1:
+			quality = clampi(int(settings.get_value("graphics","quality",2)),0,2)
 		muted = bool(settings.get_value("audio","muted",false))
 
 func _save_settings() -> void:
@@ -133,6 +139,7 @@ func _save_settings() -> void:
 	settings.set_value("game","rider",chosen_rider)
 	settings.set_value("game","craft",chosen_craft)
 	settings.set_value("graphics","quality",quality)
+	settings.set_value("graphics","display_revision",1)
 	settings.set_value("audio","muted",muted)
 	settings.save("user://settings.cfg")
 
@@ -182,6 +189,7 @@ func _build_environment() -> void:
 	sun.directional_shadow_max_distance = 75.0
 	add_child(sun)
 	camera = Camera3D.new()
+	camera.physics_interpolation_mode = Node.PHYSICS_INTERPOLATION_MODE_OFF
 	camera.fov = 64
 	camera.far = 480
 	camera.near = .15
@@ -387,6 +395,11 @@ func _build_ui() -> void:
 	var theme := Theme.new()
 	var font := SystemFont.new()
 	font.font_names = PackedStringArray(["Bahnschrift","Segoe UI"])
+	# Rasterize at the display scale, with precise placement for small UI text.
+	font.antialiasing = TextServer.FONT_ANTIALIASING_GRAY
+	font.hinting = TextServer.HINTING_LIGHT
+	font.subpixel_positioning = TextServer.SUBPIXEL_POSITIONING_ONE_QUARTER
+	font.oversampling = 0.0
 	theme.default_font = font
 	root_ui.theme = theme
 	menu_panel = PanelContainer.new()
@@ -423,7 +436,7 @@ func _build_ui() -> void:
 	var graphics := OptionButton.new()
 	graphics.add_item("Performance · 720p internal",0)
 	graphics.add_item("Balanced · 900p internal",1)
-	graphics.add_item("Native · 1080p internal",2)
+	graphics.add_item("Native · 1080p · smooth edges",2)
 	graphics.selected = quality
 	graphics.custom_minimum_size.y = 36
 	graphics.item_selected.connect(_apply_quality)
@@ -432,7 +445,7 @@ func _build_ui() -> void:
 	menu.add_child(_button("TIME TRIAL",func():time_trial=true;start_race()))
 	menu.add_child(_label("WASD / arrows · steer & throttle\nSHIFT · drift    CTRL / E · boost    SPACE · hop\nR · recover    ESC · pause    F3 · stats    F11 · fullscreen",13,MUTED))
 	menu.add_child(_label("Controller: triggers · throttle/brake   RB · drift   X · boost",11,MUTED))
-	var quit := _button("EXIT",func():get_tree().quit())
+	var quit := _button("EXIT",_request_exit)
 	quit.custom_minimum_size.y = 30
 	menu.add_child(quit)
 	hud = Control.new()
@@ -499,8 +512,8 @@ func _build_ui() -> void:
 	root_ui.add_child(telemetry_label)
 	pause_panel = PanelContainer.new()
 	pause_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
-	pause_panel.position = Vector2(-180,-160)
-	pause_panel.custom_minimum_size = Vector2(360,300)
+	pause_panel.position = Vector2(-180,-185)
+	pause_panel.custom_minimum_size = Vector2(360,350)
 	pause_panel.add_theme_stylebox_override("panel",_style(Color(.02,.07,.10,.98)))
 	root_ui.add_child(pause_panel)
 	var pause_box := _column(pause_panel)
@@ -509,6 +522,16 @@ func _build_ui() -> void:
 	pause_box.add_child(_button("RESTART RACE",func():get_tree().paused=false;start_race()))
 	pause_box.add_child(_button("RIDER SELECT",_return_to_menu))
 	pause_box.add_child(_button("MUTE / UNMUTE",func():muted=not muted;_save_settings()))
+	pause_box.add_child(_button("EXIT GAME",_request_exit))
+	exit_dialog = ConfirmationDialog.new()
+	exit_dialog.title = "Exit Hydro Drift?"
+	exit_dialog.dialog_text = "Leave the game? Your current race will end."
+	exit_dialog.ok_button_text = "EXIT GAME"
+	exit_dialog.cancel_button_text = "BACK"
+	exit_dialog.exclusive = true
+	exit_dialog.process_mode = Node.PROCESS_MODE_ALWAYS
+	exit_dialog.confirmed.connect(_confirm_exit)
+	root_ui.add_child(exit_dialog)
 	pause_panel.hide()
 	results_panel = PanelContainer.new()
 	results_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
@@ -531,6 +554,7 @@ func _apply_quality(index: int) -> void:
 	if is_instance_valid(sun):
 		sun.directional_shadow_max_distance = [65.0,90.0,115.0][quality]
 	get_viewport().msaa_3d = Viewport.MSAA_2X if quality>0 else Viewport.MSAA_DISABLED
+	get_viewport().screen_space_aa = Viewport.SCREEN_SPACE_AA_FXAA if quality==0 else Viewport.SCREEN_SPACE_AA_DISABLED
 	_resolution_scale()
 	if is_instance_valid(root_ui):
 		_save_settings()
@@ -557,7 +581,9 @@ func _spawn_racer(index: int, rider: String, craft: int, is_player: bool) -> Hyd
 	racer.position = HydroCourse.point(0) - direction*(9.0+floori(index/2.0)*5.0) + side*((index%2)*4.5-2.25)+Vector3.UP*.7
 	racer.rotation.y = atan2(-direction.x,-direction.z)
 	racer.process_mode = Node.PROCESS_MODE_PAUSABLE
+	racer.physics_interpolation_mode = Node.PHYSICS_INTERPOLATION_MODE_ON
 	add_child(racer)
+	racer.reset_physics_interpolation()
 	racers.append(racer)
 	return racer
 
@@ -567,7 +593,9 @@ func _make_preview() -> void:
 	_clear_racers()
 	player = _spawn_racer(0,RIDERS[chosen_rider],chosen_craft,true)
 	player.freeze = true
+	player.physics_interpolation_mode = Node.PHYSICS_INTERPOLATION_MODE_OFF
 	player.position = HydroCourse.point(0)+Vector3(0,-.14,-2)
+	player.reset_physics_interpolation()
 
 func start_race() -> void:
 	get_tree().paused = false
@@ -588,9 +616,15 @@ func start_race() -> void:
 		racer.freeze = true
 	for i in pickup_cooldowns.size():
 		pickup_cooldowns[i] = 0.0
-	camera.global_position = player.global_position + player.global_basis.z*9.0 + Vector3.UP*4.5
-	camera.look_at(player.global_position+Vector3.UP*1.0)
+	reset_chase_camera()
 	_save_settings()
+
+func reset_chase_camera() -> void:
+	if not is_instance_valid(player):return
+	camera_steer = 0.0
+	camera_focus = player.global_position+Vector3.UP*.9-player.global_basis.z*4.5
+	camera.global_position = player.global_position+player.global_basis.z*6.8+Vector3.UP*3.0
+	camera.look_at(camera_focus)
 
 func _return_to_menu() -> void:
 	get_tree().paused = false
@@ -602,10 +636,24 @@ func _return_to_menu() -> void:
 	_make_preview()
 
 func _toggle_pause() -> void:
+	if exit_dialog.visible:
+		exit_dialog.hide()
+		return
 	if mode not in ["race","countdown"]:
 		return
 	get_tree().paused = not get_tree().paused
 	pause_panel.visible = get_tree().paused
+
+func _request_exit() -> void:
+	if mode in ["race","countdown"]:
+		get_tree().paused = true
+		pause_panel.show()
+	exit_dialog.popup_centered(Vector2i(440,180))
+
+func _confirm_exit() -> void:
+	_save_settings()
+	print("HYDRO_EXIT_CONFIRMED")
+	get_tree().quit()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("pause"):
@@ -618,12 +666,10 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("fullscreen"):
 		get_window().mode = Window.MODE_WINDOWED if get_window().mode==Window.MODE_FULLSCREEN else Window.MODE_FULLSCREEN
 
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	if get_tree().paused:
-		_update_audio()
 		return
 	water_time += delta
-	water_material.set_shader_parameter("wave_time",water_time)
 	if mode == "countdown":
 		countdown -= delta
 		center_label.text = str(ceili(countdown)) if countdown>0 else "GO!"
@@ -636,6 +682,14 @@ func _process(delta: float) -> void:
 		race_time += delta
 		center_label.text = "GO!" if race_time<.8 else ""
 		_update_pickups(delta)
+
+func _process(delta: float) -> void:
+	if get_tree().paused:
+		_update_audio()
+		return
+	# Present water at the same interpolated instant as the physics bodies.
+	render_water_time = water_time-get_physics_process_delta_time()*(1.0-Engine.get_physics_interpolation_fraction())
+	water_material.set_shader_parameter("wave_time",render_water_time)
 	for racer in racers:
 		racer.update_wake(delta)
 	_update_camera(delta)
@@ -654,7 +708,7 @@ func _update_camera(delta: float) -> void:
 	if not is_instance_valid(player):
 		return
 	if mode == "menu":
-		player.position.y = HydroCourse.wave(player.position,water_time)-.14
+		player.position.y = HydroCourse.wave(player.position,render_water_time)-.14
 		var angle := water_time*.075 + .60
 		var anchor := player.global_position
 		camera.position = anchor + Vector3(cos(angle)*4.5,2.3,sin(angle)*4.5)
@@ -662,10 +716,11 @@ func _update_camera(delta: float) -> void:
 		camera.look_at(anchor+Vector3.UP*.8-camera_right*1.25)
 		camera.fov = 46
 		return
-	var behind := player.global_basis.z
+	var presented := player.get_global_transform_interpolated()
+	var behind := presented.basis.z
 	behind.y = 0
 	behind = behind.normalized()
-	var p := player.global_position
+	var p := presented.origin
 	var desired := p+behind*(6.8+minf(player.speed_kph,110.0)*.012)+Vector3.UP*3.0
 	var space := get_world_3d().direct_space_state
 	var query := PhysicsRayQueryParameters3D.create(p+Vector3.UP*1.6,desired)
@@ -674,8 +729,10 @@ func _update_camera(delta: float) -> void:
 	if not hit.is_empty():
 		desired = hit.position + hit.normal*.6
 	camera.global_position = camera.global_position.lerp(desired,1.0-exp(-delta*6.0))
-	var focus := p+Vector3.UP*.9 - behind*4.5 + player.global_basis.x*(-player.steer*.7)
-	camera.look_at(focus)
+	camera_steer = lerpf(camera_steer,player.steer,1.0-exp(-delta*8.0))
+	var focus := p+Vector3.UP*.9-behind*4.5+presented.basis.x*(-camera_steer*.7)
+	camera_focus = camera_focus.lerp(focus,1.0-exp(-delta*12.0))
+	camera.look_at(camera_focus)
 	camera.fov = lerpf(camera.fov,65.0+(8.0 if player.boosting else 0.0),1.0-exp(-delta*3.0))
 
 func _update_pickups(delta: float) -> void:
@@ -764,8 +821,11 @@ func _record_benchmark(delta: float) -> void:
 	benchmark_elapsed += wall_delta
 	if benchmark_elapsed>benchmark_warmup:
 		samples.append(wall_delta*1000.0)
-		if wall_delta>.022 and slow_frames.size()<120:
-			slow_frames.append({"elapsed":benchmark_elapsed,"frame_ms":wall_delta*1000.0,"process_ms":Performance.get_monitor(Performance.TIME_PROCESS)*1000.0,"physics_ms":Performance.get_monitor(Performance.TIME_PHYSICS_PROCESS)*1000.0,"draw_calls":Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)})
+		if wall_delta>.022:
+			slow_frames.append({"elapsed":benchmark_elapsed,"frame_ms":wall_delta*1000.0,"process_ms":Performance.get_monitor(Performance.TIME_PROCESS)*1000.0,"physics_ms":Performance.get_monitor(Performance.TIME_PHYSICS_PROCESS)*1000.0,"draw_calls":Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME),"focused":get_window().has_focus(),"window_mode":get_window().mode})
+			if slow_frames.size()>120:
+				slow_frames.sort_custom(func(a,b):return a.frame_ms>b.frame_ms)
+				slow_frames.resize(120)
 		memory_peak = maxf(memory_peak,Performance.get_monitor(Performance.RENDER_VIDEO_MEM_USED))
 		draw_peak = maxi(draw_peak,int(Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)))
 		primitive_peak = maxi(primitive_peak,int(Performance.get_monitor(Performance.RENDER_TOTAL_PRIMITIVES_IN_FRAME)))
@@ -800,6 +860,12 @@ func _write_benchmark() -> void:
 	report["warmup_seconds"] = benchmark_warmup
 	report["vsync"] = DisplayServer.window_get_vsync_mode()
 	report["slow_frames_over_22ms"] = slow_frames
+	report["display_revision"] = 1
+	report["motion_revision"] = 1
+	report["physics_interpolation"] = bool(ProjectSettings.get_setting("physics/common/physics_interpolation"))
+	report["msaa_3d"] = get_viewport().msaa_3d
+	report["screen_space_aa"] = get_viewport().screen_space_aa
+	report["font_subpixel_positioning"] = root_ui.theme.default_font.subpixel_positioning
 	report["output_pixels"] = str(get_viewport().size)
 	report["internal_pixels"] = str(Vector2i(Vector2(get_viewport().size)*get_viewport().scaling_3d_scale))
 	report["fullscreen"] = get_window().mode == Window.MODE_FULLSCREEN

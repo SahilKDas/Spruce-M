@@ -16,6 +16,9 @@ var last_position := Vector3.ZERO
 var throttle := 0.0
 var steer := 0.0
 var drifting := false
+var drift_direction := 0.0
+var mini_turbo_remaining := 0.0
+var on_water := true
 var boosting := false
 var boost := 65.0
 var drift_charge := 0.0
@@ -40,7 +43,7 @@ const CRAFT_FILES := ["01_Needle_Agile", "02_Surge_Balanced", "03_Leviathan_Powe
 
 func _ready() -> void:
 	mass = 180.0
-	linear_damp = .08
+	linear_damp = 0.0
 	angular_damp = 1.4
 	continuous_cd = true
 	can_sleep = false
@@ -107,23 +110,28 @@ func _physics_process(delta: float) -> void:
 		return
 	if human and not automated:
 		throttle = Input.get_action_strength("accelerate") - Input.get_action_strength("brake")
-		steer = Input.get_axis("steer_right", "steer_left")
+		steer = move_toward(steer,Input.get_axis("steer_right", "steer_left"),delta*7.0)
 		drifting = Input.is_action_pressed("drift") and speed_kph > 20.0
 		boosting = Input.is_action_pressed("boost") and boost > 0.0 and throttle > 0.0
 		jump_request = Input.is_action_just_pressed("hop")
 	else:
 		_drive_ai(delta)
-	if boosting:
-		boost = maxf(0.0, boost - delta * 25.0)
+	var manual_boost := boosting
+	mini_turbo_remaining = maxf(0.0,mini_turbo_remaining-delta)
+	if drifting and drift_direction==0.0:
+		if on_water and absf(steer)>.20:
+			drift_direction = signf(steer)
+		else:drifting = false
+	if drifting:
+		if on_water:drift_charge = minf(1.0,drift_charge+delta*(.32+.18*maxf(0.0,steer*drift_direction)))
 	else:
-		boost = minf(100.0, boost + delta * 3.5)
-	if drifting and absf(steer) > .25:
-		drift_charge = minf(1.0, drift_charge + delta * .30)
-	elif drift_charge > .15:
-		boost = minf(100.0, boost + drift_charge * 32.0)
+		mini_turbo_remaining = maxf(mini_turbo_remaining,HydroHandling.mini_turbo_duration(drift_charge))
+		if drift_charge>.15:boost = minf(100.0,boost+drift_charge*32.0)
 		drift_charge = 0.0
-	else:
-		drift_charge = 0.0
+		drift_direction = 0.0
+	boosting = manual_boost or mini_turbo_remaining>0.0
+	if manual_boost:boost = maxf(0.0,boost-delta*25.0)
+	else:boost = minf(100.0,boost+delta*3.5)
 	if HydroCourse.crossed_gate(last_position, global_position, next_gate):
 		passed += 1
 		next_gate = (next_gate + 1) % HydroCourse.GATES
@@ -190,6 +198,7 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 			var local_speed := state.linear_velocity + state.angular_velocity.cross(offset)
 			var lift := clampf(depth * 1850.0 - local_speed.y * 250.0,0.0,3400.0)
 			state.apply_force(Vector3.UP * lift,offset)
+	on_water = wet>0
 	var forward := -basis.z
 	forward.y = 0.0
 	forward = forward.normalized()
@@ -197,23 +206,12 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 	right.y = 0.0
 	right = right.normalized()
 	var speed := state.linear_velocity.dot(forward)
-	var maximum := [27.0,28.5,30.0][craft_index] as float
-	if boosting:
-		maximum += 8.0
-	if wet > 0:
-		var power := [8.0,7.4,6.8][craft_index] as float
-		if boosting:
-			power *= 1.5
-		var drive := throttle * power * mass
-		if speed > maximum:
-			drive = minf(drive,0.0)
-		if throttle < 0 and speed < -5.0:
-			drive = 0.0
-		state.apply_central_force(forward * (drive - speed * absf(speed) * 1.45))
-		state.apply_central_force(-right * state.linear_velocity.dot(right) * mass * (.75 if drifting else 4.2))
-		var turn_speed := clampf(absf(speed) / 7.0,0.0,1.0)
-		var yaw_target := steer * turn_speed * (1.5 if drifting else 1.15) * (1.0 if speed >= 0 else -1.0)
-		state.angular_velocity.y = lerpf(state.angular_velocity.y, yaw_target, minf(1.0,dt*5.0))
+	if wet>0:
+		var local_velocity := Vector3(state.linear_velocity.dot(right),state.linear_velocity.y,speed)
+		local_velocity = HydroHandling.drive_velocity(local_velocity,throttle,drifting,boosting,craft_index,dt)
+		state.linear_velocity = right*local_velocity.x+Vector3.UP*local_velocity.y+forward*local_velocity.z
+		var yaw := HydroHandling.yaw_target(steer,speed,drift_direction if drifting else 0.0)
+		state.angular_velocity.y = lerpf(state.angular_velocity.y,yaw,1.0-exp(-dt*8.0))
 		if jump_request and jump_cooldown <= 0 and active:
 			state.apply_central_impulse(Vector3.UP * mass * 3.1)
 			jump_cooldown = 1.8
@@ -223,17 +221,15 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 	state.apply_torque(correction)
 
 func update_wake(delta: float) -> void:
+	if not is_instance_valid(wake_node):return
 	wake_clock += delta
-	if wake_clock < .065 or not is_instance_valid(wake_node):
-		return
-	wake_clock = 0.0
-	if speed_kph > 5.0:
-		var p := global_position + global_basis.z * 1.5
-		p.y = HydroCourse.wave(p,race.water_time)+.08
-		wake_points.push_front(p)
-	else:
-		if not wake_points.is_empty():
-			wake_points.pop_back()
+	var presented := get_global_transform_interpolated()
+	var head := presented.origin+presented.basis.z*1.5
+	head.y = HydroCourse.wave(head,race.render_water_time)+.06
+	if wake_clock>=.065:
+		wake_clock = fmod(wake_clock,.065)
+		if speed_kph>5.0:wake_points.push_front(head)
+		elif not wake_points.is_empty():wake_points.pop_back()
 	while wake_points.size() > (18 if human else 10):
 		wake_points.pop_back()
 	wake_mesh.clear_surfaces()
@@ -241,9 +237,10 @@ func update_wake(delta: float) -> void:
 		return
 	wake_mesh.surface_begin(Mesh.PRIMITIVE_TRIANGLE_STRIP)
 	for i in wake_points.size():
-		var p := wake_points[i]
-		p.y = HydroCourse.wave(p,race.water_time)+.06
-		var direction := global_basis.z if i == 0 else (p-wake_points[i-1]).normalized()
+		var p := head if i==0 else wake_points[i]
+		p.y = HydroCourse.wave(p,race.render_water_time)+.06
+		var previous := head if i==1 else wake_points[maxi(0,i-1)]
+		var direction := presented.basis.z if i==0 else (p-previous).normalized()
 		var side := direction.cross(Vector3.UP).normalized()
 		var width := .4 + i * .085
 		var alpha := (1.0-float(i)/wake_points.size())*.45
@@ -267,6 +264,13 @@ func respawn() -> void:
 	off_course_time = 0.0
 	stuck_time = 0.0
 	wake_points.clear()
+	drifting = false
+	drift_direction = 0.0
+	drift_charge = 0.0
+	mini_turbo_remaining = 0.0
+	force_update_transform()
+	reset_physics_interpolation()
+	if human:race.reset_chase_camera()
 	race.recovery_count += 1
 
 func progress_score() -> float:

@@ -2,7 +2,7 @@
 
 From the repository root, double-click **Play Hydro Drift.cmd**.
 
-The game launches fullscreen in 16:9, capped at 60 FPS. The default Performance preset renders the 3D scene at 1280 × 720 and keeps the interface sharp at the display resolution. F11 switches fullscreen/windowed. Other aspect ratios use letterboxing.
+The game launches fullscreen in 16:9, capped at 60 FPS. The default Native preset renders the 3D scene at 1920 × 1080 with 2× MSAA edge smoothing. The interface is rasterized at display resolution with grayscale font antialiasing and quarter-pixel positioning. Performance (720p with FXAA) and Balanced (900p with 2× MSAA) remain available. This display update selects Native once; later graphics selections are saved. F11 switches fullscreen/windowed. Other aspect ratios use letterboxing.
 
 ## Play
 
@@ -55,3 +55,11 @@ $godot = './.tools/godot/Godot_v4.7-stable_win64_console.exe'
 Rendered benchmarks retain the 60 FPS cap and skip a 10-second warm-up. Presets are `0` (720p), `1` (900p), and `2` (1080p). Results go to `benchmarks/performance_720p.json` and corresponding resolution files. Renderer allocation counters exclude driver and desktop GPU allocations. Headless tests accelerate simulation while preserving the gameplay physics step; their FPS does not measure GPU performance.
 
 See `../benchmarks/README.md` for measurements and remaining acceptance criteria.
+
+## Handling update — September 18
+
+Driving uses the available MIT-licensed mk7re velocity update, with Hydro Drift tuning for watercraft acceleration, lateral grip, locked drift direction, and two timed mini-turbo levels. This is a partial adaptation, not exact Mario Kart 7 physics; see [source and license](third_party/mk7re/README.md).
+
+Physics interpolation, an interpolated chase camera, and a continuously updated wake head smooth movement between simulation ticks. Recovery resets interpolation. Esc opens the pause menu; Exit Game requires confirmation, and Back returns to the paused game.
+
+Additional checks: `handling_test.gd`, `motion_test.gd`, and `exit_test.gd` in `game/tests`.

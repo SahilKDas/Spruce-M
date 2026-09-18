@@ -1,3 +1,11 @@
+# September 18 Godot update
+
+The latest 45-second native 1920×1080 fullscreen run (10-second warm-up excluded) averaged **60.00 FPS**, with **54.81 FPS 1% low**, on the MX550. It uses 2× MSAA and the 60 FPS cap. See `performance_1080p.json`. This short run does not establish sustained performance or eliminate all possible stalls.
+
+The updated handling passed 20 automated races, controls, ordered checkpoints, three-lap completion, interpolation/recovery, and exit confirmation/cancellation checks. Rendered pause and confirmation screens were inspected. An existing ObjectDB shutdown warning remains in headless tests.
+
+## Historical checkpoint
+
 # Hydro Drift — pre-Unity checkpoint validation
 
 Measured September 16, 2026 on the NVIDIA GeForce MX550, Godot 4.7 Mobile/Vulkan renderer, with eight revision-4 armored knights. This preserves the Godot prototype before the user-requested Unity migration. The user rejected its handling and visual quality; passing functional checks does not establish acceptable game feel.
