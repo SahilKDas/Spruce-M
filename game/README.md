@@ -1,3 +1,20 @@
+# Hydro Drift: archipelago adventure
+
+Choose a knight and craft, then select **Explore the Archipelago**. Free roaming is now the main mode. Drive across water and land, discover four regions, and collect twelve golden relic rings. Progress saves locally.
+
+- Sunbeam Shores: beaches and the original lagoon.
+- Mangrove Reach: palm groves and shallow tidal crossings.
+- Ember Atoll: dark rock and a raised volcanic crater.
+- Frostwater Bay: pale shores and ice spires.
+
+Enter any turquoise box beneath a checkered flag to start its eight-racer, one-lap event. All four events are available immediately. Results return you to exploration; the pause menu also lets you leave a race. Entry cooldown and an outside-the-box return point prevent accidental restarts.
+
+Tides rise and fall on a three-minute cycle with a 1.8 m total range. Buoyancy and rendered water use the same tide function; low causeways alternate between exposed and submerged. Land movement keeps the existing steering, drift, hop and boost controls.
+
+The exploration HUD has no text: colored region dots, completion rings, relic pips, a tide meter and a map with race boxes and relics. The world is a procedural first playable version, with four regional events using the existing circuit shape, not a finished campaign. The existing detailed knight assets are reused. No additional asset downloads are needed.
+
+## Earlier gameplay and setup notes
+
 # Hydro Drift — first playable prototype
 
 From the repository root, double-click **Play Hydro Drift.cmd**.

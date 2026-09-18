@@ -139,7 +139,7 @@ func _physics_process(delta: float) -> void:
 	boosting = manual_boost or mini_turbo_remaining>0.0
 	if manual_boost:boost = maxf(0.0,boost-delta*25.0)
 	else:boost = minf(100.0,boost+delta*3.5)
-	if HydroCourse.crossed_gate(last_position, global_position, next_gate):
+	if race.mode!="explore" and HydroCourse.crossed_gate(last_position, global_position, next_gate):
 		passed += 1
 		next_gate = (next_gate + 1) % HydroCourse.GATES
 		if passed >= HydroCourse.GATES * race.lap_limit:
@@ -149,7 +149,7 @@ func _physics_process(delta: float) -> void:
 	last_position = global_position
 	var angle := HydroCourse.nearest_angle(global_position)
 	var deviation := global_position.distance_to(HydroCourse.point(angle))
-	if deviation > 32.0 or global_position.y < -4.0 or global_position.y > 18.0:
+	if (race.mode!="explore" and deviation>32.0) or Vector2(global_position.x,global_position.z).length()>820.0 or global_position.y < -8.0 or global_position.y > 40.0:
 		off_course_time += delta
 	else:
 		off_course_time = 0.0
@@ -205,16 +205,24 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 			var local_speed := state.linear_velocity + state.angular_velocity.cross(offset)
 			var lift := clampf(depth * 1850.0 - local_speed.y * 250.0,0.0,3400.0)
 			state.apply_force(Vector3.UP * lift,offset)
-	on_water = wet>0
+	var query := PhysicsRayQueryParameters3D.create(origin+Vector3.UP*.4,origin-Vector3.UP*1.0)
+	query.exclude = [get_rid()]
+	var ground := get_world_3d().direct_space_state.intersect_ray(query)
+	var on_land: bool = not ground.is_empty() and ground.normal.y>.45 and ground.position.y>HydroCourse.wave(origin,race.water_time)-.12
+	on_water = wet>0 or on_land
 	var forward := -basis.z
 	forward.y = 0.0
 	forward = forward.normalized()
 	var right := forward.cross(Vector3.UP).normalized()
 	var speed := state.linear_velocity.dot(forward)
-	if wet>0:
+	if wet>0 or on_land:
 		var local_velocity := Vector3(state.linear_velocity.dot(right),state.linear_velocity.y,speed)
 		local_velocity = HydroHandling.drive_velocity(local_velocity,throttle,drifting,boosting,craft_index,dt,grip_blend)
 		state.linear_velocity = right*local_velocity.x+Vector3.UP*local_velocity.y+forward*local_velocity.z
+		if on_land:
+			var ground_normal: Vector3 = ground.normal
+			var horizontal := Vector3(state.linear_velocity.x,0,state.linear_velocity.z)
+			state.linear_velocity.y = maxf(state.linear_velocity.y,-horizontal.dot(ground_normal)/maxf(.45,ground_normal.y))
 		var yaw := HydroHandling.yaw_target(steer,speed,drift_direction if drifting else 0.0,craft_index)
 		state.angular_velocity.y = lerpf(state.angular_velocity.y,yaw,1.0-exp(-dt*14.0))
 		if hop_buffer>0.0 and jump_cooldown <= 0 and active:
@@ -222,7 +230,7 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 			jump_cooldown = .65
 			hop_buffer = 0.0
 			jump_request = false
-	if wet==0:
+	if wet==0 and not on_land:
 		# Modest air control keeps ramp exits steerable without ground-level grip.
 		var air_yaw := HydroHandling.yaw_target(steer,speed,0.0,craft_index)*.35
 		state.angular_velocity.y = lerpf(state.angular_velocity.y,air_yaw,1.0-exp(-dt*4.0))
@@ -266,6 +274,7 @@ func respawn() -> void:
 	if passed < 0:
 		p = HydroCourse.point(0.0)-HydroCourse.tangent(0.0)*8.0
 		angle = 0.0
+	if race.mode=="explore":p = race.adventure.safe_position
 	position = p + Vector3.UP*.65
 	rotation = Vector3(0,atan2(-HydroCourse.tangent(angle).x,-HydroCourse.tangent(angle).z),0)
 	linear_velocity = Vector3.ZERO

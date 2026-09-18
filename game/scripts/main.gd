@@ -5,6 +5,9 @@ const CRAFT_NAMES := ["NEEDLE", "SURGE", "LEVIATHAN"]
 const TEAL := Color("39d9c8")
 const INK := Color("081c2b")
 const MUTED := Color("a4bdc8")
+var adventure: Node3D
+var event_id := -1
+var event_markers: Node3D
 var racers: Array[HydroCraft] = []
 var player: HydroCraft
 var visual_hud: Control
@@ -74,8 +77,12 @@ func _ready() -> void:
 	_parse_args()
 	_bind_inputs()
 	_load_settings()
+	HydroCourse.center = Vector3.ZERO
 	_build_environment()
 	_build_course()
+	adventure = load("res://scripts/adventure.gd").new()
+	adventure.race = self
+	add_child(adventure)
 	_build_ui()
 	_apply_quality(quality)
 	_make_preview()
@@ -196,7 +203,7 @@ func _build_environment() -> void:
 	camera.near = .15
 	add_child(camera)
 	var ocean := PlaneMesh.new()
-	ocean.size = Vector2(700,700)
+	ocean.size = Vector2(1800,1800)
 	ocean.subdivide_width = 150
 	ocean.subdivide_depth = 150
 	water_material = ShaderMaterial.new()
@@ -215,16 +222,17 @@ func _build_environment() -> void:
 
 func _build_course() -> void:
 	_prop("Sunbeam_Island",Vector3.ZERO,1.0,0.0)
+	var ground := SurfaceTool.new()
+	ground.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for x in 36:
+		for z in 52:
+			for offset in [Vector3.ZERO,Vector3(0,0,4),Vector3(4,0,0),Vector3(4,0,0),Vector3(0,0,4),Vector3(4,0,4)]:
+				var p: Vector3 = Vector3(-72+x*4,0,-104+z*4)+offset
+				p.y = _terrain_height(p)
+				ground.add_vertex(p)
 	var solid := StaticBody3D.new()
 	var collision := CollisionShape3D.new()
-	var outline := PackedVector3Array()
-	for i in 28:
-		var a := float(i)/28*TAU
-		outline.append(Vector3(cos(a)*39,-3,sin(a)*61))
-		outline.append(Vector3(cos(a)*39,1.6,sin(a)*61))
-	var hull := ConvexPolygonShape3D.new()
-	hull.points = outline
-	collision.shape = hull
+	collision.shape = ground.commit().create_trimesh_shape()
 	solid.add_child(collision)
 	add_child(solid)
 	for i in 26:
@@ -442,8 +450,8 @@ func _build_ui() -> void:
 	graphics.custom_minimum_size.y = 36
 	graphics.item_selected.connect(_apply_quality)
 	menu.add_child(graphics)
-	menu.add_child(_button("RACE   /   8 KNIGHTS",func():time_trial=false;start_race(),true))
-	menu.add_child(_button("TIME TRIAL",func():time_trial=true;start_race()))
+	menu.add_child(_button("EXPLORE THE ARCHIPELAGO",start_exploration,true))
+	menu.add_child(_label("Discover islands and relics. Enter checkered boxes to race.",12,MUTED))
 	menu.add_child(_label("WASD / arrows · steer & throttle\nSHIFT · drift    CTRL / E · boost    SPACE · hop\nR · recover    ESC · pause    F3 · stats    F11 · fullscreen",13,MUTED))
 	menu.add_child(_label("Controller: triggers · throttle/brake   RB · drift   X · boost",11,MUTED))
 	var quit := _button("EXIT",_request_exit)
@@ -529,7 +537,7 @@ func _build_ui() -> void:
 	var pause_box := _column(pause_panel)
 	pause_box.add_child(_label("TAKE A BREATHER",28))
 	pause_box.add_child(_button("RESUME",_toggle_pause,true))
-	pause_box.add_child(_button("RESTART RACE",func():get_tree().paused=false;start_race()))
+	pause_box.add_child(_button("RETURN TO EXPLORATION",start_exploration))
 	pause_box.add_child(_button("RIDER SELECT",_return_to_menu))
 	pause_box.add_child(_button("MUTE / UNMUTE",func():muted=not muted;_save_settings()))
 	pause_box.add_child(_button("EXIT GAME",_request_exit))
@@ -639,6 +647,7 @@ func reset_chase_camera() -> void:
 func _return_to_menu() -> void:
 	get_tree().paused = false
 	mode = "menu"
+	HydroCourse.center = Vector3.ZERO
 	menu_panel.show()
 	pause_panel.hide()
 	results_panel.hide()
@@ -649,13 +658,13 @@ func _toggle_pause() -> void:
 	if exit_dialog.visible:
 		exit_dialog.hide()
 		return
-	if mode not in ["race","countdown"]:
+	if mode not in ["race","countdown","explore"]:
 		return
 	get_tree().paused = not get_tree().paused
 	pause_panel.visible = get_tree().paused
 
 func _request_exit() -> void:
-	if mode in ["race","countdown"]:
+	if mode in ["race","countdown","explore"]:
 		get_tree().paused = true
 		pause_panel.show()
 	exit_dialog.popup_centered(Vector2i(440,180))
@@ -680,6 +689,7 @@ func _physics_process(delta: float) -> void:
 	if get_tree().paused:
 		return
 	water_time += delta
+	adventure.update(delta)
 	if mode == "countdown":
 		countdown -= delta
 		center_label.text = str(ceili(countdown)) if countdown>0 else "GO!"
@@ -791,7 +801,7 @@ func _update_hud() -> void:
 func _update_audio() -> void:
 	if engine_playback == null:return
 	var count := mini(engine_playback.get_frames_available(),4096)
-	var sounding := mode=="race" and not muted and not get_tree().paused and is_instance_valid(player)
+	var sounding := mode in ["race","explore"] and not muted and not get_tree().paused and is_instance_valid(player)
 	var frequency := 48.0 + (player.speed_kph*.72 if is_instance_valid(player) else 0.0)
 	for i in count:
 		audio_phase = fposmod(audio_phase+frequency/22050.0,1.0)
@@ -805,6 +815,9 @@ func racer_finished(racer: HydroCraft) -> void:
 		call_deferred("_restart_automated")
 		return
 	mode = "results"
+	if event_id>=0 and not event_id in adventure.completed:
+		adventure.completed.append(event_id)
+		adventure.save_progress()
 	center_label.text = ""
 	for child in results_panel.get_children():
 		results_panel.remove_child(child)
@@ -822,7 +835,8 @@ func racer_finished(racer: HydroCraft) -> void:
 		settings.set_value("records","sunbeam_best",race_time)
 		_save_settings()
 		box.add_child(_label("NEW TIME TRIAL BEST",16,TEAL))
-	box.add_child(_button("RACE AGAIN",start_race,true))
+	box.add_child(_button("CONTINUE EXPLORING",start_exploration,true))
+	box.add_child(_button("RACE AGAIN",start_race))
 	box.add_child(_button("RIDER SELECT",_return_to_menu))
 	results_panel.show()
 
@@ -899,3 +913,47 @@ func _exit_tree() -> void:
 	if is_instance_valid(engine_audio):
 		engine_audio.stop()
 	engine_playback = null
+
+func start_exploration() -> void:
+	get_tree().paused = false
+	mode = "explore"
+	countdown = 0.0
+	race_time = 1.0
+	menu_panel.hide()
+	pause_panel.hide()
+	results_panel.hide()
+	hud.show()
+	_clear_racers()
+	player = _spawn_racer(0,RIDERS[chosen_rider],chosen_craft,true)
+	player.position = adventure.safe_position
+	player.active = true
+	player.last_position = player.position
+	player.reset_physics_interpolation()
+	adventure.cooldown = 2.0
+	if is_instance_valid(event_markers):event_markers.hide()
+	reset_chase_camera()
+
+func enter_event(index: int) -> void:
+	if mode!="explore":return
+	event_id = index
+	HydroCourse.center = adventure.CENTERS[index]
+	adventure.safe_position = adventure.boxes[index].position+Vector3(20,1,0)
+	time_trial = false
+	lap_limit = 1
+	if is_instance_valid(event_markers):event_markers.free()
+	event_markers = Node3D.new()
+	add_child(event_markers)
+	for i in HydroCourse.GATES:
+		var p := HydroCourse.gate(i)
+		var side := HydroCourse.tangent(float(i)/HydroCourse.GATES*TAU).cross(Vector3.UP)
+		for sign_value in [-1,1]:
+			var marker := MeshInstance3D.new()
+			var mesh := CylinderMesh.new()
+			mesh.top_radius = .35
+			mesh.bottom_radius = .75
+			mesh.height = 3.0
+			marker.mesh = mesh
+			marker.material_override = _material(TEAL)
+			marker.position = p+side*sign_value*11+Vector3.UP
+			event_markers.add_child(marker)
+	start_race()

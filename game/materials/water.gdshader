@@ -7,12 +7,15 @@ void vertex() {
 	vec3 p = (MODEL_MATRIX * vec4(VERTEX, 1.0)).xyz;
 	float a = p.x * .095 + p.z * .06 + wave_time * 1.5;
 	float b = p.z * .19 - p.x * .045 - wave_time * 2.05;
-	VERTEX.y += sin(a) * .19 + sin(b) * .09;
+	VERTEX.y += sin(wave_time*6.283185/180.0)*.9 + sin(a) * .19 + sin(b) * .09;
 	NORMAL = normalize(vec3(-cos(a)*.01805 + cos(b)*.00405, 1., -cos(a)*.0114-cos(b)*.0171));
 	world_pos = p;
 }
 void fragment() {
 	float shelf = length(world_pos.xz / vec2(44., 68.));
+	shelf = min(shelf, length((world_pos.xz-vec2(310.,-210.))/vec2(52.,68.)));
+	shelf = min(shelf, length((world_pos.xz-vec2(-300.,-230.))/vec2(52.,68.)));
+	shelf = min(shelf, length((world_pos.xz-vec2(30.,340.))/vec2(52.,68.)));
 	float shallow = 1.0 - smoothstep(.9, 1.6, shelf);
 	vec3 deep = vec3(.008,.17,.26);
 	vec3 clear = vec3(.035,.60,.53);

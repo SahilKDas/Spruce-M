@@ -18,6 +18,17 @@ func _draw() -> void:
 	draw_colored_polygon(bolt,Color("ffbb45") if rider.boosting else Color.WHITE)
 	draw_rect(Rect2(167,size.y-91,150,16),dark)
 	draw_rect(Rect2(170,size.y-88,144*rider.boost/100.0,10),Color("ffbb45") if race.toast_time>0 else teal)
+	if race.mode=="explore":
+		for i in 4:
+			var p := Vector2(44+i*38,43)
+			draw_circle(p,12,race.adventure.COLORS[i] if i in race.adventure.discovered else Color("34505a"))
+			if i in race.adventure.completed:draw_arc(p,16,0,TAU,20,teal,3,true)
+		for i in 12:
+			draw_circle(Vector2(32+i*14,76),4,Color("ffd769") if i<race.adventure.collected.size() else Color("34505a"))
+		var tide_y: float = 126-HydroCourse.tide(race.water_time)*15
+		draw_line(Vector2(30,109),Vector2(30,143),Color("34505a"),6,true)
+		draw_circle(Vector2(30,tide_y),5,teal)
+		return
 	# Lap rings fill clockwise; a row of boats shows race position.
 	var lap := mini(race.lap_limit-1,maxi(0,rider.passed)/HydroCourse.GATES)
 	for i in race.lap_limit:

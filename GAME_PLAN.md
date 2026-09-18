@@ -278,3 +278,7 @@ The knight roster source is stored in lossless 70 MB chunks, reassembled by setu
 ### Handling revision 2 follow-up
 
 Implemented momentum-preserving cornering, faster input response, progressive drift grip, stronger braking, buffered hops, limited air control, and travel-aware camera tracking. Twenty automated races and focused handling checks pass. The latest native-1080p benchmark measured 38.13 FPS average / 25.79 FPS 1% low, so the previous short 60 FPS result is not a sustained guarantee; rendering optimization remains outstanding.
+
+## Open-world direction
+
+Exploration is now the main mode: four connected biomes, twelve relics, saved discovery/completion, driveable land, synchronized three-minute tides, and four freely ordered race-entry boxes. Race results and pause return to exploration. Regional races currently reuse the proven oval circuit shape; distinct bespoke routes and a larger adventure campaign remain future work. All terrain is generated from code and existing art is reused to keep the complete folder below 10 GB.
