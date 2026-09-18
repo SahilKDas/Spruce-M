@@ -31,6 +31,7 @@ var off_course_time := 0.0
 var physics_steps := 0
 var ai_timer := 0.0
 var ai_target := Vector3.ZERO
+var sparks: CPUParticles3D
 var visual: Node3D
 var rider_near: Node3D
 var rider_far: Node3D
@@ -83,6 +84,7 @@ func _ready() -> void:
 	wake_node.material_override = foam
 	race.add_child.call_deferred(wake_node)
 	last_position = global_position
+	if human:_make_sparks()
 
 func _load_rider(detail: String) -> Node3D:
 	var resource := load("res://art/%s_%s.glb" % [rider_name,detail]) as PackedScene
@@ -291,3 +293,33 @@ func progress_score() -> float:
 func _exit_tree() -> void:
 	if is_instance_valid(wake_node):
 		wake_node.queue_free()
+
+func _make_sparks() -> void:
+	sparks = CPUParticles3D.new()
+	sparks.amount = 36
+	sparks.lifetime = .32
+	sparks.local_coords = false
+	sparks.emitting = false
+	sparks.position = Vector3(0,.2,1.1)
+	sparks.direction = Vector3(0,.35,1)
+	sparks.spread = 55.0
+	sparks.initial_velocity_min = 4.0
+	sparks.initial_velocity_max = 8.0
+	sparks.gravity = Vector3(0,-5,0)
+	sparks.emission_shape = CPUParticles3D.EMISSION_SHAPE_BOX
+	sparks.emission_box_extents = Vector3(.65,.02,.12)
+	var mesh := BoxMesh.new()
+	mesh.size = Vector3(.045,.045,.20)
+	var material := StandardMaterial3D.new()
+	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	material.vertex_color_use_as_albedo = true
+	mesh.material = material
+	sparks.mesh = mesh
+	visual.add_child(sparks)
+
+func _process(_delta: float) -> void:
+	if not is_instance_valid(sparks):return
+	sparks.emitting = active and ((drifting and drift_charge>=.20) or boosting)
+	sparks.color = Color("ffad26") if drift_charge>=.65 or boosting else Color("44cfff")
+	sparks.initial_velocity_min = 8.0 if boosting else 4.0
+	sparks.initial_velocity_max = 13.0 if boosting else 8.0

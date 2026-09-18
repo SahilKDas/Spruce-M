@@ -7,6 +7,7 @@ const INK := Color("081c2b")
 const MUTED := Color("a4bdc8")
 var racers: Array[HydroCraft] = []
 var player: HydroCraft
+var visual_hud: Control
 var camera: Camera3D
 var water_material: ShaderMaterial
 var water_time := 0.0
@@ -464,6 +465,7 @@ func _build_ui() -> void:
 	top.custom_minimum_size = Vector2(390,0)
 	top.add_theme_stylebox_override("panel",_style(Color(.02,.07,.10,.88)))
 	hud.add_child(top)
+	top.hide()
 	var info := _column(top,3)
 	race_label = _label("LAP 1 / 3    ·    1 / 8",22)
 	info.add_child(race_label)
@@ -477,6 +479,7 @@ func _build_ui() -> void:
 	bottom.custom_minimum_size = Vector2(270,0)
 	bottom.add_theme_stylebox_override("panel",_style(Color(.02,.07,.10,.9)))
 	hud.add_child(bottom)
+	bottom.hide()
 	var speed_box := _column(bottom,4)
 	speed_label = _label("0  KM/H",38)
 	speed_box.add_child(speed_label)
@@ -496,12 +499,19 @@ func _build_ui() -> void:
 	center_label.add_theme_constant_override("shadow_offset_x",3)
 	center_label.add_theme_constant_override("shadow_offset_y",3)
 	hud.add_child(center_label)
+	center_label.hide()
 	toast_label = _label("",22,TEAL)
 	toast_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_TOP)
 	toast_label.position = Vector2(-260,122)
 	toast_label.custom_minimum_size.x = 520
 	toast_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hud.add_child(toast_label)
+	toast_label.hide()
+	visual_hud = load("res://scripts/visual_hud.gd").new()
+	visual_hud.race = self
+	hud.add_child(visual_hud)
+	visual_hud.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	visual_hud.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	telemetry_label = _label("",13,Color("e3f2c8"))
 	telemetry_label.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	telemetry_label.position = Vector2(-325,25)
@@ -759,6 +769,7 @@ func _update_pickups(delta: float) -> void:
 func _update_hud() -> void:
 	if not is_instance_valid(player):return
 	minimap.queue_redraw()
+	visual_hud.queue_redraw()
 	var place := 1
 	for racer in racers:
 		if racer!=player and racer.progress_score()>player.progress_score():place+=1
