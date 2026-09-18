@@ -19,6 +19,8 @@ var drifting := false
 var drift_direction := 0.0
 var mini_turbo_remaining := 0.0
 var on_water := true
+var grip_blend := 0.0
+var hop_buffer := 0.0
 var boosting := false
 var boost := 65.0
 var drift_charge := 0.0
@@ -110,12 +112,15 @@ func _physics_process(delta: float) -> void:
 		return
 	if human and not automated:
 		throttle = Input.get_action_strength("accelerate") - Input.get_action_strength("brake")
-		steer = move_toward(steer,Input.get_axis("steer_right", "steer_left"),delta*7.0)
+		steer = HydroHandling.steering_input(steer,Input.get_axis("steer_right", "steer_left"),delta)
 		drifting = Input.is_action_pressed("drift") and speed_kph > 20.0
 		boosting = Input.is_action_pressed("boost") and boost > 0.0 and throttle > 0.0
 		jump_request = Input.is_action_just_pressed("hop")
 	else:
 		_drive_ai(delta)
+	if jump_request:hop_buffer = .14
+	hop_buffer = maxf(0.0,hop_buffer-delta)
+	grip_blend = move_toward(grip_blend,1.0 if drifting else 0.0,delta*(7.0 if drifting else 4.0))
 	var manual_boost := boosting
 	mini_turbo_remaining = maxf(0.0,mini_turbo_remaining-delta)
 	if drifting and drift_direction==0.0:
@@ -155,7 +160,7 @@ func _physics_process(delta: float) -> void:
 		respawn()
 	if human and not automated and Input.is_action_just_pressed("reset"):
 		respawn()
-	visual.rotation.z = lerpf(visual.rotation.z, steer * (-.12 if drifting else -.055), delta * 5.0)
+	visual.rotation.z = lerpf(visual.rotation.z, steer * (-.23 if drifting else -.11), 1.0-exp(-delta*10.0))
 	if not human:
 		var away := global_position.distance_squared_to(race.camera.global_position)
 		visible = away < 260.0 * 260.0
@@ -202,22 +207,25 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 	var forward := -basis.z
 	forward.y = 0.0
 	forward = forward.normalized()
-	var right := basis.x
-	right.y = 0.0
-	right = right.normalized()
+	var right := forward.cross(Vector3.UP).normalized()
 	var speed := state.linear_velocity.dot(forward)
 	if wet>0:
 		var local_velocity := Vector3(state.linear_velocity.dot(right),state.linear_velocity.y,speed)
-		local_velocity = HydroHandling.drive_velocity(local_velocity,throttle,drifting,boosting,craft_index,dt)
+		local_velocity = HydroHandling.drive_velocity(local_velocity,throttle,drifting,boosting,craft_index,dt,grip_blend)
 		state.linear_velocity = right*local_velocity.x+Vector3.UP*local_velocity.y+forward*local_velocity.z
-		var yaw := HydroHandling.yaw_target(steer,speed,drift_direction if drifting else 0.0)
-		state.angular_velocity.y = lerpf(state.angular_velocity.y,yaw,1.0-exp(-dt*8.0))
-		if jump_request and jump_cooldown <= 0 and active:
+		var yaw := HydroHandling.yaw_target(steer,speed,drift_direction if drifting else 0.0,craft_index)
+		state.angular_velocity.y = lerpf(state.angular_velocity.y,yaw,1.0-exp(-dt*14.0))
+		if hop_buffer>0.0 and jump_cooldown <= 0 and active:
 			state.apply_central_impulse(Vector3.UP * mass * 3.1)
-			jump_cooldown = 1.8
+			jump_cooldown = .65
+			hop_buffer = 0.0
 			jump_request = false
-	var correction := basis.y.cross(Vector3.UP) * mass * 26.0
-	correction -= Vector3(state.angular_velocity.x,0,state.angular_velocity.z) * mass * 5.0
+	if wet==0:
+		# Modest air control keeps ramp exits steerable without ground-level grip.
+		var air_yaw := HydroHandling.yaw_target(steer,speed,0.0,craft_index)*.35
+		state.angular_velocity.y = lerpf(state.angular_velocity.y,air_yaw,1.0-exp(-dt*4.0))
+	var correction := basis.y.cross(Vector3.UP) * mass * 34.0
+	correction -= Vector3(state.angular_velocity.x,0,state.angular_velocity.z) * mass * 7.0
 	state.apply_torque(correction)
 
 func update_wake(delta: float) -> void:
@@ -268,6 +276,10 @@ func respawn() -> void:
 	drift_direction = 0.0
 	drift_charge = 0.0
 	mini_turbo_remaining = 0.0
+	grip_blend = 0.0
+	hop_buffer = 0.0
+	steer = 0.0
+	jump_cooldown = 0.0
 	force_update_transform()
 	reset_physics_interpolation()
 	if human:race.reset_chase_camera()

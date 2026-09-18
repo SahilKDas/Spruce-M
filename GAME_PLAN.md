@@ -274,3 +274,7 @@ The next engineering deliverable should be the gray-box handling benchmark. It d
 Godot remains the active engine. Available mk7re velocity code is adapted with MIT attribution; jet-ski acceleration, drift and two timed mini-turbos use original tuning. Interpolated rendering, camera following and wakes address visual tick jitter. Esc includes a confirmed Exit Game action. Native 1080p remains capped at 60 FPS; the latest 45-second run measured 60.00 FPS average and 54.81 FPS 1% low, requiring longer sustained validation.
 
 The knight roster source is stored in lossless 70 MB chunks, reassembled by setup. Run `python tools/assemble_sources.py --pack` after editing it. A local pre-commit size check rejects indexed files over 100,000,000 bytes. The original pre-repair history is retained in an ignored local Git bundle.
+
+### Handling revision 2 follow-up
+
+Implemented momentum-preserving cornering, faster input response, progressive drift grip, stronger braking, buffered hops, limited air control, and travel-aware camera tracking. Twenty automated races and focused handling checks pass. The latest native-1080p benchmark measured 38.13 FPS average / 25.79 FPS 1% low, so the previous short 60 FPS result is not a sustained guarantee; rendering optimization remains outstanding.

@@ -63,3 +63,13 @@ Driving uses the available MIT-licensed mk7re velocity update, with Hydro Drift 
 Physics interpolation, an interpolated chase camera, and a continuously updated wake head smooth movement between simulation ticks. Recovery resets interpolation. Esc opens the pause menu; Exit Game requires confirmation, and Back returns to the paused game.
 
 Additional checks: `handling_test.gd`, `motion_test.gd`, and `exit_test.gd` in `game/tests`.
+
+### Handling revision 2
+
+- Corner grip redirects momentum instead of deleting sideways speed; normal turns retain speed while drifts remain wider.
+- Faster steering response and release, stronger launch acceleration and braking, and distinct steering/grip for each craft.
+- Drift grip blends back over 0.25 seconds instead of snapping back immediately.
+- Hops buffer for 0.14 seconds before landing, with a 0.65-second cooldown. Limited air steering helps line up ramp exits.
+- Stronger upright damping, more visible rider lean, and a faster chase camera that also follows travel direction.
+
+Controls are unchanged. Handling checks cover launch response, braking, sustained corner speed, steering release, collision momentum, and tick-rate stability. Automated checks establish behavior, while player testing determines whether the feel is right.

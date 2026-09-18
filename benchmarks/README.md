@@ -1,3 +1,11 @@
+# Handling revision 2 validation
+
+The latest native 1920x1080 run measured **38.13 FPS average / 25.79 FPS 1% low** over 45 seconds, excluding 10 seconds of warm-up. The window was focused in the recorded slow frames, and no competing Godot or Blender processes remained after the test. The cause of the difference from the earlier 60 FPS run has not been isolated; steady native-1080p/60 is not established. The cap remains 60. Raw results: `performance_1080p.json` (motion revision 2).
+
+20 automated races passed with the revised handling, along with controls, three-lap completion, interpolation/recovery, corner-speed retention, steering release, braking, and collision-momentum checks. Final HUD changes passed the controls run. Subjective handling quality still needs player testing.
+
+## Earlier revision results (historical)
+
 # September 18 Godot update
 
 The latest 45-second native 1920×1080 fullscreen run (10-second warm-up excluded) averaged **60.00 FPS**, with **54.81 FPS 1% low**, on the MX550. It uses 2× MSAA and the 60 FPS cap. See `performance_1080p.json`. This short run does not establish sustained performance or eliminate all possible stalls.

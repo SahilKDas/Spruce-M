@@ -721,6 +721,9 @@ func _update_camera(delta: float) -> void:
 	behind.y = 0
 	behind = behind.normalized()
 	var p := presented.origin
+	var travel := player.linear_velocity
+	travel.y = 0.0
+	if travel.length()>5.0:behind = behind.lerp(-travel.normalized(),.22).normalized()
 	var desired := p+behind*(6.8+minf(player.speed_kph,110.0)*.012)+Vector3.UP*3.0
 	var space := get_world_3d().direct_space_state
 	var query := PhysicsRayQueryParameters3D.create(p+Vector3.UP*1.6,desired)
@@ -728,7 +731,7 @@ func _update_camera(delta: float) -> void:
 	var hit := space.intersect_ray(query)
 	if not hit.is_empty():
 		desired = hit.position + hit.normal*.6
-	camera.global_position = camera.global_position.lerp(desired,1.0-exp(-delta*6.0))
+	camera.global_position = camera.global_position.lerp(desired,1.0-exp(-delta*9.0))
 	camera_steer = lerpf(camera_steer,player.steer,1.0-exp(-delta*8.0))
 	var focus := p+Vector3.UP*.9-behind*4.5+presented.basis.x*(-camera_steer*.7)
 	camera_focus = camera_focus.lerp(focus,1.0-exp(-delta*12.0))
@@ -761,7 +764,13 @@ func _update_hud() -> void:
 		if racer!=player and racer.progress_score()>player.progress_score():place+=1
 	race_label.text = "LAP %d / %d    ·    %d / %d" % [mini(lap_limit,1+maxi(0,player.passed)/HydroCourse.GATES),lap_limit,place,racers.size()]
 	time_label.text = "%s    SUNBEAM LAGOON" % _time_string(race_time)
-	status_label.text = "GATE %02d / %02d   ·   %s" % [player.next_gate+1,HydroCourse.GATES, "DRIFT CHARGING" if player.drifting else ("BOOSTING" if player.boosting else "FIND YOUR LINE")]
+	var handling_hint := "FIND YOUR LINE"
+	if player.boosting:handling_hint = "MINI-TURBO" if player.mini_turbo_remaining>0.0 else "BOOSTING"
+	if player.drifting:
+		handling_hint = "DRIFT CHARGING"
+		if player.drift_charge>=.20:handling_hint = "RELEASE DRIFT - TURBO"
+		if player.drift_charge>=.65:handling_hint = "RELEASE DRIFT - SUPER TURBO"
+	status_label.text = "GATE %02d / %02d - %s" % [player.next_gate+1,HydroCourse.GATES,handling_hint]
 	speed_label.text = "%d  KM/H" % roundi(player.speed_kph)
 	boost_bar.value = player.boost
 	var texture_mb := Performance.get_monitor(Performance.RENDER_TEXTURE_MEM_USED)/1048576.0
@@ -861,7 +870,7 @@ func _write_benchmark() -> void:
 	report["vsync"] = DisplayServer.window_get_vsync_mode()
 	report["slow_frames_over_22ms"] = slow_frames
 	report["display_revision"] = 1
-	report["motion_revision"] = 1
+	report["motion_revision"] = 2
 	report["physics_interpolation"] = bool(ProjectSettings.get_setting("physics/common/physics_interpolation"))
 	report["msaa_3d"] = get_viewport().msaa_3d
 	report["screen_space_aa"] = get_viewport().screen_space_aa
