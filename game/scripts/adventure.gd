@@ -67,7 +67,8 @@ func _island(index: int) -> void:
 	for x in 40:
 		for z in 48:
 			var a := center+Vector3(-80+x*4,0,-96+z*4)
-			for offset in [Vector3.ZERO,Vector3(0,0,4),Vector3(4,0,0),Vector3(4,0,0),Vector3(0,0,4),Vector3(4,0,4)]:
+			# Godot clockwise winding: the collision surface must face upward.
+			for offset in [Vector3.ZERO,Vector3(4,0,0),Vector3(0,0,4),Vector3(4,0,0),Vector3(4,0,4),Vector3(0,0,4)]:
 				var p: Vector3 = a+offset
 				p.y = height(p,center)
 				surface.set_color(COLORS[index].lerp(Color("e6ce91"),clampf(1-p.y,.0,.8)))

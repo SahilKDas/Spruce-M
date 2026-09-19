@@ -226,7 +226,8 @@ func _build_course() -> void:
 	ground.begin(Mesh.PRIMITIVE_TRIANGLES)
 	for x in 36:
 		for z in 52:
-			for offset in [Vector3.ZERO,Vector3(0,0,4),Vector3(4,0,0),Vector3(4,0,0),Vector3(0,0,4),Vector3(4,0,4)]:
+			# Godot clockwise winding: the collision surface must face upward.
+			for offset in [Vector3.ZERO,Vector3(4,0,0),Vector3(0,0,4),Vector3(4,0,0),Vector3(4,0,4),Vector3(0,0,4)]:
 				var p: Vector3 = Vector3(-72+x*4,0,-104+z*4)+offset
 				p.y = _terrain_height(p)
 				ground.add_vertex(p)
